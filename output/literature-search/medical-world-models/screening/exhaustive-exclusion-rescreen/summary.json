@@ -1,0 +1,13 @@
+{
+  "source_exclusions": 5334,
+  "completed_audit_ids": 170,
+  "active_primary_alternate_ids": 86,
+  "removed_as_completed_audit": 169,
+  "removed_as_active_primary_alternate": 86,
+  "residual_records": 5079,
+  "residual_routes": {
+    "primary_medical_filter_residual": 319,
+    "primary_phrase_filter_residual": 4760
+  },
+  "coverage_check": true
+}

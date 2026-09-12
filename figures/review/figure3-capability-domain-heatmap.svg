@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1040" viewBox="0 0 1700 1040">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L0,6 L9,3 z" fill="#666666"/>
+</marker>
+</defs>
+<rect width="1700" height="1040" fill="white"/>
+<text x="60" y="56" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" text-anchor="start" fill="#222222">(a) Strongest MedWM-Eval evidence level by stated capability</text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="442.5" y="87.0">Rollout</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="607.5" y="87.0">Action</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="772.5" y="87.0">Uncertainty</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="937.5" y="87.0">Causal</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1102.5" y="87.0">External</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1267.5" y="87.0">Decision</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1432.5" y="87.0">Safety</tspan></text>
+<text x="336" y="161" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="end" fill="#222222">Planning (n=33)</text>
+<rect x="360" y="115" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="438.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">8/33</text>
+<text x="438.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">24%</text>
+<rect x="525" y="115" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="603.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">8/33</text>
+<text x="603.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">24%</text>
+<rect x="690" y="115" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="768.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/33</text>
+<text x="768.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="855" y="115" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="933.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">1/16</text>
+<text x="933.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">6%</text>
+<rect x="1020" y="115" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1098.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">5/33</text>
+<text x="1098.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">15%</text>
+<rect x="1185" y="115" width="157" height="87" rx="4" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="1263.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="white">22/33</text>
+<text x="1263.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="white">67%</text>
+<rect x="1350" y="115" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1428.5" y="157" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">6/33</text>
+<text x="1428.5" y="183" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">18%</text>
+<text x="336" y="256" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="end" fill="#222222">Counterfactual (n=18)</text>
+<rect x="360" y="210" width="157" height="87" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="438.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">8/18</text>
+<text x="438.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">44%</text>
+<rect x="525" y="210" width="157" height="87" rx="4" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="603.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="white">10/18</text>
+<text x="603.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="white">56%</text>
+<rect x="690" y="210" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="768.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">1/18</text>
+<text x="768.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">6%</text>
+<rect x="855" y="210" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="933.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/18</text>
+<text x="933.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1020" y="210" width="157" height="87" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1098.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">6/18</text>
+<text x="1098.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">33%</text>
+<rect x="1185" y="210" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1263.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">2/18</text>
+<text x="1263.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">11%</text>
+<rect x="1350" y="210" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1428.5" y="252" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">1/18</text>
+<text x="1428.5" y="278" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">6%</text>
+<text x="336" y="351" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="end" fill="#222222">Action-conditioned (n=22)</text>
+<rect x="360" y="305" width="157" height="87" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="438.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">8/22</text>
+<text x="438.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">36%</text>
+<rect x="525" y="305" width="157" height="87" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="603.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">9/22</text>
+<text x="603.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">41%</text>
+<rect x="690" y="305" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="768.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">3/22</text>
+<text x="768.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">14%</text>
+<rect x="855" y="305" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="933.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/1*</text>
+<text x="933.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1020" y="305" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1098.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/22</text>
+<text x="1098.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1185" y="305" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1263.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">1/22</text>
+<text x="1263.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">5%</text>
+<rect x="1350" y="305" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1428.5" y="347" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/22</text>
+<text x="1428.5" y="373" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<text x="336" y="446" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="end" fill="#222222">Passive forecasting (n=9)</text>
+<rect x="360" y="400" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="438.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">2/9</text>
+<text x="438.5" y="468" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">22%</text>
+<rect x="525" y="400" width="157" height="87" rx="4" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="603.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#666666">NA</text>
+<rect x="690" y="400" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="768.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">1/9</text>
+<text x="768.5" y="468" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">11%</text>
+<rect x="855" y="400" width="157" height="87" rx="4" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="933.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#666666">NA</text>
+<rect x="1020" y="400" width="157" height="87" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1098.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">2/9</text>
+<text x="1098.5" y="468" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">22%</text>
+<rect x="1185" y="400" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1263.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/9</text>
+<text x="1263.5" y="468" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1350" y="400" width="157" height="87" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1428.5" y="442" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222">0/9</text>
+<text x="1428.5" y="468" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<text x="60" y="530" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" text-anchor="start" fill="#222222">(b) Selected reported evidence by domain</text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="525.0" y="579.0">Free rollout</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="715.0" y="579.0">Horizon results</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="905.0" y="579.0">Calibration</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1095.0" y="568.0">External</tspan><tspan x="1095.0" y="590.0">validation</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1285.0" y="579.0">Causal estimand</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1475.0" y="579.0">Safety test</tspan></text>
+<text x="406" y="654" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="end" fill="#222222">Longitudinal / physiology / decision (n=32)</text>
+<rect x="430" y="610" width="182" height="80" rx="4" fill="#005580" stroke="white" stroke-width="2"/>
+<text x="521.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">25/32</text>
+<text x="521.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="white">78%</text>
+<rect x="620" y="610" width="182" height="80" rx="4" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="711.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">20/32</text>
+<text x="711.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="white">62%</text>
+<rect x="810" y="610" width="182" height="80" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="901.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">4/32</text>
+<text x="901.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">12%</text>
+<rect x="1000" y="610" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1091.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">9/32</text>
+<text x="1091.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">28%</text>
+<rect x="1190" y="610" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1281.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">10/32</text>
+<text x="1281.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">31%</text>
+<rect x="1380" y="610" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1471.0" y="649" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">9/32</text>
+<text x="1471.0" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">28%</text>
+<text x="406" y="742" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="end" fill="#222222">Imaging / biological (n=26)</text>
+<rect x="430" y="698" width="182" height="80" rx="4" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="521.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">14/26</text>
+<text x="521.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="white">54%</text>
+<rect x="620" y="698" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="711.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">11/26</text>
+<text x="711.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">42%</text>
+<rect x="810" y="698" width="182" height="80" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="901.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">0/26</text>
+<text x="901.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1000" y="698" width="182" height="80" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1091.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">6/26</text>
+<text x="1091.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">23%</text>
+<rect x="1190" y="698" width="182" height="80" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1281.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">2/26</text>
+<text x="1281.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">8%</text>
+<rect x="1380" y="698" width="182" height="80" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1471.0" y="737" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">1/26</text>
+<text x="1471.0" y="762" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">4%</text>
+<text x="406" y="830" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="end" fill="#222222">Procedural / embodied (n=24)</text>
+<rect x="430" y="786" width="182" height="80" rx="4" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="521.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">15/24</text>
+<text x="521.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="white">62%</text>
+<rect x="620" y="786" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="711.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">10/24</text>
+<text x="711.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">42%</text>
+<rect x="810" y="786" width="182" height="80" rx="4" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="901.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">1/24</text>
+<text x="901.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">4%</text>
+<rect x="1000" y="786" width="182" height="80" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1091.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">0/24</text>
+<text x="1091.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1190" y="786" width="182" height="80" rx="4" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1281.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">0/24</text>
+<text x="1281.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1380" y="786" width="182" height="80" rx="4" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1471.0" y="825" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222">10/24</text>
+<text x="1471.0" y="850" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#222222">42%</text>
+<text x="60" y="995" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#666666">* Applicable denominator below five; compare cautiously.</text>
+<text x="1260" y="960" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#222222">Cell shading</text>
+<rect x="1260" y="977" width="70" height="28" rx="2" fill="#F2F2F2" stroke="white" stroke-width="2"/>
+<text x="1295" y="997" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">0%</text>
+<rect x="1340" y="977" width="70" height="28" rx="2" fill="#D7ECF7" stroke="white" stroke-width="2"/>
+<text x="1375" y="997" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">1-25%</text>
+<rect x="1420" y="977" width="70" height="28" rx="2" fill="#56B4E9" stroke="white" stroke-width="2"/>
+<text x="1455" y="997" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#222222">26-50%</text>
+<rect x="1500" y="977" width="70" height="28" rx="2" fill="#0072B2" stroke="white" stroke-width="2"/>
+<text x="1535" y="997" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="white">51-75%</text>
+<rect x="1580" y="977" width="70" height="28" rx="2" fill="#005580" stroke="white" stroke-width="2"/>
+<text x="1615" y="997" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="white">&gt;75%</text>
+<text x="1650" y="1022" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="end" fill="#666666">Counts use the 82-study strict clinical and biomedical corpus</text>
+</svg>

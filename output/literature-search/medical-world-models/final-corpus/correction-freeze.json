@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "freeze_date": "2026-09-12",
+  "corpus": {
+    "included_publications": 93,
+    "empirical_studies": 85,
+    "reviews": 8,
+    "novel_publications": 40,
+    "novel_empirical_studies": 35
+  },
+  "screening_flow": {
+    "unique_title_abstract_records": 6692,
+    "full_texts_assessed": 418,
+    "full_text_exclusions": 325
+  },
+  "canonical_alignment": {
+    "study_extraction_records": 85,
+    "medwm_eval_records": 85,
+    "reviewer_a_records": 85,
+    "reviewer_b_records": 85,
+    "analysis_annotations": 85,
+    "included_references": 93
+  },
+  "regenerated_artifacts": {
+    "corpus_summary": "complete",
+    "reliability_analysis": "complete",
+    "sensitivity_analysis": "complete",
+    "methodological_appraisal": "complete",
+    "claim_provenance_audit": "complete",
+    "prisma_flow": "complete",
+    "review_figures": "complete",
+    "reference_ledger": "complete",
+    "bibtex_bibliography": "complete",
+    "manuscript": "complete"
+  },
+  "validation_sources": {
+    "novel_study_validation": "../../screening/corrected-new-records/validation.json",
+    "canonical_summary": "summary.json",
+    "package_validation": "../../../../submission/review-validation.json"
+  },
+  "submission_gates_remaining": [
+    "qualified human dual verification",
+    "authenticated bibliographic database update",
+    "information-specialist search review",
+    "MedWM-Eval content-validity review",
+    "healthcare-professional involvement",
+    "author metadata, competing interests, funding, and CRediT roles"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "corrected_canonical_promoted",
+  "included_total": 93,
+  "included_empirical": 85,
+  "included_reviews": 8,
+  "existing_publications": 53,
+  "novel_publications": 40,
+  "novel_empirical": 35,
+  "extraction_records": 85,
+  "medwm_final_records": 85,
+  "reviewer_a_records": 85,
+  "reviewer_b_records": 85,
+  "source_staging": "output/literature-search/medical-world-models/screening/corrected-canonical-staging"
+}

@@ -1,0 +1,15 @@
+{
+  "records": 85,
+  "capability_claims": {
+    "action_conditioned": 22,
+    "counterfactual": 19,
+    "passive_forecasting": 9,
+    "planning": 35
+  },
+  "human_claim_review_priority": {
+    "high": 46,
+    "medium": 37,
+    "routine": 2
+  },
+  "interpretation": "The priority flag routes human verification; it is not a study quality score or a verdict that the claimed capability is invalid."
+}

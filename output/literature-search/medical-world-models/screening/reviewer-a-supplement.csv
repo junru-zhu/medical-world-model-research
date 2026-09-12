@@ -1,0 +1,7 @@
+candidate_id,title,decision,corpus_type,reason_code,rationale,full_text_needed
+MWM-S001,EchoJEPA: A Latent Predictive Foundation Model for Echocardiography,uncertain,empirical,uncertain,"Latent temporal prediction is clear, but the abstract does not establish rollout or direct future-state evaluation.",yes
+MWM-S002,Xray2Xray: World Model from Chest X-rays with Volumetric Context,include,empirical,include_empirical,The model learns projection-angle transitions and evaluates action-conditioned synthesis and volumetric reconstruction.,yes
+MWM-S003,Treatment-aware Diffusion Probabilistic Model for Longitudinal MRI Generation and Diffuse Glioma Growth Prediction,include,empirical,include_empirical,The treatment- and time-conditioned model predicts future glioma MRI and growth with empirical longitudinal evaluation.,yes
+MWM-S004,Cosmos-H-Surgical: Learning Surgical Robot Policies from Videos via World Modeling,include,empirical,include_empirical,The surgical world model generates action-linked procedures and supports a policy evaluated on a real robot.,yes
+MWM-S005,Surgical Vision World Model,include,empirical,include_empirical,The model learns latent surgical actions and evaluates action-controllable future observations for interactive simulation.,yes
+MWM-S006,Surgical Procedural Planning as 3D World Modelling: Towards Automated Pulmonary Resection,include,empirical,include_empirical,The clinical 3D world model simulates action-conditioned anatomical changes and evaluates pulmonary-resection planning.,yes

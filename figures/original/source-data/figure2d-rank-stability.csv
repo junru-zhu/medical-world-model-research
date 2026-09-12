@@ -1,0 +1,7 @@
+comparison_type,context,from_condition,to_condition,mean,min,max,label
+cross_site,24h,internal_test,external_test,0.9785714285714286,0.9642857142857144,1.0,24h: internal → external
+cross_site,12h,internal_test,external_test,0.9928571428571429,0.9642857142857144,1.0,12h: internal → external
+cross_horizon,external_test,1h,24h,0.8285714285714286,0.7857142857142859,0.8571428571428573,External Test: 1h → 24h
+cross_horizon,external_test,1h,12h,0.8428571428571431,0.8214285714285715,0.8571428571428573,External Test: 1h → 12h
+cross_horizon,internal_test,1h,24h,0.8642857142857144,0.8571428571428573,0.8928571428571429,Internal Test: 1h → 24h
+cross_horizon,internal_test,1h,12h,0.8857142857142858,0.8571428571428573,0.8928571428571429,Internal Test: 1h → 12h

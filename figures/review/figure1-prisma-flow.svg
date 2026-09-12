@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1020" viewBox="0 0 1500 1020">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L0,6 L9,3 z" fill="#666666"/>
+</marker>
+</defs>
+<rect width="1500" height="1020" fill="white"/>
+<text x="28" y="105" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" text-anchor="start" fill="#222222">Identification</text>
+<text x="28" y="320" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" text-anchor="start" fill="#222222">Screening</text>
+<text x="28" y="720" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" text-anchor="start" fill="#222222">Included</text>
+<rect x="360" y="55" width="650" height="135" rx="12" fill="#EAF3F8" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="685.0" y="93.0">Records identified across public search routes</tspan></text>
+<text x="685.0" y="138" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#222222">initial databases/repositories 9,992  •  fresh alternate-term records 944</text>
+<text x="685.0" y="167" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="middle" fill="#666666">citation-chasing records assessed 6</text>
+<rect x="360" y="245" width="650" height="105" rx="12" fill="white" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="685.0" y="269.5">Unique records screened after cross-route</tspan><tspan x="685.0" y="296.5">deduplication</tspan></text>
+<text x="685.0" y="324" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="middle" fill="#222222">n = 6,692</text>
+<rect x="1070" y="245" width="360" height="105" rx="12" fill="#F2F2F2" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1250.0" y="270.5">Excluded after title and</tspan><tspan x="1250.0" y="295.5">abstract assessment</tspan></text>
+<text x="1250.0" y="324" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="#222222">n = 6,274</text>
+<rect x="360" y="455" width="650" height="105" rx="12" fill="white" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="685.0" y="493.0">Full texts assessed for eligibility</tspan></text>
+<text x="685.0" y="534" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="middle" fill="#222222">n = 418</text>
+<rect x="1070" y="455" width="360" height="105" rx="12" fill="#F2F2F2" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="1250.0" y="493.0">Full texts excluded</tspan></text>
+<text x="1250.0" y="534" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="#222222">n = 325</text>
+<rect x="360" y="665" width="650" height="105" rx="12" fill="#E8F5EF" stroke="#A6A6A6" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#222222"><tspan x="685.0" y="703.0">Publications included after lineage resolution</tspan></text>
+<text x="685.0" y="744" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="normal" text-anchor="middle" fill="#222222">n = 93</text>
+<line x1="685.0" y1="190" x2="685.0" y2="245" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="685.0" y1="350" x2="685.0" y2="455" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="685.0" y1="560" x2="685.0" y2="665" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1010" y1="297.5" x2="1070" y2="297.5" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1010" y1="507.5" x2="1070" y2="507.5" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="360.0" y="855" width="310" height="120" rx="12" fill="#E8F5EF" stroke="#009E73" stroke-width="2"/>
+<text x="515.0" y="890" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#222222">Empirical publications</text>
+<text x="515.0" y="925" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="#222222">n = 85</text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#666666"><tspan x="515.0" y="947.5">Primary strict clinical/biomedical set: n</tspan><tspan x="515.0" y="964.5">= 82; boundary set: n = 3</tspan></text>
+<rect x="700.0" y="855" width="310" height="120" rx="12" fill="#E8F5EF" stroke="#009E73" stroke-width="2"/>
+<text x="855.0" y="890" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#222222">Review articles</text>
+<text x="855.0" y="925" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="normal" text-anchor="middle" fill="#222222">n = 8</text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#666666"><tspan x="855.0" y="956.0">Used for field definition and comparison</tspan></text>
+<line x1="685.0" y1="770" x2="685.0" y2="820" stroke="#666666" stroke-width="3"/>
+<line x1="515.0" y1="820" x2="855.0" y2="820" stroke="#666666" stroke-width="3"/>
+<line x1="515.0" y1="820" x2="515.0" y2="855" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="855.0" y1="820" x2="855.0" y2="855" stroke="#666666" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1460" y="1005" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="end" fill="#666666">Detailed route arithmetic and quality-control history are reported in the Supplement</text>
+</svg>

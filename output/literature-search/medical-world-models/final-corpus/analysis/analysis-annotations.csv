@@ -1,0 +1,86 @@
+candidate_id,title,domain_group,corpus_boundary,source_tier,annotation_status
+MWM-XA9B007D895,A Blood Glucose Control Framework Based on Reinforcement Learning With Safety and Interpretability: In Silico Validation,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-XD5F16C34AE,A Data-Driven Closed-Loop Control Approach to Drive Neural State Transitions for Mechanistic Insight.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-X10E1E2640B,A Modular Framework to Predict Alzheimer’s Disease Progression Using Conditional Generative Adversarial Networks,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-0008,A World Model of Radiologist Reading for Medical Image Representation Learning,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X36A3691F14,A data-driven Alzheimer's disease progression simulator for retrospective validation and prospective Phase III power design.,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-XB41D731350,A digital twin for hospital antimicrobial resistance forecasting and constrained intervention optimisation,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-XF6449FE2D4,AKI-twinX: explainable organ structured digital twin for sepsis AKI trajectory forecasting,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0011,Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0012,Affective Music Recommendation: A Rollout-Based World Model for Offline Preference Optimization,peripheral_health_adjacent,extended_peripheral,preprint_or_unreviewed,carried_forward
+MWM-0013,Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0018,Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X6FB8E7370E,Autosomal Dominant Tubulointerstitial Kidney Disease Clinical Trial Simulator: Case Reports of Model-Informed Drug Development.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0032,BLINK: Behavioral Latent Modeling of NK Cell Cytotoxicity,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0034,Brain-WM: Brain Glioblastoma World Model,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0239,CLARITY: Medical World Model for Guiding Treatment Decisions by Modeling Context-Aware Disease Trajectories in Latent Space,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0040,"CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation",longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XD3411F7D18,"CardamomOT: a mechanistic optimal transport-based framework for gene regulatory network inference, trajectory reconstruction and generative modeling",imaging_biological,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0294,Cardiac Copilot: Automatic Probe Guidance for Echocardiography with World Model,procedural_embodied,strict_core,peer_reviewed,carried_forward
+MWM-X1BBCF32528,"CellPace: A temporal diffusion-forcing framework for simulation, interpolation and forecasting of single-cell dynamics",imaging_biological,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-X962473BB89,Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction,imaging_biological,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0046,ChronoMedicalWorld: A Medical World Model for Learning Patient Trajectories from Longitudinal Care Data,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XC0A20D0271,Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-XA5A2F4844E,Control of Magnetic Surgical Robots With Model-Based Simulators and Reinforcement Learning.,procedural_embodied,strict_core,peer_reviewed,lead_reviewed
+MWM-S004,Cosmos-H-Surgical: Learning Surgical Robot Policies from Videos via World Modeling,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0054,CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XD7F5DAFF27,DITTO: A Visual Digital Twin for Interventions and Temporal Treatment Outcomes in Head and Neck Cancer.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-XFA677C184B,DRIFT: Direct-Recursive Intervention-Conditioned Forecasting of ICU Physiological Trajectories,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0369,Data-Efficient Reinforcement Learning for Malaria Control,longitudinal_physiology_decision,strict_core,peer_reviewed,carried_forward
+MWM-X2BD39C3B8E,Deep Generative Model of Macrophage Immune Response for Hepato-intestinal Tumor Therapy Optimization.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-X872C154484,Development of a model-based clinical trial simulation platform to optimize the design of clinical trials for Duchenne muscular dystrophy.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-X1305C7353F,Digital twin brain simulator for real-time consciousness monitoring and virtual intervention using primate electrocorticogram data,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-XF38CEA9063,Digital twin models for predicting venetoclax and azacitidine-induced neutropenia in patients with acute myeloid leukemia.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0068,DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0073,ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0074,EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0242,EchoWorld: Learning Motion-Aware World Models for Echocardiography Probe Guidance,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0077,EyeWorld: A Generative World Model of Ocular State and Dynamics,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0078,Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0094,Future Querying: Can LLMs Serve as Implicit Medical World Models?,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0095,"GEMEO: the first patient world model for rare disease, grounding generative clinical trajectories in the genome and a biomedical knowledge graph",longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X056BF65776,Generating whole-brain neural activity and behavior through unified latent dynamics,imaging_biological,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0103,Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X6A64D732FB,Koopman-based linearization of preparatory EEG dynamics in Parkinson's disease during galvanic vestibular stimulation.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-0261,Learning Emotional Dynamics: A World Model Approach,peripheral_health_adjacent,extended_peripheral,preprint_or_unreviewed,carried_forward
+MWM-XEA4B3285B2,Learning Temporal Basis Vectors for Closed-Loop Neural Stimulation.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-0125,MRI Contrast Enhancement Kinetics World Model,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XC890A9B151,Machine Learning for Mechanical Ventilation Control,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0263,Medical World Model,imaging_biological,strict_core,peer_reviewed,carried_forward
+MWM-X6C3AA8358E,Model-based reinforcement learning for ultrasound-driven autonomous microrobots.,procedural_embodied,strict_core,peer_reviewed,lead_reviewed
+MWM-X21155DF63C,Modelling neural coding in the auditory midbrain with high resolution and accuracy.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-X772584A789,Multi-Objective Model-based Reinforcement Learning for Infectious Disease Control,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0136,NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0132,NeuroWorld: A Latent Brain World Model for Stimulus-Conditioned Human Brain Dynamics,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0135,Nonstationary Battery,peripheral_health_adjacent,extended_peripheral,preprint_or_unreviewed,carried_forward
+MWM-XBAD327876F,OMG-RL:Offline Model-based Guided Reward Learning for Heparin Treatment,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0138,Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XB062A5A9FB,Optimized glycemic control of type 2 diabetes with reinforcement learning: a proof-of-concept trial.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0149,Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X7FD0DBDE79,Predictive modeling of hemodynamics during viscerosensory neurostimulation via neural computation mechanism in the brainstem.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0151,Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0157,SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0177,SWoMo: Neuro-Symbolic World Model for Cataract Surgery Simulation,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XC71FC75483,SimulAD: a dynamical model for personalized simulation and disease staging in Alzheimer's disease.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-0164,Simulating clinical interventions with a generative multimodal model of human physiology,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XB6F8EC5868,Simulating the outcome of amyloid treatments in Alzheimer's disease from imaging and clinical data.,imaging_biological,strict_core,peer_reviewed,lead_reviewed
+MWM-0166,Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X9C071A2447,Structure-aware World Model for Probe Guidance via Large-scale Self-supervised Pre-train,procedural_embodied,strict_core,peer_reviewed,lead_reviewed
+MWM-0170,Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0174,SurgVista: Long-Horizon Surgical World Modeling with Plausible Instrument-Tissue Dynamics,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0175,SurgWMBench: A Vision-Based Benchmark for World-Modeling Surgical Instrument Motion Planning,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-S006,Surgical Procedural Planning as 3D World Modelling: Towards Automated Pulmonary Resection,procedural_embodied,strict_core,peer_reviewed,carried_forward
+MWM-S005,Surgical Vision World Model,procedural_embodied,strict_core,peer_reviewed,carried_forward
+MWM-0173,Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-XCC1C1352D9,The Coupled Stochastic Dynamical System: A Generative Model for Simulating and Forecasting Youth Mental Health Trajectories,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-0199,Toward Safe Autonomous Robotic Endovascular Interventions using World Models,procedural_embodied,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0200,Toward World Modeling of Physiological Signals with Chaos-Theoretic Balancing and Latent Dynamics,longitudinal_physiology_decision,strict_core,preprint_or_unreviewed,carried_forward
+MWM-X009A6E0F91,Towards Causality-Aware Inferring: A Sequential Discriminative Approach for Medical Diagnosis.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-X5E3C456867,Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning,procedural_embodied,strict_core,preprint_or_unreviewed,lead_reviewed
+MWM-S003,Treatment-aware Diffusion Probabilistic Model for Longitudinal MRI Generation and Diffuse Glioma Growth Prediction,imaging_biological,strict_core,peer_reviewed,carried_forward
+MWM-X2E0B832A46,Type 1 diabetes prevention clinical trial simulator: Case reports of model-informed drug development tool.,longitudinal_physiology_decision,strict_core,peer_reviewed,lead_reviewed
+MWM-0215,World Model Enhanced Offline Reinforcement Learning for Sequential Intervention Optimization in Acute Kidney Injury,longitudinal_physiology_decision,strict_core,peer_reviewed,carried_forward
+MWM-0315,World Models for General Surgical Grasping,procedural_embodied,strict_core,peer_reviewed,carried_forward
+MWM-0290,X-WIN: Building Chest Radiograph World Model via Predictive Sensing,imaging_biological,strict_core,peer_reviewed,carried_forward
+MWM-S002,Xray2Xray: World Model from Chest X-rays with Volumetric Context,imaging_biological,strict_core,preprint_or_unreviewed,carried_forward
+MWM-0114,medDreamer: Model-Based Reinforcement Learning with Latent Imagination on Complex EHRs for Clinical Decision Support,longitudinal_physiology_decision,strict_core,peer_reviewed,carried_forward

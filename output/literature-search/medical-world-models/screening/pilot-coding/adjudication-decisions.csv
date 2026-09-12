@@ -1,0 +1,83 @@
+candidate_id,field,final_value,rationale
+MWM-0011,external_evidence,0,Real robot testing used the same collection and device setting rather than an external site or population
+MWM-0011,reproducibility_evidence,0,Code and data were unavailable and the partial methods do not provide an executable main evaluation path
+MWM-0013,external_evidence,2,MIMIC-III served as a separate retrospective cohort for frozen policy evaluation after development on MIMIC-IV
+MWM-0018,frozen_external_validation,unclear,The scanner and speaker shift is real but target-cohort fitting and probe selection are not sufficiently clear
+MWM-0032,action_evidence,1,A no-action ablation tests dependence but the observed cell-motion proxy and single comparison do not establish strong action evidence
+MWM-0032,uncertainty_evidence,0,A stochastic latent state was used without evaluated predictive variance coverage or calibration
+MWM-0034,action_evidence,1,Treatment conditioning is implemented but no removal shuffle timing or matched alternative-action test is reported
+MWM-0034,reproducibility_evidence,2,Public code named datasets and substantial preprocessing detail support reproduction of the main retrospective evaluation
+MWM-0034,closed_loop_evaluation,no,The study evaluates one factual treatment-to-next-MRI transition rather than iterative action selection
+MWM-0046,action_evidence,2,Action-channel removal and intensity or type variants provide both an action-agnostic comparison and direct sensitivity tests
+MWM-0046,action_agnostic_comparator,yes,Medication and communication channel ablations include variants that remove the supplied action information
+MWM-0054,dynamics_evidence,2,Future video and geometry are evaluated directly over the claimed short conditional horizon
+MWM-0054,action_evidence,2,Shuffled-target constant-prior and routing controls directly test the trajectory-conditioning proxy
+MWM-0054,reproducibility_evidence,1,Model and evaluation details are substantial but code data and the real-data pipeline are not released
+MWM-0054,horizon_resolved_results,yes,Errors are reported across multiple predicted frame offsets within the eight-frame forecast window
+MWM-0054,action_agnostic_comparator,yes,Constant-prior and shuffled-target controls remove or invalidate the conditioning trajectory
+MWM-0054,action_perturbation,yes,Shuffled-target controls perturb the defined geometric conditioning signal
+MWM-0068,dynamics_evidence,1,Final closed-loop registration is evaluated but stepwise transition fidelity and drift are not reported
+MWM-0068,uncertainty_evidence,0,A stochastic latent formulation is present without predictive uncertainty evaluation
+MWM-0073,causal_evidence,1,Controlled drug-response data and intervention comparisons offer partial validation without an explicit identified estimand
+MWM-0074,action_evidence,0,Medication and procedure events are included but no action-dependence or sensitivity test is reported
+MWM-0077,safety_evidence,0,Human-oversight language is present without a hazard constraint failure or recovery test
+MWM-0077,frozen_external_validation,no,All progression evidence comes from the assembled internal source mixture without a frozen external protocol
+MWM-0078,state_evidence,1,Failure detection provides an indirect task proxy and the modeled observation state is not directly reconstructed or validated
+MWM-0078,safety_evidence,1,Offline failure detection is safety relevant but no severity online stop recovery or override protocol is tested
+MWM-0078,reproducibility_evidence,1,Preprocessing and thresholds are detailed but the planned code data and weights were unavailable at the cutoff
+MWM-0095,dynamics_evidence,2,Autoregressive full-sequence forecasting and long-context metrics directly evaluate the claimed predictive dynamics
+MWM-0095,action_evidence,1,Actual-treatment versus masked-prefix comparison tests action association but not alternative-action outcomes
+MWM-0095,free_running_rollout,yes,The model performs autoregressive or full-sequence generative trajectory prediction
+MWM-0095,horizon_resolved_results,yes,Long-context performance is reported across distinct forecast lengths
+MWM-0103,reproducibility_evidence,1,Cohort processing architecture splits and training are detailed but private data and an uninspectable repository block full reproduction
+MWM-0114,reproducibility_evidence,0,No code or weights were inspectable and split or executable preprocessing details remain insufficient
+MWM-0125,reproducibility_evidence,1,The methods and one public cohort are described but the promised code private cohort and split details remain unavailable
+MWM-0135,dynamics_evidence,1,Policy adaptation outcomes indirectly assess the model while direct learned-transition fidelity is absent
+MWM-0135,rollout_evidence,2,Closed-loop behavior and adaptation trajectories are measured before and after multiple designed shifts
+MWM-0135,uncertainty_evidence,0,Variation across random seeds is not predictive uncertainty or calibration
+MWM-0136,highest_capability_claim,action_conditioned,The evaluated system is an interactive action-conditioned simulator and policy evaluator rather than an action-selecting planner
+MWM-0136,action_evidence,1,Interactive action conditioning is demonstrated but no action-agnostic or systematic perturbation test is reported
+MWM-0137,state_evidence,1,Abstract-level segmentation phase and plausibility results give only partial state evidence
+MWM-0137,decision_evidence,1,The accessible abstract supports a sim-to-real policy-use proxy but not audited real procedural utility
+MWM-0137,closed_loop_evaluation,unclear,The inaccessible full text prevents verification of whether policy evaluation was genuinely closed loop
+MWM-0137,safety_hazard_test,no,The accessible evidence reports plausibility rather than an explicit hazard constraint or recovery test
+MWM-0138,action_evidence,1,Recorded-action replay conditions generation but action dependence is not isolated by removal or perturbation
+MWM-0138,decision_evidence,1,Separate policy-task results are a downstream proxy rather than validated utility of the world model itself
+MWM-0138,closed_loop_evaluation,offline,World-model evaluation replays recorded actions and does not select actions in a feedback loop
+MWM-0149,uncertainty_evidence,0,Across-run variation is reported without predictive distributions calibration coverage or uncertainty-aware planning
+MWM-0149,reproducibility_evidence,2,Public code public source data and documented graph temporal split and models support the main evaluation
+MWM-0151,state_evidence,1,Navigation success is an indirect state proxy and learned-state fidelity is not evaluated directly
+MWM-0154,safety_evidence,1,Constraint violation counts are reported in the abstract but hazard definitions severity and recovery cannot be audited
+MWM-0157,dynamics_evidence,2,Future surgical video is evaluated directly at the claimed one-shot trajectory-conditioned regime
+MWM-0157,decision_evidence,1,Downstream augmentation and recognition are proxy utility rather than measured robot or clinician decisions
+MWM-0157,safety_evidence,1,Depth consistency is a limited geometric constraint proxy without physical hazard evaluation
+MWM-0164,highest_capability_claim,counterfactual,The study compares paired predicted outcomes under alternative intervention tokens despite explicitly limiting causal interpretation
+MWM-0164,causal_evidence,1,Aggregate trial-direction checks and paired intervention comparisons provide partial validation without causal identification
+MWM-0164,explicit_causal_estimand,yes,A paired predicted intervention-versus-control outcome difference is textually defined even though it is not identified causally
+MWM-0164,closed_loop_evaluation,no,Reported intervention curves use separate horizon-specific queries rather than sequential feedback and action selection
+MWM-0170,action_evidence,2,Single dual and full control-modality ablations directly test dependence on the supplied controls
+MWM-0170,action_agnostic_comparator,yes,Removing the multimodal control streams provides an action-agnostic comparator
+MWM-0173,action_evidence,1,Robot actions condition receding-horizon prediction but no removal shuffle or magnitude perturbation is reported
+MWM-0174,action_perturbation,no,Architecture and drift ablations do not directly remove shuffle or perturb the commanded instrument trajectory
+MWM-0175,highest_capability_claim,planning,The title and benchmark framing make a planning claim even though only future trajectory prediction is evaluated
+MWM-0175,action_evidence,0,Historical image trajectories are observations rather than commanded actions and no action test is performed
+MWM-0175,action_agnostic_comparator,no,No comparator removes a genuine commanded action because the benchmark contains observation trajectories
+MWM-0175,action_perturbation,no,Noise and masking alter historical observations rather than alternative commanded actions
+MWM-0177,dynamics_evidence,2,Conditional surgical-video trajectories and chained generation are evaluated directly
+MWM-0177,closed_loop_evaluation,no,Actions are fixed for generation and no policy selects new actions from feedback
+MWM-0199,dynamics_evidence,1,Closed-loop control performance indirectly tests learned dynamics but direct transition error is not reported
+MWM-0200,reproducibility_evidence,2,Public code checkpoints mostly public data and substantial preprocessing detail support reproduction
+MWM-0207,rollout_evidence,1,The indexed abstract reports Monte Carlo world-model rollouts without auditable horizon-resolved fidelity
+MWM-0207,horizon_resolved_results,no,Only a twelve-month endpoint is reported and multiple meaningful horizons are not shown
+MWM-0239,external_evidence,1,A zero-shot external imaging component is tested but the complete planning system is not frozen and transported as one model
+MWM-0242,highest_capability_claim,action_conditioned,Probe guidance is evaluated as direct motion-conditioned prediction without recursive planning or execution
+MWM-0263,highest_capability_claim,planning,The system searches and ranks candidate treatment regimens with a treatment assistant
+MWM-0263,action_perturbation,no,Loss and assistant ablations do not perturb action identity dose timing or support
+MWM-0290,dynamics_evidence,2,One-step novel-view transition quality is directly evaluated at the claimed spatial predictive-sensing regime
+MWM-0315,reproducibility_evidence,1,Public code and detailed methods are available but custom robot data hardware and weights prevent full reproduction
+MWM-0320,state_evidence,1,HiRID state variables and compatible latent worlds support an indirect decision-state representation without patient-trajectory validation
+MWM-0369,safety_evidence,0,Cost effectiveness in the simulator reward is not an explicit clinical hazard constraint or safety evaluation
+MWM-S004,highest_capability_claim,planning,The paper claims surgical policy learning from world-model-generated video even though evaluation is offline
+MWM-S004,dynamics_evidence,2,Generated video and held-out action-trajectory errors directly evaluate the claimed data-generation dynamics
+MWM-S004,action_perturbation,no,Prompt-category comparisons do not perturb a kinematic robot action in the learned video dynamics
+MWM-S004,safety_hazard_test,yes,Expert review explicitly tests anatomical tool-consistency failures and hallucinations

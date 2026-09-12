@@ -1,0 +1,54 @@
+{
+  "status": "smoke_only",
+  "model": "grud",
+  "checkpoint": "experiments/results/neural/grud/seed-20260912/model.pt",
+  "checkpoint_best_epoch": 20,
+  "seed": 20260912,
+  "splits": [
+    "external_test"
+  ],
+  "horizons": [
+    1,
+    3
+  ],
+  "minimum_context": 12,
+  "maximum_context": 72,
+  "common_anchor_maximum_horizon": 3,
+  "anchor_stride": 6,
+  "trajectory_samples": 10,
+  "spread_calibration": {
+    "artifact": "experiments/results/neural/grud/seed-20260912/calibration-smoke-fit/spread-calibration.json",
+    "method": "Horizon-wise scalar variance scaling fitted by minimizing Gaussian negative log likelihood on observed targets.",
+    "fit_split": "external_calibration",
+    "horizon_scales": {
+      "1": 1.3017409709285865,
+      "3": 1.3610453581731727
+    },
+    "scope": "Post-hoc marginal predictive-spread scaling; rollout states, point forecasts, mask predictions, and raw trajectory constraint counts are unchanged."
+  },
+  "case_counts": {
+    "external_test": 135
+  },
+  "patient_macro": {
+    "external_test": {
+      "1": {
+        "patient_nmae": 0.37627692069137036,
+        "patient_crps": 0.3047359777073836,
+        "coverage_90": 0.9222362108968973,
+        "mean_interval_width_scaled": 1.755210327448229,
+        "patient_nll": 0.7985624243806059,
+        "mask_brier": 0.0821541862322636
+      },
+      "3": {
+        "patient_nmae": 0.4460434135240702,
+        "patient_crps": 0.35347795191403864,
+        "coverage_90": 0.8721852375843804,
+        "mean_interval_width_scaled": 1.95797092897492,
+        "patient_nll": 0.9308747060064417,
+        "mask_brier": 0.07378574430219814
+      }
+    }
+  },
+  "maximum_patients": 20,
+  "interpretation_boundary": "Free-running passive forecasting only; no treatment-effect, counterfactual, planning, or clinical-deployment claim."
+}

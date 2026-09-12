@@ -1,0 +1,184 @@
+{
+  "run_date": "2026-09-12",
+  "start_date": "2020-01-01",
+  "cutoff": "2026-09-12",
+  "user_agent": "medical-world-model-scoping-review/0.1",
+  "source_logs": {
+    "pubmed": {
+      "query": "(\"world model\"[Title/Abstract] OR \"world models\"[Title/Abstract] OR \"world-model\"[Title/Abstract] OR \"world-models\"[Title/Abstract]) AND (medical[Title/Abstract] OR clinical[Title/Abstract] OR patient[Title/Abstract] OR healthcare[Title/Abstract] OR health[Title/Abstract] OR surgical[Title/Abstract] OR surgery[Title/Abstract] OR echocardiography[Title/Abstract] OR ultrasound[Title/Abstract] OR physiological[Title/Abstract] OR treatment[Title/Abstract] OR intervention[Title/Abstract] OR \"electronic health record\"[Title/Abstract])",
+      "reported_count": 79,
+      "retrieved_count": 77
+    },
+    "europe_pmc": {
+      "query": "((\"world model\" OR \"world models\" OR \"world-model\" OR \"world-models\") AND (medical OR clinical OR patient OR healthcare OR health OR surgical OR surgery OR echocardiography OR ultrasound OR physiological OR treatment OR intervention OR \"electronic health record\")) AND FIRST_PDATE:[2020-01-01 TO 2026-09-12]",
+      "reported_count": 1429,
+      "retrieved_count": 1429
+    },
+    "openalex": {
+      "queries": [
+        {
+          "query": "\"medical world model\"",
+          "reported_count": 62,
+          "retrieved_count": 62
+        },
+        {
+          "query": "\"clinical world model\"",
+          "reported_count": 13,
+          "retrieved_count": 13
+        },
+        {
+          "query": "\"patient world model\"",
+          "reported_count": 7,
+          "retrieved_count": 7
+        },
+        {
+          "query": "\"healthcare world model\"",
+          "reported_count": 1,
+          "retrieved_count": 1
+        },
+        {
+          "query": "\"surgical world model\"",
+          "reported_count": 23,
+          "retrieved_count": 23
+        },
+        {
+          "query": "\"world model\" medicine",
+          "reported_count": 3633,
+          "retrieved_count": 1000
+        },
+        {
+          "query": "\"world model\" clinical",
+          "reported_count": 3598,
+          "retrieved_count": 1000
+        },
+        {
+          "query": "\"world model\" patient",
+          "reported_count": 3661,
+          "retrieved_count": 1000
+        },
+        {
+          "query": "\"world model\" treatment",
+          "reported_count": 5199,
+          "retrieved_count": 1000
+        },
+        {
+          "query": "\"world model\" echocardiography",
+          "reported_count": 66,
+          "retrieved_count": 66
+        },
+        {
+          "query": "\"world model\" EHR",
+          "reported_count": 277,
+          "retrieved_count": 277
+        },
+        {
+          "query": "\"world model\" physiology",
+          "reported_count": 2459,
+          "retrieved_count": 1000
+        }
+      ],
+      "retrieved_count": 5449
+    },
+    "crossref": {
+      "queries": [
+        {
+          "query": "\"medical world model\"",
+          "reported_count": 2947060,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"clinical world model\"",
+          "reported_count": 3353593,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"patient world model\"",
+          "reported_count": 2326987,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"healthcare world model\"",
+          "reported_count": 2239998,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"surgical world model\"",
+          "reported_count": 2210064,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" medicine",
+          "reported_count": 3261975,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" clinical",
+          "reported_count": 3353593,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" patient",
+          "reported_count": 2326987,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" treatment",
+          "reported_count": 2777889,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" echocardiography",
+          "reported_count": 1991995,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" EHR",
+          "reported_count": 1975843,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world model\" physiology",
+          "reported_count": 2105256,
+          "retrieved_count": 250
+        }
+      ],
+      "retrieved_count": 3000
+    },
+    "arxiv": {
+      "retrieval_mode": "html_fallback",
+      "query": "\"world model\" AND (medical OR clinical OR surgical OR patient)",
+      "reported_count": 37,
+      "retrieved_count": 37,
+      "api_error": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=all%3A%22world+model%22+AND+%28all%3Amedical+OR+all%3Aclinical+OR+all%3Apatient+OR+all%3Ahealthcare+OR+all%3Ahealth+OR+all%3Asurgical+OR+all%3Asurgery+OR+all%3Aechocardiography+OR+all%3Aultrasound+OR+all%3Aphysiology+OR+all%3Atreatment+OR+all%3Aintervention+OR+all%3AEHR%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending"
+    }
+  },
+  "source_modes": {
+    "pubmed": "reused_cache",
+    "europe_pmc": "reused_cache",
+    "openalex": "reused_cache",
+    "crossref": "reused_cache",
+    "arxiv": "reused_cache"
+  },
+  "source_failures": {},
+  "raw_record_count": 9992,
+  "raw_source_counts": {
+    "arxiv": 37,
+    "crossref": 3000,
+    "europe_pmc": 1429,
+    "openalex": 5449,
+    "pubmed": 77
+  },
+  "deduplicated_count": 5744,
+  "candidate_count": 410,
+  "discovery_exclusion_count": 5334,
+  "discovery_exclusion_reasons": {
+    "medical-domain term absent from title and abstract": 378,
+    "world-model phrase absent from title and abstract": 4956
+  },
+  "notes": [
+    "Discovery exclusions require both a world-model phrase and a medical-domain term in title or abstract.",
+    "No publisher or venue is excluded at discovery; source quality is assessed after eligibility.",
+    "Candidate inclusion still requires independent title/abstract and full-text screening.",
+    "Scopus and Web of Science are not queried because authenticated subscriptions are unavailable in this environment."
+  ]
+}

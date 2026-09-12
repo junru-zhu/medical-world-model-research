@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L0,6 L9,3 z" fill="#666666"/>
+</marker>
+</defs>
+<rect width="1500" height="820" fill="white"/>
+<text x="70" y="52" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="start" fill="#222222">(a) Highest capability claim</text>
+<text x="540" y="52" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="start" fill="#222222">(b) Corpus-wide reported evidence</text>
+<text x="1050" y="52" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" text-anchor="start" fill="#222222">(c) Closed-loop setting</text>
+<text x="70" y="118" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">Planning</text>
+<rect x="70" y="138" width="330" height="34" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="70" y="138" width="330.0" height="34" rx="5" fill="#0072B2" stroke="#0072B2" stroke-width="2"/>
+<text x="415" y="165" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">33/82</text>
+<text x="70" y="236" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">Action-conditioned</text>
+<rect x="70" y="256" width="330" height="34" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="70" y="256" width="220.0" height="34" rx="5" fill="#56B4E9" stroke="#56B4E9" stroke-width="2"/>
+<text x="415" y="283" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">22/82</text>
+<text x="70" y="354" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">Counterfactual</text>
+<rect x="70" y="374" width="330" height="34" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="70" y="374" width="180.0" height="34" rx="5" fill="#E69F00" stroke="#E69F00" stroke-width="2"/>
+<text x="415" y="401" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">18/82</text>
+<text x="70" y="472" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">Passive forecasting</text>
+<rect x="70" y="492" width="330" height="34" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="70" y="492" width="90.0" height="34" rx="5" fill="#009E73" stroke="#009E73" stroke-width="2"/>
+<text x="415" y="519" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="start" fill="#222222">9/82</text>
+<text x="70" y="640" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="start" fill="#666666">Claims describe the highest stated capability,</text>
+<text x="70" y="665" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="start" fill="#666666">not the level demonstrated by the evidence.</text>
+<text x="540" y="102" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Directly auditable causal evidence</text>
+<rect x="540" y="117" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="540" y="117" width="8.571428571428571" height="24" rx="4" fill="#CC79A7" stroke="#CC79A7" stroke-width="2"/>
+<text x="854" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">1/35 (3%)</text>
+<text x="854" y="153" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#666666">47 not applicable</text>
+<text x="540" y="185" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Formal calibration</text>
+<rect x="540" y="200" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="540" y="200" width="18.29268292682927" height="24" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="2"/>
+<text x="854" y="215" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">5/82 (6%)</text>
+<text x="540" y="268" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Frozen external validation</text>
+<rect x="540" y="283" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="540" y="283" width="54.87804878048781" height="24" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="2"/>
+<text x="854" y="298" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">15/82 (18%)</text>
+<text x="854" y="319" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#666666">4 unclear</text>
+<text x="540" y="351" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Free rollout + horizon + calibration</text>
+<rect x="540" y="366" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="540" y="366" width="7.317073170731708" height="24" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="2"/>
+<text x="854" y="381" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">2/82 (2%)</text>
+<text x="540" y="434" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Free rollout + horizon + external</text>
+<rect x="540" y="449" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="540" y="449" width="14.634146341463415" height="24" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="2"/>
+<text x="854" y="464" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">4/82 (5%)</text>
+<text x="540" y="517" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" text-anchor="start" fill="#222222">Four-item reporting intersection</text>
+<rect x="540" y="532" width="300" height="24" rx="4" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<text x="854" y="547" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" text-anchor="start" fill="#222222">0/82 (0%)</text>
+<text x="854" y="568" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#666666">rollout + horizon + calibration + external validation</text>
+<text x="540" y="720" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="normal" text-anchor="start" fill="#666666">Reporting bars use displayed denominators; applicability differs.</text>
+<text x="1050" y="120" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">No closed loop</text>
+<rect x="1050" y="140" width="270" height="32" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="1050" y="140" width="270.0" height="32" rx="5" fill="#A6A6A6" stroke="#A6A6A6" stroke-width="2"/>
+<text x="1335" y="165" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">31/82</text>
+<text x="1050" y="240" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">Offline decision evaluation</text>
+<rect x="1050" y="260" width="270" height="32" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="1050" y="260" width="209.03225806451613" height="32" rx="5" fill="#56B4E9" stroke="#56B4E9" stroke-width="2"/>
+<text x="1335" y="285" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">24/82</text>
+<text x="1050" y="360" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">Simulation closed loop</text>
+<rect x="1050" y="380" width="270" height="32" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="1050" y="380" width="156.7741935483871" height="32" rx="5" fill="#E69F00" stroke="#E69F00" stroke-width="2"/>
+<text x="1335" y="405" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">18/82</text>
+<text x="1050" y="480" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">Real-system closed loop</text>
+<rect x="1050" y="500" width="270" height="32" rx="5" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"/>
+<rect x="1050" y="500" width="78.38709677419355" height="32" rx="5" fill="#009E73" stroke="#009E73" stroke-width="2"/>
+<text x="1335" y="525" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" text-anchor="start" fill="#222222">9/82</text>
+<text font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="normal" text-anchor="start" fill="#666666"><tspan x="1050" y="628.0">Offline, simulated, and real-system</tspan><tspan x="1050" y="650.0">evaluations test different validity</tspan><tspan x="1050" y="672.0">claims.</tspan></text>
+<text x="1450" y="790" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="normal" text-anchor="end" fill="#666666">Primary strict clinical and biomedical corpus, n = 82</text>
+</svg>

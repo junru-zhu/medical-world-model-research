@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "model": "transformer",
+  "checkpoint": "experiments/results/neural/transformer/seed-20260912/model.pt",
+  "seed": 20260912,
+  "random_stream_policy": "split-specific-v1",
+  "fit_split_seed": 20300912,
+  "method": "Horizon-wise scalar variance scaling fitted by minimizing Gaussian negative log likelihood on observed targets.",
+  "fit_split": "external_calibration",
+  "trajectory_samples": 20,
+  "evaluation_batch_size": 128,
+  "horizons": [
+    1,
+    3,
+    6,
+    12,
+    24
+  ],
+  "minimum_context": 12,
+  "maximum_context": 72,
+  "common_anchor_maximum_horizon": 24,
+  "anchor_stride": 6,
+  "horizon_scales": {
+    "1": 1.1920581741127483,
+    "3": 1.0803114244975296,
+    "6": 1.1449940376122472,
+    "12": 1.0945735483581651,
+    "24": 1.0358444063313945
+  },
+  "observed_targets": {
+    "1": 21601,
+    "3": 21247,
+    "6": 20979,
+    "12": 21100,
+    "24": 20878
+  },
+  "maximum_patients": 0,
+  "test_boundary": "No external-test observations were used to fit this artifact."
+}

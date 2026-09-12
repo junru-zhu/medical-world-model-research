@@ -1,0 +1,14 @@
+{
+  "merged_input_records": 93,
+  "existing_records": 53,
+  "novel_records_reviewed": 40,
+  "retained_total": 93,
+  "retained_empirical": 85,
+  "retained_reviews": 8,
+  "lineage_actions": {
+    "exclude_unstable": 0,
+    "merge_into_existing": 0,
+    "merge_into_novel": 0,
+    "retain": 40
+  }
+}

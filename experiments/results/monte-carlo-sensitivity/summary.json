@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "models": [
+    "grud",
+    "transformer",
+    "rssm"
+  ],
+  "seed": 20260912,
+  "trajectory_samples": [
+    20,
+    50,
+    100
+  ],
+  "patients_requested": 1000,
+  "patient_sample_seed": 20260912,
+  "patient_subset_sha256": "6bd42f1d068fec5af148f6983a19be58e6fecf16578af837cddb4a65dab59025",
+  "interpretation": "Numerical Monte Carlo convergence sensitivity only; not used for model selection or clinical claims."
+}

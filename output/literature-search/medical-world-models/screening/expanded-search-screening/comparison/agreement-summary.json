@@ -1,0 +1,34 @@
+{
+  "records": 1030,
+  "reviewer_left": "reviewer_c",
+  "reviewer_right": "reviewer_d",
+  "agreement_count": 926,
+  "raw_agreement": 0.8990291262135922,
+  "cohen_kappa": 0.5998147013553697,
+  "reviewer_c_distribution": {
+    "exclude": 852,
+    "include": 138,
+    "uncertain": 40
+  },
+  "reviewer_d_distribution": {
+    "exclude": 916,
+    "include": 84,
+    "uncertain": 30
+  },
+  "disagreements": 104,
+  "conservative_full_text_follow_up": 198,
+  "routes": {
+    "fresh_alternate_public_search": {
+      "consensus_exclude": 757,
+      "consensus_include": 65,
+      "other_follow_up": 122,
+      "records": 944
+    },
+    "primary_search_alternate_filter": {
+      "consensus_exclude": 75,
+      "consensus_include": 3,
+      "other_follow_up": 8,
+      "records": 86
+    }
+  }
+}

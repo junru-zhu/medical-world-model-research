@@ -1,0 +1,9 @@
+{
+  "records": 32,
+  "initially_included": 14,
+  "qc_retained": 9,
+  "qc_removed": 5,
+  "included_empirical": 6,
+  "included_reviews": 3,
+  "excluded_total": 23
+}

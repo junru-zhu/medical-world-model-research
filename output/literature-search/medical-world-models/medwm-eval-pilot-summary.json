@@ -1,0 +1,173 @@
+{
+  "records": 55,
+  "capability_claims": {
+    "action_conditioned": 16,
+    "counterfactual": 9,
+    "passive_forecasting": 8,
+    "planning": 22
+  },
+  "ordinal_evidence_domains": {
+    "state_evidence": {
+      "1": 15,
+      "2": 39,
+      "NI": 1
+    },
+    "dynamics_evidence": {
+      "0": 6,
+      "1": 20,
+      "2": 26,
+      "NI": 3
+    },
+    "rollout_evidence": {
+      "0": 23,
+      "1": 17,
+      "2": 12,
+      "NI": 3
+    },
+    "action_evidence": {
+      "0": 3,
+      "1": 29,
+      "2": 12,
+      "NA": 8,
+      "NI": 3
+    },
+    "uncertainty_evidence": {
+      "0": 32,
+      "1": 16,
+      "2": 4,
+      "NI": 3
+    },
+    "causal_evidence": {
+      "0": 13,
+      "1": 6,
+      "NA": 36
+    },
+    "external_evidence": {
+      "0": 20,
+      "1": 24,
+      "2": 8,
+      "NI": 3
+    },
+    "decision_evidence": {
+      "0": 18,
+      "1": 23,
+      "2": 14
+    },
+    "safety_evidence": {
+      "0": 30,
+      "1": 22,
+      "2": 2,
+      "NI": 1
+    },
+    "reproducibility_evidence": {
+      "0": 16,
+      "1": 25,
+      "2": 11,
+      "NI": 3
+    }
+  },
+  "descriptive_features": {
+    "free_running_rollout": {
+      "yes": 28,
+      "eligible_denominator": 51,
+      "percent": 54.90196078431372,
+      "distribution": {
+        "no": 23,
+        "unclear": 4,
+        "yes": 28
+      }
+    },
+    "horizon_resolved_results": {
+      "yes": 23,
+      "eligible_denominator": 52,
+      "percent": 44.23076923076923,
+      "distribution": {
+        "no": 29,
+        "unclear": 3,
+        "yes": 23
+      }
+    },
+    "formal_calibration": {
+      "yes": 4,
+      "eligible_denominator": 51,
+      "percent": 7.8431372549019605,
+      "distribution": {
+        "no": 47,
+        "unclear": 4,
+        "yes": 4
+      }
+    },
+    "frozen_external_validation": {
+      "yes": 9,
+      "eligible_denominator": 48,
+      "percent": 18.75,
+      "distribution": {
+        "no": 39,
+        "unclear": 7,
+        "yes": 9
+      }
+    },
+    "action_agnostic_comparator": {
+      "yes": 14,
+      "eligible_denominator": 44,
+      "percent": 31.818181818181817,
+      "distribution": {
+        "NA": 8,
+        "no": 30,
+        "unclear": 3,
+        "yes": 14
+      }
+    },
+    "action_perturbation": {
+      "yes": 22,
+      "eligible_denominator": 44,
+      "percent": 50.0,
+      "distribution": {
+        "NA": 8,
+        "no": 22,
+        "unclear": 3,
+        "yes": 22
+      }
+    },
+    "explicit_causal_estimand": {
+      "yes": 6,
+      "eligible_denominator": 19,
+      "percent": 31.57894736842105,
+      "distribution": {
+        "NA": 36,
+        "no": 13,
+        "yes": 6
+      }
+    },
+    "closed_loop_evaluation": {
+      "distribution": {
+        "no": 28,
+        "offline": 14,
+        "real": 4,
+        "simulation": 8,
+        "unclear": 1
+      }
+    },
+    "safety_hazard_test": {
+      "yes": 12,
+      "eligible_denominator": 54,
+      "percent": 22.22222222222222,
+      "distribution": {
+        "no": 42,
+        "unclear": 1,
+        "yes": 12
+      }
+    },
+    "public_code": {
+      "yes": 19,
+      "eligible_denominator": 31,
+      "percent": 61.29032258064516,
+      "distribution": {
+        "no": 12,
+        "unclear": 24,
+        "yes": 19
+      }
+    }
+  },
+  "interpretation_note": "Counts describe reported evidence in the inspected primary text. They do not prove that unreported work was not performed."
+}

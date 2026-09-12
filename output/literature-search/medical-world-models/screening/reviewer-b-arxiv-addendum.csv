@@ -1,0 +1,8 @@
+candidate_id,title,decision,corpus_type,reason_code,rationale,full_text_needed
+MWM-A001,ARYA: A Physics-Constrained Composable & Deterministic World Model Architecture,exclude,not_applicable,wrong_domain,Generic cross-industry architecture; medical devices are only one application node rather than the modeled medical domain.,no
+MWM-A002,Beyond Generative Priors: Minority Sampling with JEPA-Guided Diffusion,exclude,not_applicable,wrong_domain,Generic image minority-sampling method; medical diagnosis appears only as an example application.,no
+MWM-A003,From Generative Engines to Actionable Simulators: The Imperative of Physical Grounding in World Models,exclude,not_applicable,review_not_primary,This broad world-model survey uses medicine as a stress test but is not primarily a review of medical world models.,no
+MWM-A004,Label-free estimation of clinically relevant performance metrics under distribution shifts,exclude,not_applicable,static_prediction,Estimates static classifier performance under dataset shift without a learned temporal or action-conditioned world model.,no
+MWM-A005,Surgical Vision World Model,exclude,not_applicable,duplicate_publication,Exact arXiv publication-lineage duplicate of the already screened Surgical Vision World Model record MWM-S005.,no
+MWM-A006,Xray2Xray: World Model from Chest X-rays with Volumetric Context,exclude,not_applicable,duplicate_publication,Exact arXiv publication-lineage duplicate of the already screened Xray2Xray record MWM-S002.,no
+MWM-A007,An Effective Data-Driven Approach for Localizing Deep Learning Faults,exclude,not_applicable,wrong_domain,Software-engineering fault localization for neural networks is not a medical dynamics study.,no

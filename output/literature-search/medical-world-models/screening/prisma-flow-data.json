@@ -1,0 +1,102 @@
+{
+  "freeze_date": "2026-09-12",
+  "raw_records": 9992,
+  "deduplicated_records": 5744,
+  "fresh_alternate_search_unique_records": 944,
+  "automated_discovery_filter_exclusions": 5335,
+  "initial_database_title_abstract_records": 409,
+  "database_title_abstract_records": 6688,
+  "citation_chasing_records_assessed": 6,
+  "citation_chasing_database_duplicates": 2,
+  "unique_citation_chasing_additions": 4,
+  "unique_title_abstract_records": 6692,
+  "title_abstract_exclusions": 6274,
+  "full_texts_assessed": 418,
+  "full_text_exclusions": 325,
+  "included_total": 93,
+  "included_empirical": 85,
+  "included_reviews": 8,
+  "post_extraction_eligibility_corrections": 6,
+  "screening_status": "Corrected public-search flow after completion of the sampled filter audit, alternate-term search, exhaustive residual rescreen, inclusion QC, and publication-lineage resolution",
+  "screening_routes": {
+    "initial_search_and_citation_chasing": {
+      "title_abstract_records": 413,
+      "full_texts_assessed": 69,
+      "included_total": 53,
+      "full_text_exclusions": 16
+    },
+    "sampled_discovery_filter_audit": {
+      "title_abstract_records": 170,
+      "full_texts_assessed": 32,
+      "included_total": 8,
+      "full_text_exclusions": 24
+    },
+    "expanded_alternate_term_search": {
+      "title_abstract_records": 1030,
+      "full_texts_assessed": 198,
+      "included_total": 26,
+      "full_text_exclusions": 172
+    },
+    "exhaustive_residual_filter_rescreen": {
+      "title_abstract_records": 5079,
+      "full_texts_assessed": 119,
+      "included_total": 6,
+      "full_text_exclusions": 113
+    }
+  },
+  "search_correction": {
+    "sampled_audit_records": 170,
+    "sampled_audit_provisional_additions": 8,
+    "expanded_search_records": 1030,
+    "expanded_search_full_text_follow_up": 198,
+    "expanded_search_raw_proposed_inclusions": 115,
+    "expanded_search_inclusion_qc_retained": 69,
+    "expanded_search_inclusion_qc_excluded": 46,
+    "expanded_search_conceptual_boundary_excluded": 43,
+    "expanded_search_resolved_core_records": 26,
+    "expanded_search_inclusion_qc_status": "complete",
+    "exhaustive_rescreen_records": 5079,
+    "exhaustive_rescreen_full_text_follow_up": 119,
+    "exhaustive_rescreen_full_text_agreement": 108,
+    "exhaustive_rescreen_third_adjudications": 14,
+    "exhaustive_rescreen_raw_proposed_inclusions": 32,
+    "exhaustive_rescreen_inclusion_qc_retained": 18,
+    "exhaustive_rescreen_inclusion_qc_excluded": 14,
+    "exhaustive_rescreen_conceptual_boundary_excluded": 12,
+    "exhaustive_rescreen_resolved_core_records": 6,
+    "exhaustive_rescreen_inclusion_qc_status": "complete",
+    "corrected_lineage_resolved_total": 93,
+    "corrected_lineage_resolved_empirical": 85,
+    "corrected_lineage_resolved_reviews": 8,
+    "novel_records_lineage_reviewed": 40,
+    "novel_records_retained": 40,
+    "novel_empirical_records": 35,
+    "novel_review_records": 5,
+    "novel_empirical_completed_dual_review": 35,
+    "novel_empirical_pending_dual_review": 0,
+    "canonical_regeneration": "complete",
+    "status": "search-screening correction, publication lineage, dual extraction and coding, and canonical regeneration complete"
+  },
+  "agreement": {
+    "initial_title_abstract": {
+      "records": 402,
+      "raw_agreement": 0.9552,
+      "cohen_kappa": 0.8454
+    },
+    "arxiv_addendum": {
+      "records": 7,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null
+    },
+    "citation_chasing_supplement": {
+      "records": 6,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null
+    },
+    "full_text": {
+      "records": 69,
+      "raw_agreement": 0.942,
+      "cohen_kappa": 0.8449
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "status": "complete",
+  "model": "grud",
+  "checkpoint": "experiments/results/neural/grud/seed-20260912/model.pt",
+  "checkpoint_best_epoch": 20,
+  "seed": 20260912,
+  "splits": [
+    "external_test"
+  ],
+  "horizons": [
+    1,
+    3,
+    6,
+    12,
+    24
+  ],
+  "minimum_context": 12,
+  "maximum_context": 72,
+  "common_anchor_maximum_horizon": 24,
+  "anchor_stride": 6,
+  "trajectory_samples": 20,
+  "evaluation_batch_size": 128,
+  "random_stream_policy": "split-specific-v1",
+  "constraint_policy": "rollout-state-and-emitted-v1",
+  "split_seeds": {
+    "external_test": 20310912
+  },
+  "spread_calibration": {
+    "artifact": "experiments/results/neural/grud/seed-20260912/external-calibration-fit/spread-calibration.json",
+    "method": "Horizon-wise scalar variance scaling fitted by minimizing Gaussian negative log likelihood on observed targets.",
+    "fit_split": "external_calibration",
+    "horizon_scales": {
+      "1": 1.1971719972054484,
+      "3": 1.1616282207791817,
+      "6": 1.2403331921877012,
+      "12": 1.176845847129694,
+      "24": 1.141363798989259
+    },
+    "scope": "Post-hoc marginal predictive-spread scaling; rollout states, point forecasts, mask predictions, and raw trajectory constraint counts are unchanged."
+  },
+  "case_counts": {
+    "external_test": 30450
+  },
+  "patient_macro": {
+    "external_test": {
+      "1": {
+        "patient_nmae": 0.37624984956289065,
+        "patient_crps": 0.2880569510796271,
+        "coverage_90": 0.8987365559845181,
+        "mean_interval_width_scaled": 1.6969099556964184,
+        "patient_nll": 0.7616932782940293,
+        "mask_brier": 0.06400282892466967
+      },
+      "3": {
+        "patient_nmae": 0.43636259228544677,
+        "patient_crps": 0.3285949294650864,
+        "coverage_90": 0.8846759398522229,
+        "mean_interval_width_scaled": 1.8538238644906275,
+        "patient_nll": 0.8991289335452396,
+        "mask_brier": 0.06117873968681557
+      },
+      "6": {
+        "patient_nmae": 0.4834918199554325,
+        "patient_crps": 0.36522304626670277,
+        "coverage_90": 0.8974728695358235,
+        "mean_interval_width_scaled": 2.1545586601053515,
+        "patient_nll": 1.0161544567184668,
+        "mask_brier": 0.062423368452853824
+      },
+      "12": {
+        "patient_nmae": 0.5214177432427437,
+        "patient_crps": 0.39017789679782866,
+        "coverage_90": 0.8871951760598354,
+        "mean_interval_width_scaled": 2.2129109733772268,
+        "patient_nll": 1.0941523974926382,
+        "mask_brier": 0.06246144555024613
+      },
+      "24": {
+        "patient_nmae": 0.5606425324304202,
+        "patient_crps": 0.4174596362372863,
+        "coverage_90": 0.8825083432327495,
+        "mean_interval_width_scaled": 2.3264626777563775,
+        "patient_nll": 1.17371216993391,
+        "mask_brier": 0.065945324851284
+      }
+    }
+  },
+  "maximum_patients": 0,
+  "sensitivity_patient_sample": 0,
+  "sensitivity_sample_seed": 20260912,
+  "sampled_patient_counts": {},
+  "sampled_patient_hashes": {},
+  "interpretation_boundary": "Free-running passive forecasting only; no treatment-effect, counterfactual, planning, or clinical-deployment claim.",
+  "nll_definition": "Moment-matched Gaussian negative log score using the empirical trajectory-sample mean and standard deviation; not the exact likelihood of the rollout distribution."
+}

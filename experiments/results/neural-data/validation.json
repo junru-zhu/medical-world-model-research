@@ -1,0 +1,78 @@
+{
+  "status": "pass",
+  "unique_patients": 40336,
+  "selected_variables": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "MAP",
+    "DBP",
+    "Resp",
+    "BaseExcess",
+    "HCO3",
+    "FiO2",
+    "pH",
+    "PaCO2",
+    "SaO2",
+    "BUN",
+    "Chloride",
+    "Creatinine",
+    "Glucose",
+    "Magnesium",
+    "Phosphate",
+    "Potassium",
+    "Hct",
+    "Hgb",
+    "WBC",
+    "Platelets"
+  ],
+  "splits": [
+    {
+      "split": "train",
+      "patients": 14247,
+      "patient_hours": 554538,
+      "variables": 24,
+      "observed_fraction": 0.2843463838366352,
+      "minimum_sequence_hours": 8,
+      "maximum_sequence_hours": 336
+    },
+    {
+      "split": "validation",
+      "patients": 3015,
+      "patient_hours": 117666,
+      "variables": 24,
+      "observed_fraction": 0.2844113139451215,
+      "minimum_sequence_hours": 8,
+      "maximum_sequence_hours": 334
+    },
+    {
+      "split": "internal_test",
+      "patients": 3074,
+      "patient_hours": 118011,
+      "variables": 24,
+      "observed_fraction": 0.2836409317775462,
+      "minimum_sequence_hours": 8,
+      "maximum_sequence_hours": 336
+    },
+    {
+      "split": "external_calibration",
+      "patients": 2069,
+      "patient_hours": 77534,
+      "variables": 24,
+      "observed_fraction": 0.2588574044935125,
+      "minimum_sequence_hours": 8,
+      "maximum_sequence_hours": 336
+    },
+    {
+      "split": "external_test",
+      "patients": 17931,
+      "patient_hours": 684461,
+      "variables": 24,
+      "observed_fraction": 0.26036162031145677,
+      "minimum_sequence_hours": 8,
+      "maximum_sequence_hours": 336
+    }
+  ],
+  "errors": []
+}

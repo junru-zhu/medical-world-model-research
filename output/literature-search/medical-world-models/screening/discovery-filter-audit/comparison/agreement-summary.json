@@ -1,0 +1,44 @@
+{
+  "records": 170,
+  "agreement_count": 154,
+  "raw_agreement": 0.9058823529411765,
+  "cohen_kappa": 0.6297304655594883,
+  "reviewer_a_distribution": {
+    "exclude": 152,
+    "include": 11,
+    "uncertain": 7
+  },
+  "reviewer_b_distribution": {
+    "exclude": 140,
+    "include": 16,
+    "uncertain": 14
+  },
+  "disagreements": 16,
+  "conservative_full_text_follow_up": 32,
+  "strata": {
+    "alternate_dynamics_enriched": {
+      "records": 19,
+      "consensus_exclude": 9,
+      "consensus_include": 5,
+      "other_follow_up": 5
+    },
+    "phrase_absent_random": {
+      "records": 100,
+      "consensus_exclude": 82,
+      "consensus_include": 3,
+      "other_follow_up": 15
+    },
+    "medical_term_absent_random": {
+      "records": 50,
+      "consensus_exclude": 47,
+      "consensus_include": 2,
+      "other_follow_up": 1
+    },
+    "publisher_policy_correction": {
+      "records": 1,
+      "consensus_exclude": 0,
+      "consensus_include": 1,
+      "other_follow_up": 0
+    }
+  }
+}

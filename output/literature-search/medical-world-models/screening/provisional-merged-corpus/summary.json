@@ -1,0 +1,11 @@
+{
+  "source_records": 61,
+  "exact_match_groups": 61,
+  "corpus_types": {
+    "empirical": 55,
+    "review": 6
+  },
+  "multi_record_groups": 0,
+  "manual_lineage_review_groups": 0,
+  "status": "provisional_until_all_search_corrections_complete"
+}

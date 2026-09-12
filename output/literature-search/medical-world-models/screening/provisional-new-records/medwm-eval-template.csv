@@ -1,0 +1,6 @@
+candidate_id,title,highest_capability_claim,state_evidence,dynamics_evidence,rollout_evidence,action_evidence,uncertainty_evidence,causal_evidence,external_evidence,decision_evidence,safety_evidence,reproducibility_evidence,free_running_rollout,horizon_resolved_results,formal_calibration,frozen_external_validation,action_agnostic_comparator,action_perturbation,explicit_causal_estimand,closed_loop_evaluation,safety_hazard_test,public_code,disagreement_fields,reviewer_a_anchors,reviewer_b_anchors,adjudication_anchors,adjudication_notes,confidence
+MWM-X962473BB89,Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MWM-XC0A20D0271,Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MWM-XFA677C184B,DRIFT: Direct-Recursive Intervention-Conditioned Forecasting of ICU Physiological Trajectories,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MWM-X6C3AA8358E,Model-based reinforcement learning for ultrasound-driven autonomous microrobots.,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MWM-X5E3C456867,Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning,,,,,,,,,,,,,,,,,,,,,,,,,,,

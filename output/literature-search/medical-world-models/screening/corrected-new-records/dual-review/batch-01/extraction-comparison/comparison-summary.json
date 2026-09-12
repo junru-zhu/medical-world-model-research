@@ -1,0 +1,225 @@
+{
+  "records": 10,
+  "comparison_fields": 43,
+  "field_decisions": 430,
+  "differences": 413,
+  "records_with_difference": 10,
+  "field_summary": {
+    "primary_source_url": {
+      "exact_agreement": 6,
+      "normalized_agreement": 8,
+      "differences": 2
+    },
+    "publication_status": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "domain": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "dataset_or_cohort": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "sample_scale": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "institution_count": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "split_strategy": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "observation_process": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "missingness": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "censoring_or_competing_events": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "state": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "observation_decoder": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "action": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "action_provenance": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "transition_mechanism": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "maximum_horizon": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "rollout_regime": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "capability_claim": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "baselines": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "state_fidelity_metrics": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "transition_metrics": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "rollout_stability": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "action_sensitivity": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "calibration_and_uncertainty": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "external_validation": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "decision_utility": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "safety_evaluation": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "statistical_analysis": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "causal_language": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "estimand": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "confounding_strategy": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "positivity_and_overlap": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "counterfactual_validation": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "code_access": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "weights_access": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "data_access": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "preprocessing_reproducibility": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "randomness": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "evidence_anchors": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "appraisal_strengths": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "appraisal_limitations": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "source_status": {
+      "exact_agreement": 0,
+      "normalized_agreement": 0,
+      "differences": 10
+    },
+    "reviewer_confidence": {
+      "exact_agreement": 9,
+      "normalized_agreement": 9,
+      "differences": 1
+    }
+  },
+  "interpretation": "Narrative wording differences are expected and are not reliability statistics. Every listed field requires source-grounded adjudication."
+}

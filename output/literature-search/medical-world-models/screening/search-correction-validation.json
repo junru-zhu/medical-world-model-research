@@ -1,0 +1,260 @@
+{
+  "status": "search_screening_complete_downstream_pending",
+  "sampled_audit": {
+    "status": "complete",
+    "included": 8,
+    "empirical": 5,
+    "reviews": 3,
+    "excluded": 24
+  },
+  "expanded_alternate_search": {
+    "status": "complete",
+    "candidate_records": 1030,
+    "full_text_follow_up": 198,
+    "agreement": {
+      "raw_agreement": 0.8990291262135922,
+      "cohen_kappa": 0.5998147013553697,
+      "disagreements": 104
+    },
+    "title_abstract_reviewers": {
+      "reviewer-c": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/expanded-search-screening/reviewer-c.csv",
+        "records": 1030,
+        "decision_distribution": {
+          "exclude": 852,
+          "include": 138,
+          "uncertain": 40
+        },
+        "errors": []
+      },
+      "reviewer-d": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/expanded-search-screening/reviewer-d.csv",
+        "records": 1030,
+        "decision_distribution": {
+          "exclude": 916,
+          "include": 84,
+          "uncertain": 30
+        },
+        "errors": []
+      }
+    },
+    "fulltext_reviewers": {
+      "fulltext-reviewer-g": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/expanded-search-screening/fulltext-reviewer-g.csv",
+        "records": 198,
+        "decision_distribution": {
+          "exclude": 79,
+          "include": 109,
+          "uncertain": 10
+        },
+        "errors": []
+      },
+      "fulltext-reviewer-h": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/expanded-search-screening/fulltext-reviewer-h.csv",
+        "records": 198,
+        "decision_distribution": {
+          "exclude": 67,
+          "include": 107,
+          "uncertain": 24
+        },
+        "errors": []
+      }
+    },
+    "fulltext_comparison": {
+      "status": "complete",
+      "summary": {
+        "records": 198,
+        "agreement_count": 157,
+        "raw_agreement": 0.7929292929292929,
+        "cohen_kappa": 0.6311341330425301,
+        "reviewer_a_distribution": {
+          "exclude": 79,
+          "include": 109,
+          "uncertain": 10
+        },
+        "reviewer_b_distribution": {
+          "exclude": 67,
+          "include": 107,
+          "uncertain": 24
+        },
+        "consensus_resolved": 109,
+        "requires_adjudication": 89
+      },
+      "third_adjudication": {
+        "status": "complete",
+        "records": 89,
+        "expected": 89,
+        "path": "output/literature-search/medical-world-models/screening/expanded-search-screening/fulltext-comparison/third-adjudications.csv",
+        "errors": []
+      }
+    },
+    "raw_final_adjudication": {
+      "status": "complete",
+      "summary": {
+        "records": 198,
+        "included_total": 115,
+        "included_empirical": 98,
+        "included_reviews": 17,
+        "excluded_total": 83,
+        "third_adjudications": 89
+      },
+      "errors": []
+    },
+    "independent_inclusion_qc": {
+      "status": "complete",
+      "summary": {
+        "records": 198,
+        "initially_included": 115,
+        "qc_retained": 69,
+        "qc_removed": 46,
+        "included_empirical": 67,
+        "included_reviews": 2,
+        "excluded_total": 129
+      },
+      "errors": []
+    },
+    "resolved_final": {
+      "status": "complete",
+      "summary": {
+        "records": 198,
+        "post_qc_lead_decisions": 43,
+        "included_total": 26,
+        "included_empirical": 24,
+        "included_reviews": 2,
+        "excluded_total": 172
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "exhaustive_filter_rescreen": {
+    "status": "complete",
+    "candidate_records": 5079,
+    "full_text_follow_up": 119,
+    "agreement": {
+      "raw_agreement": 0.9852333136444182,
+      "cohen_kappa": 0.5471723009840547,
+      "disagreements": 75
+    },
+    "title_abstract_reviewers": {
+      "reviewer-e": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/exhaustive-exclusion-rescreen/reviewer-e.csv",
+        "records": 5079,
+        "decision_distribution": {
+          "exclude": 5006,
+          "include": 58,
+          "uncertain": 15
+        },
+        "errors": []
+      },
+      "reviewer-f": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/exhaustive-exclusion-rescreen/reviewer-f.csv",
+        "records": 5079,
+        "decision_distribution": {
+          "exclude": 4984,
+          "include": 86,
+          "uncertain": 9
+        },
+        "errors": []
+      }
+    },
+    "fulltext_reviewers": {
+      "fulltext-reviewer-i": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/exhaustive-exclusion-rescreen/fulltext-reviewer-i.csv",
+        "records": 119,
+        "decision_distribution": {
+          "exclude": 89,
+          "include": 29,
+          "uncertain": 1
+        },
+        "errors": []
+      },
+      "fulltext-reviewer-j": {
+        "status": "pass",
+        "path": "output/literature-search/medical-world-models/screening/exhaustive-exclusion-rescreen/fulltext-reviewer-j.csv",
+        "records": 119,
+        "decision_distribution": {
+          "exclude": 84,
+          "include": 33,
+          "uncertain": 2
+        },
+        "errors": []
+      }
+    },
+    "fulltext_comparison": {
+      "status": "complete",
+      "summary": {
+        "records": 119,
+        "agreement_count": 108,
+        "raw_agreement": 0.907563025210084,
+        "cohen_kappa": 0.7713936430317848,
+        "reviewer_a_distribution": {
+          "exclude": 89,
+          "include": 29,
+          "uncertain": 1
+        },
+        "reviewer_b_distribution": {
+          "exclude": 84,
+          "include": 33,
+          "uncertain": 2
+        },
+        "consensus_resolved": 105,
+        "requires_adjudication": 14
+      },
+      "third_adjudication": {
+        "status": "complete",
+        "records": 14,
+        "expected": 14,
+        "path": "output/literature-search/medical-world-models/screening/exhaustive-exclusion-rescreen/fulltext-comparison/third-adjudications.csv",
+        "errors": []
+      }
+    },
+    "raw_final_adjudication": {
+      "status": "complete",
+      "summary": {
+        "records": 119,
+        "included_total": 32,
+        "included_empirical": 30,
+        "included_reviews": 2,
+        "excluded_total": 87,
+        "third_adjudications": 14
+      },
+      "errors": []
+    },
+    "independent_inclusion_qc": {
+      "status": "complete",
+      "summary": {
+        "records": 119,
+        "initially_included": 32,
+        "qc_retained": 18,
+        "qc_removed": 14,
+        "included_empirical": 17,
+        "included_reviews": 1,
+        "excluded_total": 101
+      },
+      "errors": []
+    },
+    "resolved_final": {
+      "status": "complete",
+      "summary": {
+        "records": 119,
+        "post_qc_lead_decisions": 12,
+        "included_total": 6,
+        "included_empirical": 6,
+        "included_reviews": 0,
+        "excluded_total": 113
+      },
+      "errors": []
+    },
+    "errors": []
+  },
+  "corpus_freeze_allowed": false,
+  "search_screening_complete": true
+}

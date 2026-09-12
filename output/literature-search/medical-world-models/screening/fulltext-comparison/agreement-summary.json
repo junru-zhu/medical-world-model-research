@@ -1,0 +1,28 @@
+{
+  "candidate_count": 69,
+  "reviewer_a_decisions": {
+    "exclude": 8,
+    "include": 53,
+    "uncertain": 8
+  },
+  "reviewer_b_decisions": {
+    "exclude": 6,
+    "include": 54,
+    "uncertain": 9
+  },
+  "agreement_count": 65,
+  "agreement_fraction": 0.9420289855072463,
+  "cohen_kappa": 0.8448566610455311,
+  "disagreement_count": 4,
+  "confusion_matrix": {
+    "a_include__b_include": 52,
+    "a_include__b_exclude": 1,
+    "a_include__b_uncertain": 0,
+    "a_exclude__b_include": 2,
+    "a_exclude__b_exclude": 5,
+    "a_exclude__b_uncertain": 1,
+    "a_uncertain__b_include": 0,
+    "a_uncertain__b_exclude": 0,
+    "a_uncertain__b_uncertain": 8
+  }
+}

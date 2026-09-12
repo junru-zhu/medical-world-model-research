@@ -1,0 +1,11 @@
+split,horizon_hours,ranking_best_to_worst
+external_test,1,ridge_var > locf > global_median > hourly_median
+external_test,3,ridge_var > locf > global_median > hourly_median
+external_test,6,ridge_var > locf > global_median > hourly_median
+external_test,12,ridge_var > locf > hourly_median > global_median
+external_test,24,ridge_var > locf > hourly_median > global_median
+internal_test,1,ridge_var > locf > hourly_median > global_median
+internal_test,3,ridge_var > locf > hourly_median > global_median
+internal_test,6,ridge_var > locf > hourly_median > global_median
+internal_test,12,ridge_var > locf > hourly_median > global_median
+internal_test,24,ridge_var > locf > hourly_median > global_median

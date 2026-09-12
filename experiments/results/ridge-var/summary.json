@@ -1,0 +1,180 @@
+{
+  "model": "ridge_var",
+  "selected_variables": [
+    "HR",
+    "O2Sat",
+    "Temp",
+    "SBP",
+    "MAP",
+    "DBP",
+    "Resp",
+    "BaseExcess",
+    "HCO3",
+    "FiO2",
+    "pH",
+    "PaCO2",
+    "SaO2",
+    "BUN",
+    "Chloride",
+    "Creatinine",
+    "Glucose",
+    "Magnesium",
+    "Phosphate",
+    "Potassium",
+    "Hct",
+    "Hgb",
+    "WBC",
+    "Platelets"
+  ],
+  "evaluated_patients": {
+    "external_test": 17290,
+    "internal_test": 2981
+  },
+  "patient_macro_nmae_across_requested_horizons": {
+    "external_test": 0.45862694460384185,
+    "internal_test": 0.4411267509918065
+  },
+  "pressure_constraint": [
+    {
+      "split": "external_test",
+      "horizon_hours": 1,
+      "violations": 1177,
+      "evaluated_states": 470641,
+      "violations_per_1000_states": 2.5008445928000325
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 3,
+      "violations": 787,
+      "evaluated_states": 436246,
+      "violations_per_1000_states": 1.8040280025490205
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 6,
+      "violations": 393,
+      "evaluated_states": 386355,
+      "violations_per_1000_states": 1.017199207982296
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 12,
+      "violations": 151,
+      "evaluated_states": 296856,
+      "violations_per_1000_states": 0.5086641334519093
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 24,
+      "violations": 15,
+      "evaluated_states": 154977,
+      "violations_per_1000_states": 0.09678855572117152
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 1,
+      "violations": 2058,
+      "evaluated_states": 81324,
+      "violations_per_1000_states": 25.306182676700605
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 3,
+      "violations": 1233,
+      "evaluated_states": 75394,
+      "violations_per_1000_states": 16.354086532084782
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 6,
+      "violations": 534,
+      "evaluated_states": 66802,
+      "violations_per_1000_states": 7.993772641537679
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 12,
+      "violations": 113,
+      "evaluated_states": 51187,
+      "violations_per_1000_states": 2.207591771348194
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 24,
+      "violations": 0,
+      "evaluated_states": 25966,
+      "violations_per_1000_states": 0.0
+    }
+  ],
+  "nonfinite_prediction_rows": [
+    {
+      "split": "external_test",
+      "horizon_hours": 1,
+      "rows": 0
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 3,
+      "rows": 0
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 6,
+      "rows": 0
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 12,
+      "rows": 0
+    },
+    {
+      "split": "external_test",
+      "horizon_hours": 24,
+      "rows": 0
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 1,
+      "rows": 0
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 3,
+      "rows": 0
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 6,
+      "rows": 0
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 12,
+      "rows": 0
+    },
+    {
+      "split": "internal_test",
+      "horizon_hours": 24,
+      "rows": 0
+    }
+  ],
+  "lag": 3,
+  "selected_ridge_lambda": 1e-06,
+  "selection_metric": "validation mean patient NMAE",
+  "selection_horizon_hours": 12,
+  "selection_stride": 2,
+  "training_transitions": 511797,
+  "training_patients": 14247,
+  "horizons": [
+    1,
+    3,
+    6,
+    12,
+    24
+  ],
+  "evaluation_stride": 1,
+  "requested_splits": [
+    "external_test",
+    "internal_test"
+  ]
+}

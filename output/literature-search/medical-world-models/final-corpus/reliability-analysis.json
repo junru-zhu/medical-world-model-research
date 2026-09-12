@@ -1,0 +1,503 @@
+{
+  "records": 85,
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260912,
+  "bootstrap_unit": "study",
+  "fields": {
+    "highest_capability_claim": {
+      "raw_agreement": 0.8823529411764706,
+      "cohen_kappa": 0.834533774576601,
+      "cohen_kappa_95_ci": [
+        0.7321199904284971,
+        0.9306641957422266
+      ],
+      "reviewer_a_distribution": {
+        "action_conditioned": 25,
+        "counterfactual": 15,
+        "passive_forecasting": 12,
+        "planning": 33
+      },
+      "reviewer_b_distribution": {
+        "action_conditioned": 21,
+        "counterfactual": 20,
+        "passive_forecasting": 9,
+        "planning": 35
+      }
+    },
+    "state_evidence": {
+      "raw_agreement": 0.9411764705882353,
+      "cohen_kappa": 0.7803617571059431,
+      "cohen_kappa_95_ci": [
+        0.5762711864406778,
+        0.9456869009584666
+      ],
+      "reviewer_a_distribution": {
+        "1": 12,
+        "2": 73
+      },
+      "reviewer_b_distribution": {
+        "1": 15,
+        "2": 70
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.7803617571059431,
+      "linear_weighted_kappa_95_ci": [
+        0.5509433962264152,
+        0.9346656418139893
+      ],
+      "quadratic_weighted_kappa": 0.7803617571059431,
+      "quadratic_weighted_kappa_95_ci": [
+        0.5577523413111343,
+        0.9497338852749853
+      ]
+    },
+    "dynamics_evidence": {
+      "raw_agreement": 0.788235294117647,
+      "cohen_kappa": 0.603112840466926,
+      "cohen_kappa_95_ci": [
+        0.4168695997274492,
+        0.7540127375146334
+      ],
+      "reviewer_a_distribution": {
+        "0": 6,
+        "1": 32,
+        "2": 47
+      },
+      "reviewer_b_distribution": {
+        "0": 5,
+        "1": 28,
+        "2": 52
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.6524307133121309,
+      "linear_weighted_kappa_95_ci": [
+        0.4770639447175264,
+        0.7901352079963502
+      ],
+      "quadratic_weighted_kappa": 0.7216157205240175,
+      "quadratic_weighted_kappa_95_ci": [
+        0.5374407632354091,
+        0.8398145346876426
+      ]
+    },
+    "rollout_evidence": {
+      "raw_agreement": 0.8705882352941177,
+      "cohen_kappa": 0.8058151609553479,
+      "cohen_kappa_95_ci": [
+        0.693622059946024,
+        0.9106589163808674
+      ],
+      "reviewer_a_distribution": {
+        "0": 28,
+        "1": 29,
+        "2": 28
+      },
+      "reviewer_b_distribution": {
+        "0": 26,
+        "1": 30,
+        "2": 29
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.8528717545239969,
+      "linear_weighted_kappa_95_ci": [
+        0.759432293057672,
+        0.9311540177903926
+      ],
+      "quadratic_weighted_kappa": 0.9009009009009009,
+      "quadratic_weighted_kappa_95_ci": [
+        0.8297330982908926,
+        0.9530969775026821
+      ]
+    },
+    "action_evidence": {
+      "raw_agreement": 0.7411764705882353,
+      "cohen_kappa": 0.5982814178302901,
+      "cohen_kappa_95_ci": [
+        0.4558383125312345,
+        0.7355017826542635
+      ],
+      "reviewer_a_distribution": {
+        "0": 3,
+        "1": 49,
+        "2": 21,
+        "NA": 12
+      },
+      "reviewer_b_distribution": {
+        "0": 11,
+        "1": 38,
+        "2": 27,
+        "NA": 9
+      },
+      "ordinal_pairs_excluding_na": 73,
+      "linear_weighted_kappa": 0.55616,
+      "linear_weighted_kappa_95_ci": [
+        0.3806405985624406,
+        0.7103081203329339
+      ],
+      "quadratic_weighted_kappa": 0.6171680927408225,
+      "quadratic_weighted_kappa_95_ci": [
+        0.46631636814967353,
+        0.757953598968269
+      ]
+    },
+    "uncertainty_evidence": {
+      "raw_agreement": 0.8705882352941177,
+      "cohen_kappa": 0.7623888182973317,
+      "cohen_kappa_95_ci": [
+        0.6208623679119308,
+        0.8848052374243023
+      ],
+      "reviewer_a_distribution": {
+        "0": 48,
+        "1": 33,
+        "2": 4
+      },
+      "reviewer_b_distribution": {
+        "0": 42,
+        "1": 38,
+        "2": 5
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.7847110292424592,
+      "linear_weighted_kappa_95_ci": [
+        0.6543730352407272,
+        0.8922329890358306
+      ],
+      "quadratic_weighted_kappa": 0.8187633262260128,
+      "quadratic_weighted_kappa_95_ci": [
+        0.6929679067995683,
+        0.909416265267558
+      ]
+    },
+    "causal_evidence": {
+      "raw_agreement": 0.8352941176470589,
+      "cohen_kappa": 0.7033898305084746,
+      "cohen_kappa_95_ci": [
+        0.562804363387589,
+        0.8320682534305085
+      ],
+      "reviewer_a_distribution": {
+        "0": 19,
+        "1": 12,
+        "NA": 54
+      },
+      "reviewer_b_distribution": {
+        "0": 21,
+        "1": 14,
+        "2": 1,
+        "NA": 49
+      },
+      "ordinal_pairs_excluding_na": 30,
+      "linear_weighted_kappa": 0.5454545454545454,
+      "linear_weighted_kappa_95_ci": [
+        0.22578629032258068,
+        0.8104478441839034
+      ],
+      "quadratic_weighted_kappa": 0.5783132530120482,
+      "quadratic_weighted_kappa_95_ci": [
+        0.27459664779746645,
+        0.8110258092738408
+      ]
+    },
+    "external_evidence": {
+      "raw_agreement": 0.9058823529411765,
+      "cohen_kappa": 0.848653460939239,
+      "cohen_kappa_95_ci": [
+        0.7374531557956175,
+        0.9404765377562926
+      ],
+      "reviewer_a_distribution": {
+        "0": 36,
+        "1": 34,
+        "2": 15
+      },
+      "reviewer_b_distribution": {
+        "0": 35,
+        "1": 38,
+        "2": 12
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.8752293577981651,
+      "linear_weighted_kappa_95_ci": [
+        0.785728408862457,
+        0.9511779514055884
+      ],
+      "quadratic_weighted_kappa": 0.9076588810429115,
+      "quadratic_weighted_kappa_95_ci": [
+        0.8348274233632966,
+        0.963933339163529
+      ]
+    },
+    "decision_evidence": {
+      "raw_agreement": 0.9058823529411765,
+      "cohen_kappa": 0.8552575564069819,
+      "cohen_kappa_95_ci": [
+        0.7550377926363663,
+        0.9440795602690418
+      ],
+      "reviewer_a_distribution": {
+        "0": 23,
+        "1": 36,
+        "2": 26
+      },
+      "reviewer_b_distribution": {
+        "0": 21,
+        "1": 38,
+        "2": 26
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.8836015063334475,
+      "linear_weighted_kappa_95_ci": [
+        0.7960836554743187,
+        0.9543260402831141
+      ],
+      "quadratic_weighted_kappa": 0.9163591635916359,
+      "quadratic_weighted_kappa_95_ci": [
+        0.853410966280712,
+        0.9682737912562855
+      ]
+    },
+    "safety_evidence": {
+      "raw_agreement": 0.8470588235294118,
+      "cohen_kappa": 0.7238190452386903,
+      "cohen_kappa_95_ci": [
+        0.5692467428593949,
+        0.8499005784782644
+      ],
+      "reviewer_a_distribution": {
+        "0": 50,
+        "1": 28,
+        "2": 7
+      },
+      "reviewer_b_distribution": {
+        "0": 46,
+        "1": 31,
+        "2": 8
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.7660385348295575,
+      "linear_weighted_kappa_95_ci": [
+        0.6397967172413208,
+        0.8782645221451162
+      ],
+      "quadratic_weighted_kappa": 0.8208204961893951,
+      "quadratic_weighted_kappa_95_ci": [
+        0.7001290006309202,
+        0.9069011780366323
+      ]
+    },
+    "reproducibility_evidence": {
+      "raw_agreement": 0.788235294117647,
+      "cohen_kappa": 0.6689744699264387,
+      "cohen_kappa_95_ci": [
+        0.5177824294879663,
+        0.7997933586794734
+      ],
+      "reviewer_a_distribution": {
+        "0": 26,
+        "1": 37,
+        "2": 22
+      },
+      "reviewer_b_distribution": {
+        "0": 22,
+        "1": 43,
+        "2": 20
+      },
+      "ordinal_pairs_excluding_na": 85,
+      "linear_weighted_kappa": 0.7280483469605403,
+      "linear_weighted_kappa_95_ci": [
+        0.6022293867117854,
+        0.8321920289071847
+      ],
+      "quadratic_weighted_kappa": 0.7995808226355777,
+      "quadratic_weighted_kappa_95_ci": [
+        0.691358024691358,
+        0.8803484151309989
+      ]
+    },
+    "free_running_rollout": {
+      "raw_agreement": 0.9411764705882353,
+      "cohen_kappa": 0.8714458560193586,
+      "cohen_kappa_95_ci": [
+        0.7477710768590043,
+        0.9740514966822542
+      ],
+      "reviewer_a_distribution": {
+        "no": 27,
+        "unclear": 3,
+        "yes": 55
+      },
+      "reviewer_b_distribution": {
+        "no": 27,
+        "yes": 58
+      }
+    },
+    "horizon_resolved_results": {
+      "raw_agreement": 0.8941176470588236,
+      "cohen_kappa": 0.7908121410992617,
+      "cohen_kappa_95_ci": [
+        0.6472637051094183,
+        0.9059753999295752
+      ],
+      "reviewer_a_distribution": {
+        "no": 40,
+        "unclear": 1,
+        "yes": 44
+      },
+      "reviewer_b_distribution": {
+        "no": 43,
+        "yes": 42
+      }
+    },
+    "formal_calibration": {
+      "raw_agreement": 0.9764705882352941,
+      "cohen_kappa": 0.7888198757763971,
+      "cohen_kappa_95_ci": [
+        0.3172690763052213,
+        1.0
+      ],
+      "reviewer_a_distribution": {
+        "no": 80,
+        "unclear": 1,
+        "yes": 4
+      },
+      "reviewer_b_distribution": {
+        "no": 80,
+        "yes": 5
+      }
+    },
+    "frozen_external_validation": {
+      "raw_agreement": 0.8705882352941177,
+      "cohen_kappa": 0.6775862068965519,
+      "cohen_kappa_95_ci": [
+        0.4846647646219688,
+        0.8335973459100194
+      ],
+      "reviewer_a_distribution": {
+        "no": 62,
+        "unclear": 5,
+        "yes": 18
+      },
+      "reviewer_b_distribution": {
+        "no": 65,
+        "unclear": 5,
+        "yes": 15
+      }
+    },
+    "action_agnostic_comparator": {
+      "raw_agreement": 0.8588235294117647,
+      "cohen_kappa": 0.753623188405797,
+      "cohen_kappa_95_ci": [
+        0.606074341434662,
+        0.8731074909706843
+      ],
+      "reviewer_a_distribution": {
+        "NA": 12,
+        "no": 51,
+        "yes": 22
+      },
+      "reviewer_b_distribution": {
+        "NA": 9,
+        "no": 45,
+        "yes": 31
+      }
+    },
+    "action_perturbation": {
+      "raw_agreement": 0.8823529411764706,
+      "cohen_kappa": 0.7993863582723626,
+      "cohen_kappa_95_ci": [
+        0.670160035723546,
+        0.904117267905391
+      ],
+      "reviewer_a_distribution": {
+        "NA": 12,
+        "no": 27,
+        "unclear": 1,
+        "yes": 45
+      },
+      "reviewer_b_distribution": {
+        "NA": 9,
+        "no": 30,
+        "yes": 46
+      }
+    },
+    "explicit_causal_estimand": {
+      "raw_agreement": 0.8941176470588236,
+      "cohen_kappa": 0.8077889447236183,
+      "cohen_kappa_95_ci": [
+        0.6849992420794326,
+        0.9179150416022699
+      ],
+      "reviewer_a_distribution": {
+        "NA": 53,
+        "no": 22,
+        "yes": 10
+      },
+      "reviewer_b_distribution": {
+        "NA": 49,
+        "no": 24,
+        "yes": 12
+      }
+    },
+    "closed_loop_evaluation": {
+      "raw_agreement": 0.8705882352941177,
+      "cohen_kappa": 0.8174541194845764,
+      "cohen_kappa_95_ci": [
+        0.7125522180226775,
+        0.9137436724125206
+      ],
+      "reviewer_a_distribution": {
+        "no": 32,
+        "offline": 27,
+        "real": 8,
+        "simulation": 18
+      },
+      "reviewer_b_distribution": {
+        "no": 30,
+        "offline": 27,
+        "real": 9,
+        "simulation": 19
+      }
+    },
+    "safety_hazard_test": {
+      "raw_agreement": 0.9529411764705882,
+      "cohen_kappa": 0.859038142620232,
+      "cohen_kappa_95_ci": [
+        0.6925014907573046,
+        0.9688758696448189
+      ],
+      "reviewer_a_distribution": {
+        "no": 67,
+        "yes": 18
+      },
+      "reviewer_b_distribution": {
+        "no": 67,
+        "yes": 18
+      }
+    },
+    "public_code": {
+      "raw_agreement": 0.9647058823529412,
+      "cohen_kappa": 0.9463270890338876,
+      "cohen_kappa_95_ci": [
+        0.8742045264422711,
+        1.0
+      ],
+      "reviewer_a_distribution": {
+        "no": 28,
+        "unclear": 23,
+        "yes": 34
+      },
+      "reviewer_b_distribution": {
+        "no": 29,
+        "unclear": 22,
+        "yes": 34
+      }
+    }
+  },
+  "overall": {
+    "study_field_decisions": 1785,
+    "agreements": 1571,
+    "raw_agreement": 0.8801120448179272,
+    "interpretation": "AI-pass process reproducibility only; not evidence of human inter-rater reliability or construct validity."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-09-12",
+  "cutoff": "2026-09-12",
+  "queries": [
+    "\"model-based reinforcement learning\" medical",
+    "\"model-based reinforcement learning\" surgical",
+    "\"patient simulator\" clinical",
+    "\"clinical digital twin\" intervention",
+    "\"medical digital twin\" trajectory",
+    "\"latent dynamics\" medical",
+    "\"latent dynamics\" physiological",
+    "\"intervention-conditioned forecasting\" clinical",
+    "\"world-action model\" surgical",
+    "\"cell world model\"",
+    "\"virtual cell\" temporal dynamics",
+    "\"disease progression model\" generative intervention",
+    "\"patient trajectory\" autoregressive",
+    "\"physiological trajectory\" forecasting"
+  ],
+  "source_logs": {},
+  "source_failures": {
+    "openalex": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22model-based+reinforcement+learning%22+medical&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-09-12&per-page=200&cursor=%2A"
+  },
+  "raw_records": 0,
+  "deduplicated_records": 0,
+  "novel_vs_primary_search": 0,
+  "alternate_term_candidates": 0,
+  "publisher_or_venue_exclusions": 0
+}

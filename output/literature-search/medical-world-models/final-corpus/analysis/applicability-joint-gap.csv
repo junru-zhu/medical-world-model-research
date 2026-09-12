@@ -1,0 +1,16 @@
+candidate_id,title,highest_capability_claim,uncertainty_evidence,free_running_rollout,horizon_resolved_results,formal_calibration,frozen_external_validation
+MWM-X36A3691F14,A data-driven Alzheimer's disease progression simulator for retrospective validation and prospective Phase III power design.,counterfactual,1,yes,yes,no,no
+MWM-0011,Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound,planning,1,yes,yes,no,no
+MWM-X6FB8E7370E,Autosomal Dominant Tubulointerstitial Kidney Disease Clinical Trial Simulator: Case Reports of Model-Informed Drug Development.,counterfactual,1,yes,yes,no,no
+MWM-X1BBCF32528,"CellPace: A temporal diffusion-forcing framework for simulation, interpolation and forecasting of single-cell dynamics",passive_forecasting,1,yes,yes,no,no
+MWM-XD7F5DAFF27,DITTO: A Visual Digital Twin for Interventions and Temporal Treatment Outcomes in Head and Neck Cancer.,planning,1,yes,yes,no,no
+MWM-X872C154484,Development of a model-based clinical trial simulation platform to optimize the design of clinical trials for Duchenne muscular dystrophy.,counterfactual,1,yes,yes,no,yes
+MWM-X1305C7353F,Digital twin brain simulator for real-time consciousness monitoring and virtual intervention using primate electrocorticogram data,action_conditioned,1,yes,yes,no,no
+MWM-XF38CEA9063,Digital twin models for predicting venetoclax and azacitidine-induced neutropenia in patients with acute myeloid leukemia.,action_conditioned,1,yes,yes,no,no
+MWM-0073,ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation,counterfactual,1,yes,yes,no,yes
+MWM-0095,"GEMEO: the first patient world model for rare disease, grounding generative clinical trajectories in the genome and a biomedical knowledge graph",action_conditioned,2,yes,yes,yes,unclear
+MWM-X056BF65776,Generating whole-brain neural activity and behavior through unified latent dynamics,counterfactual,1,yes,yes,no,no
+MWM-X772584A789,Multi-Objective Model-based Reinforcement Learning for Infectious Disease Control,planning,1,yes,yes,no,yes
+MWM-0138,Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics,action_conditioned,1,yes,yes,no,no
+MWM-XCC1C1352D9,The Coupled Stochastic Dynamical System: A Generative Model for Simulating and Forecasting Youth Mental Health Trajectories,counterfactual,2,yes,yes,yes,no
+MWM-X2E0B832A46,Type 1 diabetes prevention clinical trial simulator: Case reports of model-informed drug development tool.,counterfactual,1,yes,yes,no,unclear

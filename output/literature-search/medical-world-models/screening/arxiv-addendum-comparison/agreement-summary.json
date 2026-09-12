@@ -1,0 +1,24 @@
+{
+  "candidate_count": 7,
+  "reviewer_a_decisions": {
+    "exclude": 7
+  },
+  "reviewer_b_decisions": {
+    "exclude": 7
+  },
+  "agreement_count": 7,
+  "agreement_fraction": 1.0,
+  "cohen_kappa": 1.0,
+  "disagreement_count": 0,
+  "confusion_matrix": {
+    "a_include__b_include": 0,
+    "a_include__b_exclude": 0,
+    "a_include__b_uncertain": 0,
+    "a_exclude__b_include": 0,
+    "a_exclude__b_exclude": 7,
+    "a_exclude__b_uncertain": 0,
+    "a_uncertain__b_include": 0,
+    "a_uncertain__b_exclude": 0,
+    "a_uncertain__b_uncertain": 0
+  }
+}

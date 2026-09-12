@@ -1,0 +1,115 @@
+{
+  "run_date": "2026-09-12",
+  "cutoff": "2026-09-12",
+  "queries": [
+    "\"model-based reinforcement learning\" medical",
+    "\"model-based reinforcement learning\" surgical",
+    "\"patient simulator\" clinical",
+    "\"clinical digital twin\" intervention",
+    "\"medical digital twin\" trajectory",
+    "\"latent dynamics\" medical",
+    "\"latent dynamics\" physiological",
+    "\"intervention-conditioned forecasting\" clinical",
+    "\"world-action model\" surgical",
+    "\"cell world model\"",
+    "\"virtual cell\" temporal dynamics",
+    "\"disease progression model\" generative intervention",
+    "\"patient trajectory\" autoregressive",
+    "\"physiological trajectory\" forecasting"
+  ],
+  "source_logs": {
+    "pubmed": {
+      "query": "((\"model-based reinforcement learning\"[Title/Abstract]) OR (\"patient simulator\"[Title/Abstract]) OR (\"clinical digital twin\"[Title/Abstract]) OR (\"medical digital twin\"[Title/Abstract]) OR (\"latent dynamics\"[Title/Abstract]) OR (\"intervention-conditioned forecasting\"[Title/Abstract]) OR (\"world-action model\"[Title/Abstract]) OR (\"cell world model\"[Title/Abstract]) OR (\"disease progression model\"[Title/Abstract])) AND (medical[Title/Abstract] OR clinical[Title/Abstract] OR patient[Title/Abstract] OR health[Title/Abstract] OR surgical[Title/Abstract] OR physiological[Title/Abstract] OR cell[Title/Abstract] OR treatment[Title/Abstract] OR intervention[Title/Abstract])",
+      "reported_count": 319,
+      "retrieved_count": 318
+    },
+    "europe_pmc": {
+      "query": "((\"model-based reinforcement learning\" OR \"patient simulator\" OR \"clinical digital twin\" OR \"medical digital twin\" OR \"latent dynamics\" OR \"intervention-conditioned forecasting\" OR \"world-action model\" OR \"cell world model\" OR \"disease progression model\") AND (medical OR clinical OR patient OR health OR surgical OR physiological OR cell OR treatment OR intervention)) AND FIRST_PDATE:[2020-01-01 TO 2026-09-12]",
+      "reported_count": 2130,
+      "retrieved_count": 2131
+    },
+    "crossref": {
+      "queries": [
+        {
+          "query": "\"model-based reinforcement learning\" medical",
+          "reported_count": 6669786,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"model-based reinforcement learning\" surgical",
+          "reported_count": 5999868,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"patient simulator\" clinical",
+          "reported_count": 1771957,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"clinical digital twin\" intervention",
+          "reported_count": 2411064,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"medical digital twin\" trajectory",
+          "reported_count": 1868022,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"latent dynamics\" medical",
+          "reported_count": 1491328,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"latent dynamics\" physiological",
+          "reported_count": 563865,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"intervention-conditioned forecasting\" clinical",
+          "reported_count": 1711274,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"world-action model\" surgical",
+          "reported_count": 2355739,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"cell world model\"",
+          "reported_count": 2897915,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"virtual cell\" temporal dynamics",
+          "reported_count": 1756853,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"disease progression model\" generative intervention",
+          "reported_count": 2571279,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"patient trajectory\" autoregressive",
+          "reported_count": 422374,
+          "retrieved_count": 250
+        },
+        {
+          "query": "\"physiological trajectory\" forecasting",
+          "reported_count": 229241,
+          "retrieved_count": 250
+        }
+      ],
+      "retrieved_count": 3500
+    }
+  },
+  "source_failures": {
+    "openalex": "HTTPError: 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=%22model-based+reinforcement+learning%22+surgical&filter=from_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-09-12&per-page=200&cursor=IlsxLjAxODg5NTMsIDE3NjcyMjU2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NzI2MzcyNiddIg%3D%3D"
+  },
+  "raw_records": 5949,
+  "deduplicated_records": 4740,
+  "novel_vs_primary_search": 4509,
+  "alternate_term_candidates": 944,
+  "publisher_or_venue_exclusions": 0
+}

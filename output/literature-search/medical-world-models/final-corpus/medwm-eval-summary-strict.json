@@ -1,0 +1,532 @@
+{
+  "records": 82,
+  "corpus_boundary": "strict_core",
+  "capability_claims": {
+    "action_conditioned": 22,
+    "counterfactual": 18,
+    "passive_forecasting": 9,
+    "planning": 33
+  },
+  "ordinal_evidence_domains": {
+    "state_evidence": {
+      "1": 14,
+      "2": 68
+    },
+    "dynamics_evidence": {
+      "0": 5,
+      "1": 28,
+      "2": 49
+    },
+    "rollout_evidence": {
+      "0": 27,
+      "1": 28,
+      "2": 26,
+      "NI": 1
+    },
+    "action_evidence": {
+      "0": 6,
+      "1": 40,
+      "2": 27,
+      "NA": 9
+    },
+    "uncertainty_evidence": {
+      "0": 45,
+      "1": 32,
+      "2": 5
+    },
+    "causal_evidence": {
+      "0": 20,
+      "1": 14,
+      "2": 1,
+      "NA": 47
+    },
+    "external_evidence": {
+      "0": 33,
+      "1": 36,
+      "2": 13
+    },
+    "decision_evidence": {
+      "0": 20,
+      "1": 37,
+      "2": 25
+    },
+    "safety_evidence": {
+      "0": 45,
+      "1": 30,
+      "2": 7
+    },
+    "reproducibility_evidence": {
+      "0": 19,
+      "1": 43,
+      "2": 20
+    }
+  },
+  "descriptive_features": {
+    "free_running_rollout": {
+      "yes": 54,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 82,
+      "percent_of_applicable": 65.85365853658537,
+      "percent_of_known": 65.85365853658537,
+      "distribution": {
+        "no": 28,
+        "yes": 54
+      }
+    },
+    "horizon_resolved_results": {
+      "yes": 41,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 82,
+      "percent_of_applicable": 50.0,
+      "percent_of_known": 50.0,
+      "distribution": {
+        "no": 41,
+        "yes": 41
+      }
+    },
+    "formal_calibration": {
+      "yes": 5,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 82,
+      "percent_of_applicable": 6.097560975609756,
+      "percent_of_known": 6.097560975609756,
+      "distribution": {
+        "no": 77,
+        "yes": 5
+      }
+    },
+    "frozen_external_validation": {
+      "yes": 15,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 78,
+      "percent_of_applicable": 18.29268292682927,
+      "percent_of_known": 19.23076923076923,
+      "distribution": {
+        "no": 63,
+        "unclear": 4,
+        "yes": 15
+      }
+    },
+    "action_agnostic_comparator": {
+      "yes": 30,
+      "total_denominator": 82,
+      "applicable_denominator": 72,
+      "known_denominator": 72,
+      "percent_of_applicable": 41.666666666666664,
+      "percent_of_known": 41.666666666666664,
+      "distribution": {
+        "NA": 10,
+        "no": 42,
+        "yes": 30
+      }
+    },
+    "action_perturbation": {
+      "yes": 45,
+      "total_denominator": 82,
+      "applicable_denominator": 72,
+      "known_denominator": 72,
+      "percent_of_applicable": 62.5,
+      "percent_of_known": 62.5,
+      "distribution": {
+        "NA": 10,
+        "no": 27,
+        "yes": 45
+      }
+    },
+    "explicit_causal_estimand": {
+      "yes": 12,
+      "total_denominator": 82,
+      "applicable_denominator": 35,
+      "known_denominator": 35,
+      "percent_of_applicable": 34.285714285714285,
+      "percent_of_known": 34.285714285714285,
+      "distribution": {
+        "NA": 47,
+        "no": 23,
+        "yes": 12
+      }
+    },
+    "closed_loop_evaluation": {
+      "distribution": {
+        "no": 31,
+        "offline": 24,
+        "real": 9,
+        "simulation": 18
+      }
+    },
+    "safety_hazard_test": {
+      "yes": 20,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 82,
+      "percent_of_applicable": 24.390243902439025,
+      "percent_of_known": 24.390243902439025,
+      "distribution": {
+        "no": 62,
+        "yes": 20
+      }
+    },
+    "public_code": {
+      "yes": 33,
+      "total_denominator": 82,
+      "applicable_denominator": 82,
+      "known_denominator": 61,
+      "percent_of_applicable": 40.24390243902439,
+      "percent_of_known": 54.09836065573771,
+      "distribution": {
+        "no": 28,
+        "unclear": 21,
+        "yes": 33
+      }
+    }
+  },
+  "uncertainty_reporting_subset": {
+    "definition": "Studies with partial or directly auditable uncertainty evidence under the MedWM-Eval coding.",
+    "records": 37,
+    "formal_calibration_yes": 5,
+    "all_four_yes": 0,
+    "candidate_ids": [
+      "MWM-X36A3691F14",
+      "MWM-0011",
+      "MWM-0013",
+      "MWM-X6FB8E7370E",
+      "MWM-0239",
+      "MWM-0040",
+      "MWM-XD3411F7D18",
+      "MWM-X1BBCF32528",
+      "MWM-S004",
+      "MWM-XD7F5DAFF27",
+      "MWM-0369",
+      "MWM-X2BD39C3B8E",
+      "MWM-X872C154484",
+      "MWM-X1305C7353F",
+      "MWM-XF38CEA9063",
+      "MWM-0073",
+      "MWM-0078",
+      "MWM-0095",
+      "MWM-X056BF65776",
+      "MWM-0103",
+      "MWM-0263",
+      "MWM-X21155DF63C",
+      "MWM-X772584A789",
+      "MWM-XBAD327876F",
+      "MWM-0138",
+      "MWM-XB062A5A9FB",
+      "MWM-0151",
+      "MWM-XC71FC75483",
+      "MWM-0164",
+      "MWM-XB6F8EC5868",
+      "MWM-XCC1C1352D9",
+      "MWM-X009A6E0F91",
+      "MWM-S003",
+      "MWM-X2E0B832A46",
+      "MWM-0215",
+      "MWM-0315",
+      "MWM-0114"
+    ]
+  },
+  "applicability_tracks": {
+    "all_empirical_dynamics": {
+      "records": 82,
+      "candidate_ids": [
+        "MWM-XA9B007D895",
+        "MWM-XD5F16C34AE",
+        "MWM-X10E1E2640B",
+        "MWM-0008",
+        "MWM-X36A3691F14",
+        "MWM-XB41D731350",
+        "MWM-XF6449FE2D4",
+        "MWM-0011",
+        "MWM-0013",
+        "MWM-0018",
+        "MWM-X6FB8E7370E",
+        "MWM-0032",
+        "MWM-0034",
+        "MWM-0239",
+        "MWM-0040",
+        "MWM-XD3411F7D18",
+        "MWM-0294",
+        "MWM-X1BBCF32528",
+        "MWM-X962473BB89",
+        "MWM-0046",
+        "MWM-XC0A20D0271",
+        "MWM-XA5A2F4844E",
+        "MWM-S004",
+        "MWM-0054",
+        "MWM-XD7F5DAFF27",
+        "MWM-XFA677C184B",
+        "MWM-0369",
+        "MWM-X2BD39C3B8E",
+        "MWM-X872C154484",
+        "MWM-X1305C7353F",
+        "MWM-XF38CEA9063",
+        "MWM-0068",
+        "MWM-0073",
+        "MWM-0074",
+        "MWM-0242",
+        "MWM-0077",
+        "MWM-0078",
+        "MWM-0094",
+        "MWM-0095",
+        "MWM-X056BF65776",
+        "MWM-0103",
+        "MWM-X6A64D732FB",
+        "MWM-XEA4B3285B2",
+        "MWM-0125",
+        "MWM-XC890A9B151",
+        "MWM-0263",
+        "MWM-X6C3AA8358E",
+        "MWM-X21155DF63C",
+        "MWM-X772584A789",
+        "MWM-0136",
+        "MWM-0132",
+        "MWM-XBAD327876F",
+        "MWM-0138",
+        "MWM-XB062A5A9FB",
+        "MWM-0149",
+        "MWM-X7FD0DBDE79",
+        "MWM-0151",
+        "MWM-0157",
+        "MWM-0177",
+        "MWM-XC71FC75483",
+        "MWM-0164",
+        "MWM-XB6F8EC5868",
+        "MWM-0166",
+        "MWM-X9C071A2447",
+        "MWM-0170",
+        "MWM-0174",
+        "MWM-0175",
+        "MWM-S006",
+        "MWM-S005",
+        "MWM-0173",
+        "MWM-XCC1C1352D9",
+        "MWM-0199",
+        "MWM-0200",
+        "MWM-X009A6E0F91",
+        "MWM-X5E3C456867",
+        "MWM-S003",
+        "MWM-X2E0B832A46",
+        "MWM-0215",
+        "MWM-0315",
+        "MWM-0290",
+        "MWM-S002",
+        "MWM-0114"
+      ]
+    },
+    "operational_action_input": {
+      "definition": "Action comparator field is applicable rather than NA.",
+      "records": 72,
+      "candidate_ids": [
+        "MWM-XA9B007D895",
+        "MWM-XD5F16C34AE",
+        "MWM-X36A3691F14",
+        "MWM-XB41D731350",
+        "MWM-XF6449FE2D4",
+        "MWM-0011",
+        "MWM-0013",
+        "MWM-X6FB8E7370E",
+        "MWM-0032",
+        "MWM-0034",
+        "MWM-0239",
+        "MWM-XD3411F7D18",
+        "MWM-0294",
+        "MWM-X962473BB89",
+        "MWM-0046",
+        "MWM-XC0A20D0271",
+        "MWM-XA5A2F4844E",
+        "MWM-S004",
+        "MWM-0054",
+        "MWM-XD7F5DAFF27",
+        "MWM-XFA677C184B",
+        "MWM-0369",
+        "MWM-X2BD39C3B8E",
+        "MWM-X872C154484",
+        "MWM-X1305C7353F",
+        "MWM-XF38CEA9063",
+        "MWM-0068",
+        "MWM-0073",
+        "MWM-0074",
+        "MWM-0242",
+        "MWM-0077",
+        "MWM-0078",
+        "MWM-0095",
+        "MWM-X056BF65776",
+        "MWM-0103",
+        "MWM-X6A64D732FB",
+        "MWM-XEA4B3285B2",
+        "MWM-XC890A9B151",
+        "MWM-0263",
+        "MWM-X6C3AA8358E",
+        "MWM-X21155DF63C",
+        "MWM-X772584A789",
+        "MWM-0136",
+        "MWM-XBAD327876F",
+        "MWM-0138",
+        "MWM-XB062A5A9FB",
+        "MWM-0149",
+        "MWM-X7FD0DBDE79",
+        "MWM-0151",
+        "MWM-0157",
+        "MWM-0177",
+        "MWM-XC71FC75483",
+        "MWM-0164",
+        "MWM-XB6F8EC5868",
+        "MWM-X9C071A2447",
+        "MWM-0170",
+        "MWM-0174",
+        "MWM-0175",
+        "MWM-S006",
+        "MWM-S005",
+        "MWM-0173",
+        "MWM-XCC1C1352D9",
+        "MWM-0199",
+        "MWM-0200",
+        "MWM-X009A6E0F91",
+        "MWM-S003",
+        "MWM-X2E0B832A46",
+        "MWM-0215",
+        "MWM-0315",
+        "MWM-0290",
+        "MWM-S002",
+        "MWM-0114"
+      ]
+    },
+    "causal_or_policy_applicable": {
+      "definition": "Explicit causal-estimand field is applicable rather than NA. This includes patient or biomedical intervention contrasts and policy-value claims, while procedural control without a causal outcome interpretation is coded NA.",
+      "records": 35,
+      "candidate_ids": [
+        "MWM-XD5F16C34AE",
+        "MWM-X36A3691F14",
+        "MWM-XB41D731350",
+        "MWM-XF6449FE2D4",
+        "MWM-0013",
+        "MWM-X6FB8E7370E",
+        "MWM-0034",
+        "MWM-0239",
+        "MWM-XD3411F7D18",
+        "MWM-X962473BB89",
+        "MWM-0046",
+        "MWM-XD7F5DAFF27",
+        "MWM-X2BD39C3B8E",
+        "MWM-X872C154484",
+        "MWM-0073",
+        "MWM-0074",
+        "MWM-0077",
+        "MWM-X056BF65776",
+        "MWM-X6A64D732FB",
+        "MWM-0263",
+        "MWM-X772584A789",
+        "MWM-XBAD327876F",
+        "MWM-XB062A5A9FB",
+        "MWM-0149",
+        "MWM-XC71FC75483",
+        "MWM-0164",
+        "MWM-XB6F8EC5868",
+        "MWM-S006",
+        "MWM-XCC1C1352D9",
+        "MWM-0200",
+        "MWM-X009A6E0F91",
+        "MWM-S003",
+        "MWM-X2E0B832A46",
+        "MWM-0215",
+        "MWM-0114"
+      ]
+    },
+    "planning_highest_claim": {
+      "records": 33,
+      "candidate_ids": [
+        "MWM-XA9B007D895",
+        "MWM-XD5F16C34AE",
+        "MWM-XB41D731350",
+        "MWM-0011",
+        "MWM-0013",
+        "MWM-0239",
+        "MWM-0294",
+        "MWM-XA5A2F4844E",
+        "MWM-S004",
+        "MWM-XD7F5DAFF27",
+        "MWM-0369",
+        "MWM-X2BD39C3B8E",
+        "MWM-0068",
+        "MWM-X6A64D732FB",
+        "MWM-XEA4B3285B2",
+        "MWM-XC890A9B151",
+        "MWM-0263",
+        "MWM-X6C3AA8358E",
+        "MWM-X772584A789",
+        "MWM-XBAD327876F",
+        "MWM-XB062A5A9FB",
+        "MWM-0149",
+        "MWM-X7FD0DBDE79",
+        "MWM-0151",
+        "MWM-0175",
+        "MWM-S006",
+        "MWM-0173",
+        "MWM-0199",
+        "MWM-X009A6E0F91",
+        "MWM-X5E3C456867",
+        "MWM-0215",
+        "MWM-0315",
+        "MWM-0114"
+      ]
+    }
+  },
+  "joint_evidence_intersections": {
+    "rollout_horizon_calibration": {
+      "fields": [
+        "free_running_rollout",
+        "horizon_resolved_results",
+        "formal_calibration"
+      ],
+      "yes": 2,
+      "total_denominator": 82,
+      "candidate_ids": [
+        "MWM-0095",
+        "MWM-XCC1C1352D9"
+      ]
+    },
+    "rollout_horizon_external": {
+      "fields": [
+        "free_running_rollout",
+        "horizon_resolved_results",
+        "frozen_external_validation"
+      ],
+      "yes": 4,
+      "total_denominator": 82,
+      "candidate_ids": [
+        "MWM-X872C154484",
+        "MWM-0073",
+        "MWM-X772584A789",
+        "MWM-0149"
+      ]
+    },
+    "calibration_external": {
+      "fields": [
+        "formal_calibration",
+        "frozen_external_validation"
+      ],
+      "yes": 1,
+      "total_denominator": 82,
+      "candidate_ids": [
+        "MWM-0040"
+      ]
+    },
+    "rollout_horizon_calibration_external": {
+      "fields": [
+        "free_running_rollout",
+        "horizon_resolved_results",
+        "formal_calibration",
+        "frozen_external_validation"
+      ],
+      "yes": 0,
+      "total_denominator": 82,
+      "candidate_ids": []
+    }
+  },
+  "denominator_note": "Total is the full empirical corpus. Applicable excludes only NA. Known additionally excludes NI and unclear. Confirmed-yes counts are reported against the applicable denominator unless a display explicitly uses the total corpus.",
+  "interpretation_note": "Counts describe reported evidence in the inspected primary text. They do not prove that unreported work was not performed."
+}

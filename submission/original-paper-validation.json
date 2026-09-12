@@ -1,0 +1,78 @@
+{
+  "status": "technical_pass_submission_gates_pending",
+  "methods_checks": {
+    "required_files": {
+      "pass": true,
+      "missing": []
+    },
+    "references": {
+      "pass": true,
+      "citations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reference_entries": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "forbidden_wording": {
+      "pass": true,
+      "hits": []
+    },
+    "required_wording": {
+      "pass": true,
+      "missing": []
+    },
+    "neural_data_validation": {
+      "pass": true,
+      "status": "pass",
+      "unique_patients": 40336,
+      "selected_variables": 24
+    },
+    "verified_counts": {
+      "pass": true
+    }
+  },
+  "result_gates": {
+    "no_draft_placeholders": {
+      "pass": true,
+      "placeholder_count": 0
+    },
+    "frozen_analysis": {
+      "pass": true,
+      "status": "complete"
+    },
+    "monte_carlo_sensitivity": {
+      "pass": true,
+      "status": "complete"
+    }
+  },
+  "submission_gates": {
+    "clinical_expert_review": "pending",
+    "author_metadata_funding_competing_interests_credit": "pending",
+    "ethics_determination_confirmation": "pending",
+    "stable_code_and_artifact_repository": "pending",
+    "independent_results_and_claims_review": "complete"
+  }
+}

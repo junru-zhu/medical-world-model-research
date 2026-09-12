@@ -1,0 +1,18 @@
+{
+  "status": "smoke_only",
+  "model": "grud",
+  "checkpoint": "experiments/results/neural/grud/seed-20260912/model.pt",
+  "seed": 20260912,
+  "method": "Horizon-wise scalar variance scaling fitted by minimizing Gaussian negative log likelihood on observed targets.",
+  "fit_split": "external_calibration",
+  "horizon_scales": {
+    "1": 1.3017409709285865,
+    "3": 1.3610453581731727
+  },
+  "observed_targets": {
+    "1": 520,
+    "3": 530
+  },
+  "maximum_patients": 20,
+  "test_boundary": "No external-test observations were used to fit this artifact."
+}

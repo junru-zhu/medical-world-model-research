@@ -1,0 +1,187 @@
+{
+  "status": "technical_pass_submission_gates_pending",
+  "checks": {
+    "corpus_counts": {
+      "pass": true,
+      "included_total": 93,
+      "empirical": 85,
+      "reviews": 8
+    },
+    "empirical_id_alignment": {
+      "pass": true,
+      "extraction_records": 85,
+      "pilot_records": 85
+    },
+    "pilot_summary": {
+      "pass": true,
+      "records": 85,
+      "capability_claims": {
+        "action_conditioned": 22,
+        "counterfactual": 19,
+        "passive_forecasting": 9,
+        "planning": 35
+      },
+      "primary_records": 82,
+      "primary_capability_claims": {
+        "action_conditioned": 22,
+        "counterfactual": 18,
+        "passive_forecasting": 9,
+        "planning": 33
+      },
+      "primary_joint_evidence": {
+        "rollout_horizon_calibration": {
+          "fields": [
+            "free_running_rollout",
+            "horizon_resolved_results",
+            "formal_calibration"
+          ],
+          "yes": 2,
+          "total_denominator": 82,
+          "candidate_ids": [
+            "MWM-0095",
+            "MWM-XCC1C1352D9"
+          ]
+        },
+        "rollout_horizon_external": {
+          "fields": [
+            "free_running_rollout",
+            "horizon_resolved_results",
+            "frozen_external_validation"
+          ],
+          "yes": 4,
+          "total_denominator": 82,
+          "candidate_ids": [
+            "MWM-X872C154484",
+            "MWM-0073",
+            "MWM-X772584A789",
+            "MWM-0149"
+          ]
+        },
+        "calibration_external": {
+          "fields": [
+            "formal_calibration",
+            "frozen_external_validation"
+          ],
+          "yes": 1,
+          "total_denominator": 82,
+          "candidate_ids": [
+            "MWM-0040"
+          ]
+        },
+        "rollout_horizon_calibration_external": {
+          "fields": [
+            "free_running_rollout",
+            "horizon_resolved_results",
+            "formal_calibration",
+            "frozen_external_validation"
+          ],
+          "yes": 0,
+          "total_denominator": 82,
+          "candidate_ids": []
+        }
+      }
+    },
+    "references": {
+      "pass": true,
+      "included_references": 93,
+      "total_references": 100,
+      "highest_citation": 100,
+      "uncited_references": [],
+      "unknown_citations": []
+    },
+    "figures": {
+      "pass": true,
+      "files": [
+        "figures/review/figure1-prisma-flow.svg",
+        "figures/review/figure1-prisma-flow.pdf",
+        "figures/review/figure1-prisma-flow.png",
+        "figures/review/figure2-evidence-map.svg",
+        "figures/review/figure2-evidence-map.pdf",
+        "figures/review/figure2-evidence-map.png",
+        "figures/review/figure3-capability-domain-heatmap.svg",
+        "figures/review/figure3-capability-domain-heatmap.pdf",
+        "figures/review/figure3-capability-domain-heatmap.png",
+        "figures/review/graphical-abstract.svg",
+        "figures/review/graphical-abstract.pdf",
+        "figures/review/graphical-abstract.png"
+      ]
+    },
+    "graphical_abstract": {
+      "pass": true,
+      "width_pixels": 2400,
+      "height_pixels": 960,
+      "aspect_ratio": 2.5,
+      "journal_minimum": "1328 x 531 pixels or proportionally larger"
+    },
+    "analysis_artifacts": {
+      "pass": true,
+      "files": [
+        "output/literature-search/medical-world-models/final-corpus/analysis/analysis-annotations.csv",
+        "output/literature-search/medical-world-models/final-corpus/analysis/claim-provenance-audit.csv",
+        "output/literature-search/medical-world-models/final-corpus/analysis/claim-provenance-summary.json",
+        "output/literature-search/medical-world-models/final-corpus/analysis/methodological-appraisal.csv",
+        "output/literature-search/medical-world-models/final-corpus/analysis/methodological-appraisal.json",
+        "output/literature-search/medical-world-models/final-corpus/analysis/methodological-appraisal.md",
+        "output/literature-search/medical-world-models/final-corpus/analysis/review-sensitivity-analysis.json",
+        "output/literature-search/medical-world-models/final-corpus/analysis/applicability-joint-gap.csv",
+        "output/literature-search/medical-world-models/final-corpus/analysis/study-characteristics.csv"
+      ]
+    },
+    "venue_budget": {
+      "pass": true,
+      "abstract_words": 332,
+      "body_words": 5883,
+      "tables": 5,
+      "figures": 3,
+      "combined_figures_tables": 8,
+      "limits_status": "verified against the Journal of Biomedical Informatics Guide for Authors on 2026-09-12"
+    },
+    "manuscript_count_strings": {
+      "pass": true,
+      "required": [
+        "85 empirical studies",
+        "8 reviews",
+        "82-study primary",
+        "planning (33)",
+        "action-conditioned simulation (22)",
+        "counterfactual comparison (18)",
+        "passive forecasting (9)",
+        "corpus-wide four-feature reporting intersection was 0/82"
+      ]
+    },
+    "generative_ai_declaration": {
+      "pass": true,
+      "required_heading": "## Declaration of Generative AI and AI-assisted technologies in the writing process"
+    },
+    "developmental_status_disclosure": {
+      "pass": true,
+      "search_screening_and_lineage_complete": true,
+      "search_correction_complete": true,
+      "correction_status": {
+        "discovery_filter_audit": "complete",
+        "expanded_alternate_search": "complete",
+        "exhaustive_filter_rescreen": "complete",
+        "cross_source_publication_lineage": "complete",
+        "novel_extraction_and_coding": "complete",
+        "canonical_regeneration": "complete"
+      }
+    },
+    "corrected_addition_extraction_and_coding": {
+      "pass": true,
+      "records": 35,
+      "completed_prior_sample": 5,
+      "completed_current_batches": 30,
+      "errors": [],
+      "validation_file": "output/literature-search/medical-world-models/screening/corrected-new-records/validation.json"
+    }
+  },
+  "submission_gates": {
+    "search_correction": "complete",
+    "human_dual_verification": "pending",
+    "authenticated_database_update": "pending",
+    "criteria_binding_venue_check": "pending",
+    "information_specialist_search_review": "pending",
+    "healthcare_professional_involvement": "pending",
+    "author_metadata_competing_interests_and_credit": "pending"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "models": [
+    "grud",
+    "transformer",
+    "rssm"
+  ],
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916
+  ],
+  "complete_runs": 15,
+  "expected_runs": 15,
+  "missing": [],
+  "interpretation_boundary": "Seed-level descriptive aggregation only. Patient-clustered bootstrap contrasts and multiplicity-controlled hypothesis tests must be generated separately for final inference."
+}

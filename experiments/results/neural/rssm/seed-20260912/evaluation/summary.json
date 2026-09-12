@@ -1,0 +1,128 @@
+{
+  "status": "complete",
+  "model": "rssm",
+  "checkpoint": "experiments/results/neural/rssm/seed-20260912/model.pt",
+  "checkpoint_best_epoch": 20,
+  "seed": 20260912,
+  "splits": [
+    "internal_test",
+    "external_test"
+  ],
+  "horizons": [
+    1,
+    3,
+    6,
+    12,
+    24
+  ],
+  "minimum_context": 12,
+  "maximum_context": 72,
+  "common_anchor_maximum_horizon": 24,
+  "anchor_stride": 6,
+  "trajectory_samples": 20,
+  "evaluation_batch_size": 128,
+  "random_stream_policy": "split-specific-v1",
+  "constraint_policy": "rollout-state-and-emitted-v1",
+  "split_seeds": {
+    "internal_test": 20290912,
+    "external_test": 20310912
+  },
+  "spread_calibration": null,
+  "case_counts": {
+    "internal_test": 5143,
+    "external_test": 30450
+  },
+  "patient_macro": {
+    "internal_test": {
+      "1": {
+        "patient_nmae": 0.4809790249458675,
+        "patient_crps": 0.37267155263627605,
+        "coverage_90": 0.5866578203142896,
+        "mean_interval_width_scaled": 1.002519650362216,
+        "patient_nll": 2.0522219151145022,
+        "mask_brier": 0.09275877730668712
+      },
+      "3": {
+        "patient_nmae": 0.5305971028746476,
+        "patient_crps": 0.4147274863821738,
+        "coverage_90": 0.5481119983317615,
+        "mean_interval_width_scaled": 1.0151718154502791,
+        "patient_nll": 2.414799667411195,
+        "mask_brier": 0.08905744322115784
+      },
+      "6": {
+        "patient_nmae": 0.5596586482881943,
+        "patient_crps": 0.4400601849970249,
+        "coverage_90": 0.5250085115452766,
+        "mean_interval_width_scaled": 1.0205614156119993,
+        "patient_nll": 2.8079416709928133,
+        "mask_brier": 0.08423285116720663
+      },
+      "12": {
+        "patient_nmae": 0.5888923182585165,
+        "patient_crps": 0.46435350207637427,
+        "coverage_90": 0.5041595696069825,
+        "mean_interval_width_scaled": 1.0290157293482498,
+        "patient_nll": 2.9301635895668467,
+        "mask_brier": 0.07960464561856327
+      },
+      "24": {
+        "patient_nmae": 0.6152190176528975,
+        "patient_crps": 0.48768089941978027,
+        "coverage_90": 0.4984549686761719,
+        "mean_interval_width_scaled": 1.0426171211337014,
+        "patient_nll": 3.1889703378579064,
+        "mask_brier": 0.07878103634241214
+      }
+    },
+    "external_test": {
+      "1": {
+        "patient_nmae": 0.5064745840552397,
+        "patient_crps": 0.39589107784005345,
+        "coverage_90": 0.5546355619885017,
+        "mean_interval_width_scaled": 0.9591357698968072,
+        "patient_nll": 2.4120722786945112,
+        "mask_brier": 0.07219368080249952
+      },
+      "3": {
+        "patient_nmae": 0.5538157735544204,
+        "patient_crps": 0.43706168312658417,
+        "coverage_90": 0.5183826111360026,
+        "mean_interval_width_scaled": 0.9733774813246676,
+        "patient_nll": 2.751332831785272,
+        "mask_brier": 0.06786144357887587
+      },
+      "6": {
+        "patient_nmae": 0.5907242986871,
+        "patient_crps": 0.4695556554558052,
+        "coverage_90": 0.49944144447655825,
+        "mean_interval_width_scaled": 0.986318713707674,
+        "patient_nll": 3.0971284910273185,
+        "mask_brier": 0.06636681708306937
+      },
+      "12": {
+        "patient_nmae": 0.6164592914671947,
+        "patient_crps": 0.4920772929177891,
+        "coverage_90": 0.48997293524275665,
+        "mean_interval_width_scaled": 1.0013648166255098,
+        "patient_nll": 3.318723029499406,
+        "mask_brier": 0.06512061852069147
+      },
+      "24": {
+        "patient_nmae": 0.6437266358440143,
+        "patient_crps": 0.5152662963782842,
+        "coverage_90": 0.4846429269040763,
+        "mean_interval_width_scaled": 1.0262808369025347,
+        "patient_nll": 3.6480146701297325,
+        "mask_brier": 0.06805376466832488
+      }
+    }
+  },
+  "maximum_patients": 0,
+  "sensitivity_patient_sample": 0,
+  "sensitivity_sample_seed": 20260912,
+  "sampled_patient_counts": {},
+  "sampled_patient_hashes": {},
+  "interpretation_boundary": "Free-running passive forecasting only; no treatment-effect, counterfactual, planning, or clinical-deployment claim.",
+  "nll_definition": "Moment-matched Gaussian negative log score using the empirical trajectory-sample mean and standard deviation; not the exact likelihood of the rollout distribution."
+}

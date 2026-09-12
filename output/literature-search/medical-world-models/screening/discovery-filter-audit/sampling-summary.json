@@ -1,0 +1,14 @@
+{
+  "seed": 20260912,
+  "excluded_phrase_absent": 4956,
+  "alternate_dynamics_enriched_total": 19,
+  "phrase_absent_remainder": 4937,
+  "excluded_medical_term_absent": 378,
+  "audit_records": 170,
+  "audit_strata": {
+    "alternate_dynamics_enriched": 19,
+    "phrase_absent_random": 100,
+    "medical_term_absent_random": 50,
+    "publisher_policy_correction": 1
+  }
+}

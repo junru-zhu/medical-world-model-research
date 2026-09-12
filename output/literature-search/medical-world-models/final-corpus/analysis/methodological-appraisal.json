@@ -1,0 +1,87 @@
+{
+  "records": 85,
+  "domains": {
+    "imaging_biological": {
+      "records": 26,
+      "missingness_reporting": {
+        "described": 16,
+        "not_applicable": 5,
+        "not_identified": 5
+      },
+      "censoring_reporting": {
+        "described": 9,
+        "not_applicable": 16,
+        "not_identified": 1
+      },
+      "formal_calibration_yes": 0,
+      "frozen_external_validation_yes": 6,
+      "explicit_causal_estimand_yes": 2,
+      "action_perturbation_yes": 13,
+      "closed_loop_real_or_simulation": 5,
+      "safety_hazard_test_yes": 1,
+      "public_code_yes": 10,
+      "reproducibility_evidence_strong": 5
+    },
+    "longitudinal_physiology_decision": {
+      "records": 32,
+      "missingness_reporting": {
+        "described": 24,
+        "not_applicable": 3,
+        "not_identified": 5
+      },
+      "censoring_reporting": {
+        "described": 23,
+        "not_applicable": 7,
+        "not_identified": 2
+      },
+      "formal_calibration_yes": 4,
+      "frozen_external_validation_yes": 9,
+      "explicit_causal_estimand_yes": 10,
+      "action_perturbation_yes": 20,
+      "closed_loop_real_or_simulation": 13,
+      "safety_hazard_test_yes": 9,
+      "public_code_yes": 13,
+      "reproducibility_evidence_strong": 9
+    },
+    "peripheral_health_adjacent": {
+      "records": 3,
+      "missingness_reporting": {
+        "described": 2,
+        "not_identified": 1
+      },
+      "censoring_reporting": {
+        "described": 1,
+        "not_applicable": 2
+      },
+      "formal_calibration_yes": 0,
+      "frozen_external_validation_yes": 0,
+      "explicit_causal_estimand_yes": 0,
+      "action_perturbation_yes": 1,
+      "closed_loop_real_or_simulation": 1,
+      "safety_hazard_test_yes": 0,
+      "public_code_yes": 1,
+      "reproducibility_evidence_strong": 1
+    },
+    "procedural_embodied": {
+      "records": 24,
+      "missingness_reporting": {
+        "described": 5,
+        "not_applicable": 16,
+        "not_identified": 3
+      },
+      "censoring_reporting": {
+        "described": 9,
+        "not_applicable": 15
+      },
+      "formal_calibration_yes": 1,
+      "frozen_external_validation_yes": 0,
+      "explicit_causal_estimand_yes": 0,
+      "action_perturbation_yes": 12,
+      "closed_loop_real_or_simulation": 9,
+      "safety_hazard_test_yes": 10,
+      "public_code_yes": 10,
+      "reproducibility_evidence_strong": 6
+    }
+  },
+  "interpretation": "This is a descriptive, study-type-sensitive appraisal of reported methods and evidence. It is not a validated risk-of-bias instrument and no aggregate quality score is calculated."
+}

@@ -1,0 +1,18 @@
+{
+  "records": 198,
+  "agreement_count": 157,
+  "raw_agreement": 0.7929292929292929,
+  "cohen_kappa": 0.6311341330425301,
+  "reviewer_a_distribution": {
+    "exclude": 79,
+    "include": 109,
+    "uncertain": 10
+  },
+  "reviewer_b_distribution": {
+    "exclude": 67,
+    "include": 107,
+    "uncertain": 24
+  },
+  "consensus_resolved": 109,
+  "requires_adjudication": 89
+}

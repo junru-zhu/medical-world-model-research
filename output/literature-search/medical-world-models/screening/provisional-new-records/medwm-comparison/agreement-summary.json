@@ -1,0 +1,315 @@
+{
+  "records": 5,
+  "code_fields": [
+    "highest_capability_claim",
+    "state_evidence",
+    "dynamics_evidence",
+    "rollout_evidence",
+    "action_evidence",
+    "uncertainty_evidence",
+    "causal_evidence",
+    "external_evidence",
+    "decision_evidence",
+    "safety_evidence",
+    "reproducibility_evidence",
+    "free_running_rollout",
+    "horizon_resolved_results",
+    "formal_calibration",
+    "frozen_external_validation",
+    "action_agnostic_comparator",
+    "action_perturbation",
+    "explicit_causal_estimand",
+    "closed_loop_evaluation",
+    "safety_hazard_test",
+    "public_code"
+  ],
+  "fields": {
+    "highest_capability_claim": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.6428571428571429,
+      "reviewer_a_distribution": {
+        "action_conditioned": 3,
+        "passive_forecasting": 1,
+        "planning": 1
+      },
+      "reviewer_b_distribution": {
+        "action_conditioned": 3,
+        "planning": 2
+      }
+    },
+    "state_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "reviewer_a_distribution": {
+        "2": 5
+      },
+      "reviewer_b_distribution": {
+        "1": 1,
+        "2": 4
+      }
+    },
+    "dynamics_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.5454545454545455,
+      "reviewer_a_distribution": {
+        "1": 2,
+        "2": 3
+      },
+      "reviewer_b_distribution": {
+        "1": 1,
+        "2": 4
+      }
+    },
+    "rollout_evidence": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "0": 1,
+        "1": 1,
+        "2": 3
+      },
+      "reviewer_b_distribution": {
+        "0": 1,
+        "1": 1,
+        "2": 3
+      }
+    },
+    "action_evidence": {
+      "agreement_count": 2,
+      "raw_agreement": 0.4,
+      "cohen_kappa": 0.28571428571428575,
+      "reviewer_a_distribution": {
+        "1": 3,
+        "2": 1,
+        "NA": 1
+      },
+      "reviewer_b_distribution": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      }
+    },
+    "uncertainty_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "reviewer_a_distribution": {
+        "0": 4,
+        "1": 1
+      },
+      "reviewer_b_distribution": {
+        "0": 5
+      }
+    },
+    "causal_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "reviewer_a_distribution": {
+        "NA": 5
+      },
+      "reviewer_b_distribution": {
+        "0": 1,
+        "NA": 4
+      }
+    },
+    "external_evidence": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "0": 2,
+        "1": 3
+      },
+      "reviewer_b_distribution": {
+        "0": 2,
+        "1": 3
+      }
+    },
+    "decision_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.6875000000000001,
+      "reviewer_a_distribution": {
+        "0": 1,
+        "1": 3,
+        "2": 1
+      },
+      "reviewer_b_distribution": {
+        "0": 2,
+        "1": 2,
+        "2": 1
+      }
+    },
+    "safety_evidence": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.5833333333333334,
+      "reviewer_a_distribution": {
+        "0": 4,
+        "2": 1
+      },
+      "reviewer_b_distribution": {
+        "0": 3,
+        "1": 1,
+        "2": 1
+      }
+    },
+    "reproducibility_evidence": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "1": 3,
+        "2": 2
+      },
+      "reviewer_b_distribution": {
+        "1": 3,
+        "2": 2
+      }
+    },
+    "free_running_rollout": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "no": 1,
+        "yes": 4
+      },
+      "reviewer_b_distribution": {
+        "no": 1,
+        "yes": 4
+      }
+    },
+    "horizon_resolved_results": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "no": 1,
+        "yes": 4
+      },
+      "reviewer_b_distribution": {
+        "no": 1,
+        "yes": 4
+      }
+    },
+    "formal_calibration": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": null,
+      "reviewer_a_distribution": {
+        "no": 5
+      },
+      "reviewer_b_distribution": {
+        "no": 5
+      }
+    },
+    "frozen_external_validation": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "reviewer_a_distribution": {
+        "no": 4,
+        "yes": 1
+      },
+      "reviewer_b_distribution": {
+        "no": 5
+      }
+    },
+    "action_agnostic_comparator": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.5833333333333334,
+      "reviewer_a_distribution": {
+        "NA": 1,
+        "no": 3,
+        "yes": 1
+      },
+      "reviewer_b_distribution": {
+        "no": 4,
+        "yes": 1
+      }
+    },
+    "action_perturbation": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.6666666666666667,
+      "reviewer_a_distribution": {
+        "NA": 1,
+        "no": 2,
+        "yes": 2
+      },
+      "reviewer_b_distribution": {
+        "no": 3,
+        "yes": 2
+      }
+    },
+    "explicit_causal_estimand": {
+      "agreement_count": 4,
+      "raw_agreement": 0.8,
+      "cohen_kappa": 0.0,
+      "reviewer_a_distribution": {
+        "NA": 5
+      },
+      "reviewer_b_distribution": {
+        "NA": 4,
+        "no": 1
+      }
+    },
+    "closed_loop_evaluation": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "no": 1,
+        "offline": 3,
+        "real": 1
+      },
+      "reviewer_b_distribution": {
+        "no": 1,
+        "offline": 3,
+        "real": 1
+      }
+    },
+    "safety_hazard_test": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "no": 4,
+        "yes": 1
+      },
+      "reviewer_b_distribution": {
+        "no": 4,
+        "yes": 1
+      }
+    },
+    "public_code": {
+      "agreement_count": 5,
+      "raw_agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "reviewer_a_distribution": {
+        "no": 2,
+        "unclear": 1,
+        "yes": 2
+      },
+      "reviewer_b_distribution": {
+        "no": 2,
+        "unclear": 1,
+        "yes": 2
+      }
+    }
+  },
+  "overall": {
+    "decisions": 105,
+    "agreement_count": 91,
+    "raw_agreement": 0.8666666666666667,
+    "disagreements": 14,
+    "records_with_disagreement": 4
+  }
+}

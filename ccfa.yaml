@@ -1,0 +1,80 @@
+version: "0.4.0"
+project:
+  title: "Medical World Models: Review and Research Program"
+  short_name: "medical-world-models"
+  root: "."
+target_venue:
+  name: "Journal of Biomedical Informatics"
+  year: "2026"
+  mode: "methodological_review"
+stage:
+  current: "review_major_revision_and_real_data_experiment"
+  gate: "human_search_reference_and_multiseed_validation_required"
+  updated_at: "2026-09-12"
+artifacts:
+  manuscript: "manuscript/review.md"
+  research_manuscript: "manuscript/original-paper.md"
+  bibliography: "manuscript/references.bib"
+  literature_search: "output/literature-search/medical-world-models/"
+  figures: "figures/"
+  tables: "tables/"
+  experiments: "experiments/"
+  reviews: "reviews/"
+  submission: "submission/"
+claims:
+  - id: "review-scope"
+    statement: "A generic architecture-centered review of medical world models is already covered by recent surveys; evaluation methodology remains a differentiated review opportunity."
+    status: "supported_by_initial_search"
+    evidence: "output/literature-search/medical-world-models/papers.md"
+  - id: "evaluation-gap"
+    statement: "Current medical world models use heterogeneous and incomplete evidence for forecasting, action-conditioned, counterfactual, and planning claims."
+    status: "supported_by_82_study_primary_analysis"
+    evidence: "output/literature-search/medical-world-models/final-corpus/medwm-eval-summary-strict.json"
+  - id: "future-benchmark"
+    statement: "A tractable real-data benchmark should test calibration, horizon degradation, physiological validity, and model-ranking stability during free-running rollout under a frozen external hospital-system split."
+    status: "experiment_in_progress"
+    evidence: "experiments/protocol.md"
+experiments:
+  - id: "icu-rollout-seed-20260912"
+    status: "complete_first_seed"
+    dataset: "PhysioNet Computing in Cardiology Challenge 2019"
+    models:
+      - "GRU-D"
+      - "causal Transformer"
+      - "recurrent state-space model"
+    evidence: "experiments/results/neural/"
+    interpretation: "Passive forecasting only; no causal treatment, policy, or deployment claim"
+  - id: "icu-rollout-multiseed"
+    status: "in_progress_corrected_pipeline"
+    seeds:
+      - 20260913
+      - 20260914
+      - 20260915
+      - 20260916
+    evidence: "experiments/protocol.md"
+reviews:
+  - id: "reviewer-a-scientific"
+    status: "complete_round_4_major_revision"
+    scope: "scientific validity, causal interpretation, safety, and dataset fitness"
+    score: "6/10"
+  - id: "reviewer-b-methodology"
+    status: "complete_round_4_major_revision"
+    scope: "review methodology, positioning, writing, and publication readiness"
+    score: "6/10"
+  - id: "original-paper-pre-results-audit"
+    status: "major_findings_corrected_regeneration_pending"
+    scope: "scientific software, estimands, inference, and manuscript-code consistency"
+    evidence: "ccfa-review-reports/original-paper-pre-results-methods-audit.md"
+revision_ledger:
+  path: "ccfa-review-reports/evaluating-medical-world-models-jbi-review.md"
+  status: "round_4_technical_revisions_complete_human_gates_pending"
+submission_checks:
+  path: "submission/review-validation.json"
+  status: "technical_pass_submission_gates_pending"
+original_paper_checks:
+  path: "submission/original-paper-validation.json"
+  status: "methods_pass_results_pending"
+reference_verification:
+  status: "ai_assisted_full_audit_complete_human_spot_check_pending"
+  corrected_metadata: "scripts/reference_overrides.py"
+  scope: "93 included publications plus 6 method and dataset references"

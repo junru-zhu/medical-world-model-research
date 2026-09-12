@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "records": 5,
+  "extraction_fields": 45,
+  "medwm_fields": 26,
+  "artifacts": {
+    "reviewer_a_extraction": "pass",
+    "reviewer_a_medwm": "pass",
+    "reviewer_b_extraction": "pass",
+    "reviewer_b_medwm": "pass",
+    "adjudicated_extraction": "pass",
+    "adjudicated_medwm": "pass"
+  },
+  "errors": []
+}

@@ -1,0 +1,44 @@
+{
+  "status": "smoke_only",
+  "model": "grud",
+  "checkpoint": "experiments/results/neural/grud/seed-20260912/model.pt",
+  "checkpoint_best_epoch": 20,
+  "seed": 20260912,
+  "splits": [
+    "internal_test"
+  ],
+  "horizons": [
+    1,
+    3
+  ],
+  "minimum_context": 12,
+  "maximum_context": 24,
+  "common_anchor_maximum_horizon": 3,
+  "anchor_stride": 6,
+  "trajectory_samples": 4,
+  "case_counts": {
+    "internal_test": 66
+  },
+  "patient_macro": {
+    "internal_test": {
+      "1": {
+        "patient_nmae": 0.3824572641710947,
+        "patient_crps": 0.3107992336292111,
+        "coverage_90": 0.5969288295075189,
+        "mean_interval_width_scaled": 0.8396834328778535,
+        "patient_nll": 1.409982655157473,
+        "mask_brier": 0.06961142385330844
+      },
+      "3": {
+        "patient_nmae": 0.4508287261139996,
+        "patient_crps": 0.3547824335587091,
+        "coverage_90": 0.5642558421061392,
+        "mean_interval_width_scaled": 0.9794648551779517,
+        "patient_nll": 2.363069904084685,
+        "mask_brier": 0.07167943847148861
+      }
+    }
+  },
+  "maximum_patients": 20,
+  "interpretation_boundary": "Free-running passive forecasting only; no treatment-effect, counterfactual, planning, or clinical-deployment claim."
+}

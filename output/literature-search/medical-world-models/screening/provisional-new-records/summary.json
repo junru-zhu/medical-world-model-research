@@ -1,0 +1,19 @@
+{
+  "merged_records": 61,
+  "existing_included_ids": 53,
+  "novel_records": 8,
+  "novel_empirical": 5,
+  "novel_reviews": 3,
+  "dual_extraction_records": 5,
+  "dual_medwm_coding_records": 5,
+  "medwm_coded_decisions": 105,
+  "medwm_agreement_count": 91,
+  "medwm_raw_agreement": 0.8666666666666667,
+  "medwm_disagreements_adjudicated": 14,
+  "records_with_medwm_disagreement": 4,
+  "publication_lineage_records_audited": 8,
+  "publication_lineage_confirmed": 4,
+  "publication_lineage_provisional": 2,
+  "publication_lineage_author_verification_required": 2,
+  "status": "provisional_sampled_additions_extracted_coded_and_adjudicated"
+}

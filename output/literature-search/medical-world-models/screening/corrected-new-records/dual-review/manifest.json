@@ -1,0 +1,56 @@
+{
+  "novel_empirical": 35,
+  "already_completed": 5,
+  "pending_dual_review": 30,
+  "batches": [
+    {
+      "batch": "batch-01",
+      "records": 10,
+      "candidate_ids": [
+        "MWM-XA9B007D895",
+        "MWM-X36A3691F14",
+        "MWM-X6FB8E7370E",
+        "MWM-XA5A2F4844E",
+        "MWM-X872C154484",
+        "MWM-X056BF65776",
+        "MWM-XC890A9B151",
+        "MWM-XBAD327876F",
+        "MWM-XC71FC75483",
+        "MWM-XCC1C1352D9"
+      ]
+    },
+    {
+      "batch": "batch-02",
+      "records": 10,
+      "candidate_ids": [
+        "MWM-XD5F16C34AE",
+        "MWM-XB41D731350",
+        "MWM-XD3411F7D18",
+        "MWM-XD7F5DAFF27",
+        "MWM-X1305C7353F",
+        "MWM-X6A64D732FB",
+        "MWM-X21155DF63C",
+        "MWM-XB062A5A9FB",
+        "MWM-XB6F8EC5868",
+        "MWM-X009A6E0F91"
+      ]
+    },
+    {
+      "batch": "batch-03",
+      "records": 10,
+      "candidate_ids": [
+        "MWM-X10E1E2640B",
+        "MWM-XF6449FE2D4",
+        "MWM-X1BBCF32528",
+        "MWM-X2BD39C3B8E",
+        "MWM-XF38CEA9063",
+        "MWM-XEA4B3285B2",
+        "MWM-X772584A789",
+        "MWM-X7FD0DBDE79",
+        "MWM-X9C071A2447",
+        "MWM-X2E0B832A46"
+      ]
+    }
+  ],
+  "independence_rule": "Reviewer B must not inspect reviewer A files or decisions before submitting an independent extraction and coding pass."
+}

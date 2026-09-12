@@ -1,0 +1,7 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260912,
+  "interval": "percentile 95% patient-level bootstrap interval",
+  "aggregation": "mean of each patient's observed-target NMAE",
+  "source": "experiments/results/baselines-common-support/patient-metrics.csv"
+}

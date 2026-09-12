@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "expected_runs": 3,
+  "complete_runs": 3,
+  "missing": [],
+  "bootstrap_replicates": 100,
+  "bootstrap_seed": 20260912,
+  "outputs": [
+    "aggregate-constraints.csv",
+    "aggregate-patient-macro.csv",
+    "analysis-completeness.json",
+    "calibration-scales.csv",
+    "cross-site-nmae-bootstrap.csv",
+    "cross-site-table.csv",
+    "external-calibration-table.csv",
+    "main-external-table.csv",
+    "paired-12h-nmae-contrasts.csv",
+    "pilot-seed-exclusion-calibration-table.csv",
+    "pilot-seed-exclusion-main-table.csv",
+    "publication-summary.md",
+    "rank-stability.csv",
+    "recalibration-invariant-checks.csv",
+    "rollout-area.csv",
+    "seed-constraints.csv",
+    "seed-patient-macro.csv",
+    "support-counts.csv",
+    "training-runs.csv"
+  ],
+  "interpretation_boundary": "Passive free-running forecasting only; no treatment-effect, counterfactual, policy, clinical-benefit, or deployment claim."
+}

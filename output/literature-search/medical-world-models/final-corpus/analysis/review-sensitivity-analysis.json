@@ -1,0 +1,2262 @@
+{
+  "coding_notes": {
+    "strict_core_exclusions": [
+      "MWM-0012",
+      "MWM-0135",
+      "MWM-0261"
+    ],
+    "strict_core_definition": "Directly clinical, biomedical, physiological, or medical-procedural state dynamics. Wellness-only, nonclinical affective, and mixed synthetic benchmark records are retained only in the extended sensitivity corpus.",
+    "peer_reviewed_ids": [
+      "MWM-0114",
+      "MWM-0215",
+      "MWM-0263",
+      "MWM-0290",
+      "MWM-0294",
+      "MWM-0315",
+      "MWM-0369",
+      "MWM-S003",
+      "MWM-S005",
+      "MWM-S006",
+      "MWM-X009A6E0F91",
+      "MWM-X10E1E2640B",
+      "MWM-X1305C7353F",
+      "MWM-X21155DF63C",
+      "MWM-X2BD39C3B8E",
+      "MWM-X2E0B832A46",
+      "MWM-X6A64D732FB",
+      "MWM-X6C3AA8358E",
+      "MWM-X6FB8E7370E",
+      "MWM-X772584A789",
+      "MWM-X7FD0DBDE79",
+      "MWM-X872C154484",
+      "MWM-X9C071A2447",
+      "MWM-XA5A2F4844E",
+      "MWM-XA9B007D895",
+      "MWM-XB062A5A9FB",
+      "MWM-XB6F8EC5868",
+      "MWM-XBAD327876F",
+      "MWM-XC71FC75483",
+      "MWM-XD5F16C34AE",
+      "MWM-XD7F5DAFF27",
+      "MWM-XEA4B3285B2",
+      "MWM-XF38CEA9063"
+    ],
+    "source_quality_note": "Publication status is a sensitivity stratum, not a risk-of-bias score."
+  },
+  "subsets": {
+    "extended_all": {
+      "records": 85,
+      "capability_claims": {
+        "action_conditioned": 22,
+        "counterfactual": 19,
+        "passive_forecasting": 9,
+        "planning": 35
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 57,
+          "eligible": 85,
+          "unclear": 0,
+          "distribution": {
+            "no": 28,
+            "yes": 57
+          }
+        },
+        "horizon_resolved_results": {
+          "yes": 43,
+          "eligible": 85,
+          "unclear": 0,
+          "distribution": {
+            "no": 42,
+            "yes": 43
+          }
+        },
+        "formal_calibration": {
+          "yes": 5,
+          "eligible": 85,
+          "unclear": 0,
+          "distribution": {
+            "no": 80,
+            "yes": 5
+          }
+        },
+        "frozen_external_validation": {
+          "yes": 15,
+          "eligible": 85,
+          "unclear": 4,
+          "distribution": {
+            "no": 66,
+            "unclear": 4,
+            "yes": 15
+          }
+        },
+        "action_agnostic_comparator": {
+          "yes": 31,
+          "eligible": 75,
+          "unclear": 0,
+          "distribution": {
+            "NA": 10,
+            "no": 44,
+            "yes": 31
+          }
+        },
+        "action_perturbation": {
+          "yes": 46,
+          "eligible": 75,
+          "unclear": 0,
+          "distribution": {
+            "NA": 10,
+            "no": 29,
+            "yes": 46
+          }
+        },
+        "explicit_causal_estimand": {
+          "yes": 12,
+          "eligible": 37,
+          "unclear": 0,
+          "distribution": {
+            "NA": 48,
+            "no": 25,
+            "yes": 12
+          }
+        },
+        "safety_hazard_test": {
+          "yes": 20,
+          "eligible": 85,
+          "unclear": 0,
+          "distribution": {
+            "no": 65,
+            "yes": 20
+          }
+        },
+        "public_code": {
+          "yes": 34,
+          "eligible": 85,
+          "unclear": 22,
+          "distribution": {
+            "no": 29,
+            "unclear": 22,
+            "yes": 34
+          }
+        }
+      }
+    },
+    "strict_core": {
+      "records": 82,
+      "capability_claims": {
+        "action_conditioned": 22,
+        "counterfactual": 18,
+        "passive_forecasting": 9,
+        "planning": 33
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 54,
+          "eligible": 82,
+          "unclear": 0,
+          "distribution": {
+            "no": 28,
+            "yes": 54
+          }
+        },
+        "horizon_resolved_results": {
+          "yes": 41,
+          "eligible": 82,
+          "unclear": 0,
+          "distribution": {
+            "no": 41,
+            "yes": 41
+          }
+        },
+        "formal_calibration": {
+          "yes": 5,
+          "eligible": 82,
+          "unclear": 0,
+          "distribution": {
+            "no": 77,
+            "yes": 5
+          }
+        },
+        "frozen_external_validation": {
+          "yes": 15,
+          "eligible": 82,
+          "unclear": 4,
+          "distribution": {
+            "no": 63,
+            "unclear": 4,
+            "yes": 15
+          }
+        },
+        "action_agnostic_comparator": {
+          "yes": 30,
+          "eligible": 72,
+          "unclear": 0,
+          "distribution": {
+            "NA": 10,
+            "no": 42,
+            "yes": 30
+          }
+        },
+        "action_perturbation": {
+          "yes": 45,
+          "eligible": 72,
+          "unclear": 0,
+          "distribution": {
+            "NA": 10,
+            "no": 27,
+            "yes": 45
+          }
+        },
+        "explicit_causal_estimand": {
+          "yes": 12,
+          "eligible": 35,
+          "unclear": 0,
+          "distribution": {
+            "NA": 47,
+            "no": 23,
+            "yes": 12
+          }
+        },
+        "safety_hazard_test": {
+          "yes": 20,
+          "eligible": 82,
+          "unclear": 0,
+          "distribution": {
+            "no": 62,
+            "yes": 20
+          }
+        },
+        "public_code": {
+          "yes": 33,
+          "eligible": 82,
+          "unclear": 21,
+          "distribution": {
+            "no": 28,
+            "unclear": 21,
+            "yes": 33
+          }
+        }
+      }
+    },
+    "peer_reviewed": {
+      "records": 33,
+      "capability_claims": {
+        "action_conditioned": 6,
+        "counterfactual": 6,
+        "passive_forecasting": 1,
+        "planning": 20
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 24,
+          "eligible": 33,
+          "unclear": 0,
+          "distribution": {
+            "no": 9,
+            "yes": 24
+          }
+        },
+        "horizon_resolved_results": {
+          "yes": 13,
+          "eligible": 33,
+          "unclear": 0,
+          "distribution": {
+            "no": 20,
+            "yes": 13
+          }
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "eligible": 33,
+          "unclear": 0,
+          "distribution": {
+            "no": 33
+          }
+        },
+        "frozen_external_validation": {
+          "yes": 5,
+          "eligible": 33,
+          "unclear": 1,
+          "distribution": {
+            "no": 27,
+            "unclear": 1,
+            "yes": 5
+          }
+        },
+        "action_agnostic_comparator": {
+          "yes": 13,
+          "eligible": 32,
+          "unclear": 0,
+          "distribution": {
+            "NA": 1,
+            "no": 19,
+            "yes": 13
+          }
+        },
+        "action_perturbation": {
+          "yes": 21,
+          "eligible": 32,
+          "unclear": 0,
+          "distribution": {
+            "NA": 1,
+            "no": 11,
+            "yes": 21
+          }
+        },
+        "explicit_causal_estimand": {
+          "yes": 7,
+          "eligible": 18,
+          "unclear": 0,
+          "distribution": {
+            "NA": 15,
+            "no": 11,
+            "yes": 7
+          }
+        },
+        "safety_hazard_test": {
+          "yes": 10,
+          "eligible": 33,
+          "unclear": 0,
+          "distribution": {
+            "no": 23,
+            "yes": 10
+          }
+        },
+        "public_code": {
+          "yes": 16,
+          "eligible": 33,
+          "unclear": 5,
+          "distribution": {
+            "no": 12,
+            "unclear": 5,
+            "yes": 16
+          }
+        }
+      }
+    },
+    "explicit_world_model": {
+      "records": 51,
+      "capability_claims": {
+        "action_conditioned": 17,
+        "counterfactual": 8,
+        "passive_forecasting": 7,
+        "planning": 19
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 28,
+          "eligible": 51,
+          "unclear": 0,
+          "distribution": {
+            "no": 23,
+            "yes": 28
+          }
+        },
+        "horizon_resolved_results": {
+          "yes": 23,
+          "eligible": 51,
+          "unclear": 0,
+          "distribution": {
+            "no": 28,
+            "yes": 23
+          }
+        },
+        "formal_calibration": {
+          "yes": 4,
+          "eligible": 51,
+          "unclear": 0,
+          "distribution": {
+            "no": 47,
+            "yes": 4
+          }
+        },
+        "frozen_external_validation": {
+          "yes": 9,
+          "eligible": 51,
+          "unclear": 3,
+          "distribution": {
+            "no": 39,
+            "unclear": 3,
+            "yes": 9
+          }
+        },
+        "action_agnostic_comparator": {
+          "yes": 14,
+          "eligible": 44,
+          "unclear": 0,
+          "distribution": {
+            "NA": 7,
+            "no": 30,
+            "yes": 14
+          }
+        },
+        "action_perturbation": {
+          "yes": 22,
+          "eligible": 44,
+          "unclear": 0,
+          "distribution": {
+            "NA": 7,
+            "no": 22,
+            "yes": 22
+          }
+        },
+        "explicit_causal_estimand": {
+          "yes": 5,
+          "eligible": 17,
+          "unclear": 0,
+          "distribution": {
+            "NA": 34,
+            "no": 12,
+            "yes": 5
+          }
+        },
+        "safety_hazard_test": {
+          "yes": 11,
+          "eligible": 51,
+          "unclear": 0,
+          "distribution": {
+            "no": 40,
+            "yes": 11
+          }
+        },
+        "public_code": {
+          "yes": 18,
+          "eligible": 51,
+          "unclear": 20,
+          "distribution": {
+            "no": 13,
+            "unclear": 20,
+            "yes": 18
+          }
+        }
+      }
+    },
+    "high_confidence": {
+      "records": 38,
+      "capability_claims": {
+        "action_conditioned": 8,
+        "counterfactual": 9,
+        "passive_forecasting": 6,
+        "planning": 15
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 27,
+          "eligible": 38,
+          "unclear": 0,
+          "distribution": {
+            "no": 11,
+            "yes": 27
+          }
+        },
+        "horizon_resolved_results": {
+          "yes": 21,
+          "eligible": 38,
+          "unclear": 0,
+          "distribution": {
+            "no": 17,
+            "yes": 21
+          }
+        },
+        "formal_calibration": {
+          "yes": 2,
+          "eligible": 38,
+          "unclear": 0,
+          "distribution": {
+            "no": 36,
+            "yes": 2
+          }
+        },
+        "frozen_external_validation": {
+          "yes": 8,
+          "eligible": 38,
+          "unclear": 1,
+          "distribution": {
+            "no": 29,
+            "unclear": 1,
+            "yes": 8
+          }
+        },
+        "action_agnostic_comparator": {
+          "yes": 17,
+          "eligible": 32,
+          "unclear": 0,
+          "distribution": {
+            "NA": 6,
+            "no": 15,
+            "yes": 17
+          }
+        },
+        "action_perturbation": {
+          "yes": 24,
+          "eligible": 32,
+          "unclear": 0,
+          "distribution": {
+            "NA": 6,
+            "no": 8,
+            "yes": 24
+          }
+        },
+        "explicit_causal_estimand": {
+          "yes": 5,
+          "eligible": 18,
+          "unclear": 0,
+          "distribution": {
+            "NA": 20,
+            "no": 13,
+            "yes": 5
+          }
+        },
+        "safety_hazard_test": {
+          "yes": 8,
+          "eligible": 38,
+          "unclear": 0,
+          "distribution": {
+            "no": 30,
+            "yes": 8
+          }
+        },
+        "public_code": {
+          "yes": 14,
+          "eligible": 38,
+          "unclear": 9,
+          "distribution": {
+            "no": 15,
+            "unclear": 9,
+            "yes": 14
+          }
+        }
+      }
+    }
+  },
+  "capability_by_evidence": {
+    "action_conditioned": {
+      "records": 22,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 19,
+          "partial": 3,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "dynamics_evidence": {
+          "strong": 17,
+          "partial": 5,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "rollout_evidence": {
+          "strong": 8,
+          "partial": 4,
+          "absent": 10,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "action_evidence": {
+          "strong": 9,
+          "partial": 12,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "uncertainty_evidence": {
+          "strong": 3,
+          "partial": 4,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 1,
+          "not_applicable": 21,
+          "applicable": 1
+        },
+        "external_evidence": {
+          "strong": 0,
+          "partial": 12,
+          "absent": 10,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "decision_evidence": {
+          "strong": 1,
+          "partial": 14,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "safety_evidence": {
+          "strong": 0,
+          "partial": 8,
+          "absent": 14,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "reproducibility_evidence": {
+          "strong": 6,
+          "partial": 13,
+          "absent": 3,
+          "not_applicable": 0,
+          "applicable": 22
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 12,
+          "no": 10,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 13,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 3,
+          "no": 19,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 1,
+          "no": 19,
+          "unclear": 2,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 1,
+          "unclear": 0,
+          "not_applicable": 21
+        },
+        "safety_hazard_test": {
+          "yes": 4,
+          "no": 18,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "counterfactual": {
+      "records": 18,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 17,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "dynamics_evidence": {
+          "strong": 14,
+          "partial": 4,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "rollout_evidence": {
+          "strong": 8,
+          "partial": 4,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "action_evidence": {
+          "strong": 10,
+          "partial": 5,
+          "absent": 3,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 11,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 5,
+          "absent": 13,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "external_evidence": {
+          "strong": 6,
+          "partial": 6,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "decision_evidence": {
+          "strong": 2,
+          "partial": 10,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "safety_evidence": {
+          "strong": 1,
+          "partial": 4,
+          "absent": 13,
+          "not_applicable": 0,
+          "applicable": 18
+        },
+        "reproducibility_evidence": {
+          "strong": 3,
+          "partial": 11,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 18
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 13,
+          "no": 5,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 12,
+          "no": 6,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 17,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 11,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 4,
+          "no": 14,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "safety_hazard_test": {
+          "yes": 1,
+          "no": 17,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "passive_forecasting": {
+      "records": 9,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 7,
+          "partial": 2,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "dynamics_evidence": {
+          "strong": 3,
+          "partial": 6,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "rollout_evidence": {
+          "strong": 2,
+          "partial": 0,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "action_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 0,
+          "not_applicable": 9,
+          "applicable": 0
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 1,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 0,
+          "not_applicable": 9,
+          "applicable": 0
+        },
+        "external_evidence": {
+          "strong": 2,
+          "partial": 5,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "decision_evidence": {
+          "strong": 0,
+          "partial": 3,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "safety_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 9,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "reproducibility_evidence": {
+          "strong": 1,
+          "partial": 7,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 9
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 2,
+          "no": 7,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 5,
+          "no": 4,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 8,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 2,
+          "no": 6,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 0,
+          "unclear": 0,
+          "not_applicable": 9
+        },
+        "safety_hazard_test": {
+          "yes": 0,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "planning": {
+      "records": 33,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 25,
+          "partial": 8,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "dynamics_evidence": {
+          "strong": 15,
+          "partial": 13,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "rollout_evidence": {
+          "strong": 8,
+          "partial": 20,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "action_evidence": {
+          "strong": 8,
+          "partial": 23,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "uncertainty_evidence": {
+          "strong": 0,
+          "partial": 16,
+          "absent": 17,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "causal_evidence": {
+          "strong": 1,
+          "partial": 9,
+          "absent": 6,
+          "not_applicable": 17,
+          "applicable": 16
+        },
+        "external_evidence": {
+          "strong": 5,
+          "partial": 13,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "decision_evidence": {
+          "strong": 22,
+          "partial": 10,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "safety_evidence": {
+          "strong": 6,
+          "partial": 18,
+          "absent": 9,
+          "not_applicable": 0,
+          "applicable": 33
+        },
+        "reproducibility_evidence": {
+          "strong": 10,
+          "partial": 12,
+          "absent": 11,
+          "not_applicable": 0,
+          "applicable": 33
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 27,
+          "no": 6,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 11,
+          "no": 22,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "no": 33,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 27,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 8,
+          "no": 8,
+          "unclear": 0,
+          "not_applicable": 17
+        },
+        "safety_hazard_test": {
+          "yes": 15,
+          "no": 18,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    }
+  },
+  "domain_by_evidence": {
+    "imaging_biological": {
+      "records": 26,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 25,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "dynamics_evidence": {
+          "strong": 16,
+          "partial": 10,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "rollout_evidence": {
+          "strong": 7,
+          "partial": 6,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "action_evidence": {
+          "strong": 7,
+          "partial": 10,
+          "absent": 2,
+          "not_applicable": 7,
+          "applicable": 19
+        },
+        "uncertainty_evidence": {
+          "strong": 0,
+          "partial": 11,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 4,
+          "absent": 9,
+          "not_applicable": 13,
+          "applicable": 13
+        },
+        "external_evidence": {
+          "strong": 4,
+          "partial": 14,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "decision_evidence": {
+          "strong": 2,
+          "partial": 17,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "safety_evidence": {
+          "strong": 1,
+          "partial": 6,
+          "absent": 19,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "reproducibility_evidence": {
+          "strong": 5,
+          "partial": 17,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 26
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 14,
+          "no": 12,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 11,
+          "no": 15,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "no": 26,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 19,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 2,
+          "no": 11,
+          "unclear": 0,
+          "not_applicable": 13
+        },
+        "safety_hazard_test": {
+          "yes": 1,
+          "no": 25,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "longitudinal_physiology_decision": {
+      "records": 32,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 27,
+          "partial": 5,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "dynamics_evidence": {
+          "strong": 21,
+          "partial": 10,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "rollout_evidence": {
+          "strong": 13,
+          "partial": 13,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "action_evidence": {
+          "strong": 13,
+          "partial": 15,
+          "absent": 2,
+          "not_applicable": 2,
+          "applicable": 30
+        },
+        "uncertainty_evidence": {
+          "strong": 4,
+          "partial": 16,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "causal_evidence": {
+          "strong": 1,
+          "partial": 10,
+          "absent": 10,
+          "not_applicable": 11,
+          "applicable": 21
+        },
+        "external_evidence": {
+          "strong": 9,
+          "partial": 10,
+          "absent": 13,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "decision_evidence": {
+          "strong": 14,
+          "partial": 10,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "safety_evidence": {
+          "strong": 4,
+          "partial": 13,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "reproducibility_evidence": {
+          "strong": 9,
+          "partial": 16,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 32
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 25,
+          "no": 7,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 20,
+          "no": 12,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 4,
+          "no": 28,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 9,
+          "no": 21,
+          "unclear": 2,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 10,
+          "no": 11,
+          "unclear": 0,
+          "not_applicable": 11
+        },
+        "safety_hazard_test": {
+          "yes": 9,
+          "no": 23,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "procedural_embodied": {
+      "records": 24,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 16,
+          "partial": 8,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "dynamics_evidence": {
+          "strong": 12,
+          "partial": 8,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "rollout_evidence": {
+          "strong": 6,
+          "partial": 9,
+          "absent": 9,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "action_evidence": {
+          "strong": 7,
+          "partial": 15,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 5,
+          "absent": 18,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 1,
+          "not_applicable": 23,
+          "applicable": 1
+        },
+        "external_evidence": {
+          "strong": 0,
+          "partial": 12,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "decision_evidence": {
+          "strong": 9,
+          "partial": 10,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "safety_evidence": {
+          "strong": 2,
+          "partial": 11,
+          "absent": 11,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "reproducibility_evidence": {
+          "strong": 6,
+          "partial": 10,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 24
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 15,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 10,
+          "no": 14,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 23,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 0,
+          "no": 23,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 1,
+          "unclear": 0,
+          "not_applicable": 23
+        },
+        "safety_hazard_test": {
+          "yes": 10,
+          "no": 14,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    }
+  },
+  "extended_capability_by_evidence": {
+    "action_conditioned": {
+      "records": 22,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 19,
+          "partial": 3,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "dynamics_evidence": {
+          "strong": 17,
+          "partial": 5,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "rollout_evidence": {
+          "strong": 8,
+          "partial": 4,
+          "absent": 10,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "action_evidence": {
+          "strong": 9,
+          "partial": 12,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "uncertainty_evidence": {
+          "strong": 3,
+          "partial": 4,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 1,
+          "not_applicable": 21,
+          "applicable": 1
+        },
+        "external_evidence": {
+          "strong": 0,
+          "partial": 12,
+          "absent": 10,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "decision_evidence": {
+          "strong": 1,
+          "partial": 14,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "safety_evidence": {
+          "strong": 0,
+          "partial": 8,
+          "absent": 14,
+          "not_applicable": 0,
+          "applicable": 22
+        },
+        "reproducibility_evidence": {
+          "strong": 6,
+          "partial": 13,
+          "absent": 3,
+          "not_applicable": 0,
+          "applicable": 22
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 12,
+          "no": 10,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 13,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 3,
+          "no": 19,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 1,
+          "no": 19,
+          "unclear": 2,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 1,
+          "unclear": 0,
+          "not_applicable": 21
+        },
+        "safety_hazard_test": {
+          "yes": 4,
+          "no": 18,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "counterfactual": {
+      "records": 19,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 18,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "dynamics_evidence": {
+          "strong": 15,
+          "partial": 4,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "rollout_evidence": {
+          "strong": 9,
+          "partial": 4,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "action_evidence": {
+          "strong": 10,
+          "partial": 5,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 11,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 5,
+          "absent": 14,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "external_evidence": {
+          "strong": 6,
+          "partial": 6,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "decision_evidence": {
+          "strong": 2,
+          "partial": 10,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "safety_evidence": {
+          "strong": 1,
+          "partial": 4,
+          "absent": 14,
+          "not_applicable": 0,
+          "applicable": 19
+        },
+        "reproducibility_evidence": {
+          "strong": 4,
+          "partial": 11,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 19
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 14,
+          "no": 5,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 13,
+          "no": 6,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 18,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 12,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 4,
+          "no": 15,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "safety_hazard_test": {
+          "yes": 1,
+          "no": 18,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "passive_forecasting": {
+      "records": 9,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 7,
+          "partial": 2,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "dynamics_evidence": {
+          "strong": 3,
+          "partial": 6,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "rollout_evidence": {
+          "strong": 2,
+          "partial": 0,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "action_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 0,
+          "not_applicable": 9,
+          "applicable": 0
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 1,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 0,
+          "not_applicable": 9,
+          "applicable": 0
+        },
+        "external_evidence": {
+          "strong": 2,
+          "partial": 5,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "decision_evidence": {
+          "strong": 0,
+          "partial": 3,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "safety_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 9,
+          "not_applicable": 0,
+          "applicable": 9
+        },
+        "reproducibility_evidence": {
+          "strong": 1,
+          "partial": 7,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 9
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 2,
+          "no": 7,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 5,
+          "no": 4,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 8,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 2,
+          "no": 6,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 0,
+          "unclear": 0,
+          "not_applicable": 9
+        },
+        "safety_hazard_test": {
+          "yes": 0,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "planning": {
+      "records": 35,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 26,
+          "partial": 9,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "dynamics_evidence": {
+          "strong": 15,
+          "partial": 15,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "rollout_evidence": {
+          "strong": 9,
+          "partial": 21,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "action_evidence": {
+          "strong": 9,
+          "partial": 24,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "uncertainty_evidence": {
+          "strong": 0,
+          "partial": 16,
+          "absent": 19,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "causal_evidence": {
+          "strong": 1,
+          "partial": 9,
+          "absent": 7,
+          "not_applicable": 18,
+          "applicable": 17
+        },
+        "external_evidence": {
+          "strong": 5,
+          "partial": 13,
+          "absent": 17,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "decision_evidence": {
+          "strong": 23,
+          "partial": 11,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "safety_evidence": {
+          "strong": 6,
+          "partial": 19,
+          "absent": 10,
+          "not_applicable": 0,
+          "applicable": 35
+        },
+        "reproducibility_evidence": {
+          "strong": 10,
+          "partial": 12,
+          "absent": 13,
+          "not_applicable": 0,
+          "applicable": 35
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 29,
+          "no": 6,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 12,
+          "no": 23,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "no": 35,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 29,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 8,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 18
+        },
+        "safety_hazard_test": {
+          "yes": 15,
+          "no": 20,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    }
+  },
+  "extended_domain_by_evidence": {
+    "imaging_biological": {
+      "records": 26,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 25,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "dynamics_evidence": {
+          "strong": 16,
+          "partial": 10,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "rollout_evidence": {
+          "strong": 7,
+          "partial": 6,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "action_evidence": {
+          "strong": 7,
+          "partial": 10,
+          "absent": 2,
+          "not_applicable": 7,
+          "applicable": 19
+        },
+        "uncertainty_evidence": {
+          "strong": 0,
+          "partial": 11,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 4,
+          "absent": 9,
+          "not_applicable": 13,
+          "applicable": 13
+        },
+        "external_evidence": {
+          "strong": 4,
+          "partial": 14,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "decision_evidence": {
+          "strong": 2,
+          "partial": 17,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "safety_evidence": {
+          "strong": 1,
+          "partial": 6,
+          "absent": 19,
+          "not_applicable": 0,
+          "applicable": 26
+        },
+        "reproducibility_evidence": {
+          "strong": 5,
+          "partial": 17,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 26
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 14,
+          "no": 12,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 11,
+          "no": 15,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "no": 26,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 6,
+          "no": 19,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 2,
+          "no": 11,
+          "unclear": 0,
+          "not_applicable": 13
+        },
+        "safety_hazard_test": {
+          "yes": 1,
+          "no": 25,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "longitudinal_physiology_decision": {
+      "records": 32,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 27,
+          "partial": 5,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "dynamics_evidence": {
+          "strong": 21,
+          "partial": 10,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "rollout_evidence": {
+          "strong": 13,
+          "partial": 13,
+          "absent": 6,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "action_evidence": {
+          "strong": 13,
+          "partial": 15,
+          "absent": 2,
+          "not_applicable": 2,
+          "applicable": 30
+        },
+        "uncertainty_evidence": {
+          "strong": 4,
+          "partial": 16,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "causal_evidence": {
+          "strong": 1,
+          "partial": 10,
+          "absent": 10,
+          "not_applicable": 11,
+          "applicable": 21
+        },
+        "external_evidence": {
+          "strong": 9,
+          "partial": 10,
+          "absent": 13,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "decision_evidence": {
+          "strong": 14,
+          "partial": 10,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "safety_evidence": {
+          "strong": 4,
+          "partial": 13,
+          "absent": 15,
+          "not_applicable": 0,
+          "applicable": 32
+        },
+        "reproducibility_evidence": {
+          "strong": 9,
+          "partial": 16,
+          "absent": 7,
+          "not_applicable": 0,
+          "applicable": 32
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 25,
+          "no": 7,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 20,
+          "no": 12,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 4,
+          "no": 28,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 9,
+          "no": 21,
+          "unclear": 2,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 10,
+          "no": 11,
+          "unclear": 0,
+          "not_applicable": 11
+        },
+        "safety_hazard_test": {
+          "yes": 9,
+          "no": 23,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "peripheral_health_adjacent": {
+      "records": 3,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 2,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "dynamics_evidence": {
+          "strong": 1,
+          "partial": 2,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "rollout_evidence": {
+          "strong": 2,
+          "partial": 1,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "action_evidence": {
+          "strong": 1,
+          "partial": 1,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "uncertainty_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 3,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 2,
+          "not_applicable": 1,
+          "applicable": 2
+        },
+        "external_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 3,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "decision_evidence": {
+          "strong": 1,
+          "partial": 1,
+          "absent": 1,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "safety_evidence": {
+          "strong": 0,
+          "partial": 1,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 3
+        },
+        "reproducibility_evidence": {
+          "strong": 1,
+          "partial": 0,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 3
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 3,
+          "no": 0,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 2,
+          "no": 1,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 0,
+          "no": 3,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 0,
+          "no": 3,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 2,
+          "unclear": 0,
+          "not_applicable": 1
+        },
+        "safety_hazard_test": {
+          "yes": 0,
+          "no": 3,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    },
+    "procedural_embodied": {
+      "records": 24,
+      "ordinal": {
+        "state_evidence": {
+          "strong": 16,
+          "partial": 8,
+          "absent": 0,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "dynamics_evidence": {
+          "strong": 12,
+          "partial": 8,
+          "absent": 4,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "rollout_evidence": {
+          "strong": 6,
+          "partial": 9,
+          "absent": 9,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "action_evidence": {
+          "strong": 7,
+          "partial": 15,
+          "absent": 2,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "uncertainty_evidence": {
+          "strong": 1,
+          "partial": 5,
+          "absent": 18,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "causal_evidence": {
+          "strong": 0,
+          "partial": 0,
+          "absent": 1,
+          "not_applicable": 23,
+          "applicable": 1
+        },
+        "external_evidence": {
+          "strong": 0,
+          "partial": 12,
+          "absent": 12,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "decision_evidence": {
+          "strong": 9,
+          "partial": 10,
+          "absent": 5,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "safety_evidence": {
+          "strong": 2,
+          "partial": 11,
+          "absent": 11,
+          "not_applicable": 0,
+          "applicable": 24
+        },
+        "reproducibility_evidence": {
+          "strong": 6,
+          "partial": 10,
+          "absent": 8,
+          "not_applicable": 0,
+          "applicable": 24
+        }
+      },
+      "features": {
+        "free_running_rollout": {
+          "yes": 15,
+          "no": 9,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "horizon_resolved_results": {
+          "yes": 10,
+          "no": 14,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "formal_calibration": {
+          "yes": 1,
+          "no": 23,
+          "unclear": 0,
+          "not_applicable": 0
+        },
+        "frozen_external_validation": {
+          "yes": 0,
+          "no": 23,
+          "unclear": 1,
+          "not_applicable": 0
+        },
+        "explicit_causal_estimand": {
+          "yes": 0,
+          "no": 1,
+          "unclear": 0,
+          "not_applicable": 23
+        },
+        "safety_hazard_test": {
+          "yes": 10,
+          "no": 14,
+          "unclear": 0,
+          "not_applicable": 0
+        }
+      }
+    }
+  },
+  "applicability_matched_joint_gap": {
+    "status": "post_hoc_operational_sensitivity",
+    "definition": "Strict-core studies with partial or directly auditable uncertainty evidence, free-running rollout, and horizon-resolved results. This subset is not a validated universal applicability rule.",
+    "records": 15,
+    "formal_calibration_yes": 2,
+    "frozen_external_validation_yes": 3,
+    "frozen_external_validation_unclear": 2,
+    "frozen_external_validation_known": 13,
+    "formal_calibration_and_frozen_external_validation_yes": 0,
+    "candidate_ids": [
+      "MWM-X36A3691F14",
+      "MWM-0011",
+      "MWM-X6FB8E7370E",
+      "MWM-X1BBCF32528",
+      "MWM-XD7F5DAFF27",
+      "MWM-X872C154484",
+      "MWM-X1305C7353F",
+      "MWM-XF38CEA9063",
+      "MWM-0073",
+      "MWM-0095",
+      "MWM-X056BF65776",
+      "MWM-X772584A789",
+      "MWM-0138",
+      "MWM-XCC1C1352D9",
+      "MWM-X2E0B832A46"
+    ]
+  }
+}

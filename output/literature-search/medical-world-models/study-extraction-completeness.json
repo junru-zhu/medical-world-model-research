@@ -1,0 +1,152 @@
+{
+  "expected_empirical_records": 55,
+  "merged_records": 55,
+  "batch_counts": {
+    "extraction-batch-1.csv": 14,
+    "extraction-batch-2.csv": 14,
+    "extraction-batch-3.csv": 14,
+    "extraction-batch-4.csv": 13
+  },
+  "missing_candidate_ids": [],
+  "unexpected_candidate_ids": [],
+  "blank_counts_by_field": {
+    "candidate_id": 0,
+    "title": 0,
+    "primary_source_url": 0,
+    "publication_status": 0,
+    "domain": 0,
+    "dataset_or_cohort": 0,
+    "sample_scale": 0,
+    "institution_count": 0,
+    "split_strategy": 0,
+    "observation_process": 0,
+    "missingness": 0,
+    "censoring_or_competing_events": 0,
+    "state": 0,
+    "observation_decoder": 0,
+    "action": 0,
+    "action_provenance": 0,
+    "transition_mechanism": 0,
+    "maximum_horizon": 0,
+    "rollout_regime": 0,
+    "capability_claim": 0,
+    "baselines": 0,
+    "state_fidelity_metrics": 0,
+    "transition_metrics": 0,
+    "rollout_stability": 0,
+    "action_sensitivity": 0,
+    "calibration_and_uncertainty": 0,
+    "external_validation": 0,
+    "decision_utility": 0,
+    "safety_evaluation": 0,
+    "statistical_analysis": 0,
+    "causal_language": 0,
+    "estimand": 0,
+    "confounding_strategy": 0,
+    "positivity_and_overlap": 0,
+    "counterfactual_validation": 0,
+    "code_access": 0,
+    "weights_access": 0,
+    "data_access": 0,
+    "preprocessing_reproducibility": 0,
+    "randomness": 0,
+    "evidence_anchors": 0,
+    "appraisal_strengths": 0,
+    "appraisal_limitations": 0,
+    "source_status": 0,
+    "reviewer_confidence": 0
+  },
+  "ni_na_counts_by_field": {
+    "sample_scale": {
+      "NI": 2
+    },
+    "institution_count": {
+      "NI": 4
+    },
+    "split_strategy": {
+      "NI": 3
+    },
+    "missingness": {
+      "NA": 8,
+      "NI": 9
+    },
+    "censoring_or_competing_events": {
+      "NA": 18,
+      "NI": 1
+    },
+    "action": {
+      "NA": 3
+    },
+    "action_provenance": {
+      "NA": 4,
+      "NI": 1
+    },
+    "maximum_horizon": {
+      "NI": 3
+    },
+    "rollout_regime": {
+      "NI": 1
+    },
+    "baselines": {
+      "NI": 1
+    },
+    "state_fidelity_metrics": {
+      "NI": 2
+    },
+    "transition_metrics": {
+      "NI": 3
+    },
+    "rollout_stability": {
+      "NI": 5
+    },
+    "action_sensitivity": {
+      "NA": 4,
+      "NI": 3
+    },
+    "calibration_and_uncertainty": {
+      "NI": 5
+    },
+    "external_validation": {
+      "NI": 2
+    },
+    "safety_evaluation": {
+      "NA": 4,
+      "NI": 4
+    },
+    "statistical_analysis": {
+      "NI": 4
+    },
+    "estimand": {
+      "NI": 1
+    },
+    "confounding_strategy": {
+      "NA": 24,
+      "NI": 5
+    },
+    "positivity_and_overlap": {
+      "NA": 24,
+      "NI": 6
+    },
+    "counterfactual_validation": {
+      "NA": 16,
+      "NI": 1
+    },
+    "code_access": {
+      "NI": 18
+    },
+    "weights_access": {
+      "NI": 32
+    },
+    "data_access": {
+      "NI": 2
+    },
+    "preprocessing_reproducibility": {
+      "NI": 4
+    },
+    "randomness": {
+      "NI": 15
+    }
+  },
+  "rows_with_blank_required_fields": [],
+  "status": "complete"
+}

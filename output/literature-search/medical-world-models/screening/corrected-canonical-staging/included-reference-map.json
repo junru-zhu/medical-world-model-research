@@ -1,0 +1,467 @@
+{
+  "MWM-0234": {
+    "number": 1,
+    "title": "Beyond Generative AI: World Models for Clinical Prediction, Counterfactuals, and Planning",
+    "url": "http://arxiv.org/abs/2511.16333"
+  },
+  "MWM-0117": {
+    "number": 2,
+    "title": "Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies",
+    "url": "https://arxiv.org/abs/2606.16721"
+  },
+  "MWM-0116": {
+    "number": 3,
+    "title": "Medical world models in healthcare: foundations, applications, and challenges for trustworthy clinical translation",
+    "url": "https://arxiv.org/abs/2607.25242"
+  },
+  "MWM-XA5E34A98D0": {
+    "number": 4,
+    "title": "Towards Effective Patient Simulators",
+    "url": "https://doi.org/10.3389/frai.2021.798659"
+  },
+  "MWM-X99717B78A9": {
+    "number": 5,
+    "title": "AI-powered in silico twins: redefining precision medicine through simulation, personalization, and predictive healthcare.",
+    "url": "https://europepmc.org/article/MED/41441931"
+  },
+  "MWM-X531FFBB6AD": {
+    "number": 6,
+    "title": "Data-driven discovery of digital twins in biomedical research.",
+    "url": "https://europepmc.org/article/MED/41668337"
+  },
+  "MWM-X9655500E17": {
+    "number": 7,
+    "title": "Medical World Model: From Passive Prediction to Active Simulation in Medicine",
+    "url": "https://europepmc.org/article/PPR/PPR1186035"
+  },
+  "MWM-X198B3126D0": {
+    "number": 8,
+    "title": "What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap",
+    "url": "https://europepmc.org/article/PPR/PPR1282602"
+  },
+  "MWM-XA9B007D895": {
+    "number": 9,
+    "title": "A Blood Glucose Control Framework Based on Reinforcement Learning With Safety and Interpretability: In Silico Validation",
+    "url": "https://doi.org/10.1109/access.2021.3100007"
+  },
+  "MWM-XD5F16C34AE": {
+    "number": 10,
+    "title": "A Data-Driven Closed-Loop Control Approach to Drive Neural State Transitions for Mechanistic Insight.",
+    "url": "https://europepmc.org/article/MED/42454569"
+  },
+  "MWM-X10E1E2640B": {
+    "number": 11,
+    "title": "A Modular Framework to Predict Alzheimer’s Disease Progression Using Conditional Generative Adversarial Networks",
+    "url": "https://doi.org/10.1109/ijcnn48605.2020.9206875"
+  },
+  "MWM-0008": {
+    "number": 12,
+    "title": "A World Model of Radiologist Reading for Medical Image Representation Learning",
+    "url": "https://arxiv.org/abs/2605.23992"
+  },
+  "MWM-X36A3691F14": {
+    "number": 13,
+    "title": "A data-driven Alzheimer's disease progression simulator for retrospective validation and prospective Phase III power design.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42145636/"
+  },
+  "MWM-XB41D731350": {
+    "number": 14,
+    "title": "A digital twin for hospital antimicrobial resistance forecasting and constrained intervention optimisation",
+    "url": "https://europepmc.org/article/PPR/PPR1237042"
+  },
+  "MWM-XF6449FE2D4": {
+    "number": 15,
+    "title": "AKI-twinX: explainable organ structured digital twin for sepsis AKI trajectory forecasting",
+    "url": "https://doi.org/10.64898/2026.03.13.26346736"
+  },
+  "MWM-0011": {
+    "number": 16,
+    "title": "Action-Conditioned World Model for Goal Plane Probe Guidance in Robotic Ultrasound",
+    "url": "https://arxiv.org/abs/2607.21918"
+  },
+  "MWM-0012": {
+    "number": 17,
+    "title": "Affective Music Recommendation: A Rollout-Based World Model for Offline Preference Optimization",
+    "url": "https://arxiv.org/abs/2605.28810"
+  },
+  "MWM-0013": {
+    "number": 18,
+    "title": "Agentifying Patient Dynamics within LLMs through Interacting with Clinical World Model",
+    "url": "https://doi.org/10.48550/arxiv.2605.14723"
+  },
+  "MWM-0018": {
+    "number": 19,
+    "title": "Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis",
+    "url": "https://doi.org/10.48550/arxiv.2609.09757"
+  },
+  "MWM-X6FB8E7370E": {
+    "number": 20,
+    "title": "Autosomal Dominant Tubulointerstitial Kidney Disease Clinical Trial Simulator: Case Reports of Model-Informed Drug Development.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42062819/"
+  },
+  "MWM-0032": {
+    "number": 21,
+    "title": "BLINK: Behavioral Latent Modeling of NK Cell Cytotoxicity",
+    "url": "http://arxiv.org/abs/2603.05110"
+  },
+  "MWM-0034": {
+    "number": 22,
+    "title": "Brain-WM: Brain Glioblastoma World Model",
+    "url": "http://arxiv.org/abs/2603.07562"
+  },
+  "MWM-0239": {
+    "number": 23,
+    "title": "CLARITY: Medical World Model for Guiding Treatment Decisions by Modeling Context-Aware Disease Trajectories in Latent Space",
+    "url": "https://doi.org/10.48550/arxiv.2512.08029"
+  },
+  "MWM-0040": {
+    "number": 24,
+    "title": "CalTwin: Towards Calibrated, Shift-Robust Medical World Models via Fisher-Information Regularisation",
+    "url": "https://arxiv.org/abs/2607.26752"
+  },
+  "MWM-XD3411F7D18": {
+    "number": 25,
+    "title": "CardamomOT: a mechanistic optimal transport-based framework for gene regulatory network inference, trajectory reconstruction and generative modeling",
+    "url": "https://europepmc.org/article/PPR/PPR1215662"
+  },
+  "MWM-0294": {
+    "number": 26,
+    "title": "Cardiac Copilot: Automatic Probe Guidance for Echocardiography with World Model",
+    "url": "https://doi.org/10.1007/978-3-031-72378-0_18"
+  },
+  "MWM-X1BBCF32528": {
+    "number": 27,
+    "title": "CellPace: A temporal diffusion-forcing framework for simulation, interpolation and forecasting of single-cell dynamics",
+    "url": "https://doi.org/10.64898/2026.02.25.707938"
+  },
+  "MWM-X962473BB89": {
+    "number": 28,
+    "title": "Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction",
+    "url": "https://arxiv.org/abs/2605.28111"
+  },
+  "MWM-0046": {
+    "number": 29,
+    "title": "ChronoMedicalWorld: A Medical World Model for Learning Patient Trajectories from Longitudinal Care Data",
+    "url": "https://doi.org/10.48550/arxiv.2605.21963"
+  },
+  "MWM-XC0A20D0271": {
+    "number": 30,
+    "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
+    "url": "https://arxiv.org/abs/2605.10840"
+  },
+  "MWM-XA5A2F4844E": {
+    "number": 31,
+    "title": "Control of Magnetic Surgical Robots With Model-Based Simulators and Reinforcement Learning.",
+    "url": "https://europepmc.org/article/MED/37600471"
+  },
+  "MWM-S004": {
+    "number": 32,
+    "title": "Cosmos-H-Surgical: Learning Surgical Robot Policies from Videos via World Modeling",
+    "url": "https://arxiv.org/abs/2512.23162"
+  },
+  "MWM-0054": {
+    "number": 33,
+    "title": "CrossScope: A Role-Asymmetric World Model for Joint Dual-Scope Surgical Video Prediction",
+    "url": "https://arxiv.org/abs/2608.03211"
+  },
+  "MWM-XD7F5DAFF27": {
+    "number": 34,
+    "title": "DITTO: A Visual Digital Twin for Interventions and Temporal Treatment Outcomes in Head and Neck Cancer.",
+    "url": "https://europepmc.org/article/MED/39255169"
+  },
+  "MWM-XFA677C184B": {
+    "number": 35,
+    "title": "DRIFT: Direct-Recursive Intervention-Conditioned Forecasting of ICU Physiological Trajectories",
+    "url": "https://arxiv.org/abs/2607.25864"
+  },
+  "MWM-0369": {
+    "number": 36,
+    "title": "Data-Efficient Reinforcement Learning for Malaria Control",
+    "url": "https://doi.org/10.24963/ijcai.2021/71"
+  },
+  "MWM-X2BD39C3B8E": {
+    "number": 37,
+    "title": "Deep Generative Model of Macrophage Immune Response for Hepato-intestinal Tumor Therapy Optimization.",
+    "url": "https://europepmc.org/article/MED/42644119"
+  },
+  "MWM-X872C154484": {
+    "number": 38,
+    "title": "Development of a model-based clinical trial simulation platform to optimize the design of clinical trials for Duchenne muscular dystrophy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34877803/"
+  },
+  "MWM-X1305C7353F": {
+    "number": 39,
+    "title": "Digital twin brain simulator for real-time consciousness monitoring and virtual intervention using primate electrocorticogram data",
+    "url": "https://doi.org/10.1038/s41746-025-01444-1"
+  },
+  "MWM-XF38CEA9063": {
+    "number": 40,
+    "title": "Digital twin models for predicting venetoclax and azacitidine-induced neutropenia in patients with acute myeloid leukemia.",
+    "url": "https://europepmc.org/article/MED/41053343"
+  },
+  "MWM-0068": {
+    "number": 41,
+    "title": "DreamReg: Belief-Driven World Model for 2D-3D Ultrasound Registration",
+    "url": "https://arxiv.org/abs/2606.18825"
+  },
+  "MWM-0073": {
+    "number": 42,
+    "title": "ECG-WM: A Physiology-Informed ECG World Model for Clinical Intervention Simulation",
+    "url": "https://arxiv.org/abs/2605.17580"
+  },
+  "MWM-0074": {
+    "number": 43,
+    "title": "EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories",
+    "url": "http://arxiv.org/abs/2602.03569"
+  },
+  "MWM-0242": {
+    "number": 44,
+    "title": "EchoWorld: Learning Motion-Aware World Models for Echocardiography Probe Guidance",
+    "url": "http://arxiv.org/abs/2504.13065"
+  },
+  "MWM-0077": {
+    "number": 45,
+    "title": "EyeWorld: A Generative World Model of Ocular State and Dynamics",
+    "url": "http://arxiv.org/abs/2603.14039"
+  },
+  "MWM-0078": {
+    "number": 46,
+    "title": "Failure Detection for Surgical Robot Imitation Policies via Flow-Matching World Modeling",
+    "url": "https://arxiv.org/abs/2607.27511"
+  },
+  "MWM-0094": {
+    "number": 47,
+    "title": "Future Querying: Can LLMs Serve as Implicit Medical World Models?",
+    "url": "https://arxiv.org/abs/2608.23248"
+  },
+  "MWM-0095": {
+    "number": 48,
+    "title": "GEMEO: the first patient world model for rare disease, grounding generative clinical trajectories in the genome and a biomedical knowledge graph",
+    "url": "https://doi.org/10.5281/zenodo.20328323"
+  },
+  "MWM-X056BF65776": {
+    "number": 49,
+    "title": "Generating whole-brain neural activity and behavior through unified latent dynamics",
+    "url": "https://doi.org/10.64898/2026.06.05.730482"
+  },
+  "MWM-0103": {
+    "number": 50,
+    "title": "Intervention-Aware Clinical World Model for Post-Op Outcome Forecasting in Cardiology",
+    "url": "https://arxiv.org/abs/2608.13518"
+  },
+  "MWM-X6A64D732FB": {
+    "number": 51,
+    "title": "Koopman-based linearization of preparatory EEG dynamics in Parkinson's disease during galvanic vestibular stimulation.",
+    "url": "https://europepmc.org/article/MED/40438537"
+  },
+  "MWM-0261": {
+    "number": 52,
+    "title": "Learning Emotional Dynamics: A World Model Approach",
+    "url": "https://doi.org/10.5281/zenodo.17609413"
+  },
+  "MWM-XEA4B3285B2": {
+    "number": 53,
+    "title": "Learning Temporal Basis Vectors for Closed-Loop Neural Stimulation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41336632/"
+  },
+  "MWM-0125": {
+    "number": 54,
+    "title": "MRI Contrast Enhancement Kinetics World Model",
+    "url": "http://arxiv.org/abs/2602.19285"
+  },
+  "MWM-XC890A9B151": {
+    "number": 55,
+    "title": "Machine Learning for Mechanical Ventilation Control",
+    "url": "https://doi.org/10.1101/2021.02.26.21252524"
+  },
+  "MWM-0263": {
+    "number": 56,
+    "title": "Medical World Model",
+    "url": "https://doi.org/10.1109/iccv51701.2025.00779"
+  },
+  "MWM-X6C3AA8358E": {
+    "number": 57,
+    "title": "Model-based reinforcement learning for ultrasound-driven autonomous microrobots.",
+    "url": "https://europepmc.org/article/MED/40709099"
+  },
+  "MWM-X21155DF63C": {
+    "number": 58,
+    "title": "Modelling neural coding in the auditory midbrain with high resolution and accuracy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41019457/"
+  },
+  "MWM-X772584A789": {
+    "number": 59,
+    "title": "Multi-Objective Model-based Reinforcement Learning for Infectious Disease Control",
+    "url": "https://europepmc.org/article/PPR/PPR597469"
+  },
+  "MWM-0136": {
+    "number": 60,
+    "title": "NVIDIA Cosmos-H-Dreams: Real-Time Generative Physics Simulation for Surgical Robotics",
+    "url": "https://arxiv.org/abs/2608.24199"
+  },
+  "MWM-0132": {
+    "number": 61,
+    "title": "NeuroWorld: A Latent Brain World Model for Stimulus-Conditioned Human Brain Dynamics",
+    "url": "https://arxiv.org/abs/2608.01773"
+  },
+  "MWM-0135": {
+    "number": 62,
+    "title": "Nonstationary Battery",
+    "url": "https://doi.org/10.5281/zenodo.20036497"
+  },
+  "MWM-XBAD327876F": {
+    "number": 63,
+    "title": "OMG-RL:Offline Model-based Guided Reward Learning for Heparin Treatment",
+    "url": "http://arxiv.org/abs/2409.13299"
+  },
+  "MWM-0138": {
+    "number": 64,
+    "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+    "url": "https://doi.org/10.48550/arxiv.2604.21017"
+  },
+  "MWM-XB062A5A9FB": {
+    "number": 65,
+    "title": "Optimized glycemic control of type 2 diabetes with reinforcement learning: a proof-of-concept trial.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37710000/"
+  },
+  "MWM-0149": {
+    "number": 66,
+    "title": "Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis",
+    "url": "https://arxiv.org/abs/2602.12373"
+  },
+  "MWM-X7FD0DBDE79": {
+    "number": 67,
+    "title": "Predictive modeling of hemodynamics during viscerosensory neurostimulation via neural computation mechanism in the brainstem.",
+    "url": "https://europepmc.org/article/MED/40269082"
+  },
+  "MWM-0151": {
+    "number": 68,
+    "title": "Progressive Experience Fusion for Multi-Task World Model Control in Endovascular Navigation",
+    "url": "https://arxiv.org/abs/2608.18647"
+  },
+  "MWM-0157": {
+    "number": 69,
+    "title": "SAW: Toward a Surgical Action World Model via Controllable and Scalable Video Generation",
+    "url": "https://doi.org/10.48550/arxiv.2603.13024"
+  },
+  "MWM-0177": {
+    "number": 70,
+    "title": "SWoMo: Neuro-Symbolic World Model for Cataract Surgery Simulation",
+    "url": "https://arxiv.org/abs/2605.16530"
+  },
+  "MWM-XC71FC75483": {
+    "number": 71,
+    "title": "SimulAD: a dynamical model for personalized simulation and disease staging in Alzheimer's disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35320737/"
+  },
+  "MWM-0164": {
+    "number": 72,
+    "title": "Simulating clinical interventions with a generative multimodal model of human physiology",
+    "url": "https://doi.org/10.48550/arxiv.2604.27899"
+  },
+  "MWM-XB6F8EC5868": {
+    "number": 73,
+    "title": "Simulating the outcome of amyloid treatments in Alzheimer's disease from imaging and clinical data.",
+    "url": "https://europepmc.org/article/MED/34085040"
+  },
+  "MWM-0166": {
+    "number": 74,
+    "title": "Sonata: A Hybrid World Model for Inertial Kinematics under Clinical Data Scarcity",
+    "url": "https://arxiv.org/abs/2604.18058"
+  },
+  "MWM-X9C071A2447": {
+    "number": 75,
+    "title": "Structure-aware World Model for Probe Guidance via Large-scale Self-supervised Pre-train",
+    "url": "http://arxiv.org/abs/2406.19756"
+  },
+  "MWM-0170": {
+    "number": 76,
+    "title": "Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts",
+    "url": "https://doi.org/10.48550/arxiv.2608.06770"
+  },
+  "MWM-0174": {
+    "number": 77,
+    "title": "SurgVista: Long-Horizon Surgical World Modeling with Plausible Instrument-Tissue Dynamics",
+    "url": "https://arxiv.org/abs/2606.19889"
+  },
+  "MWM-0175": {
+    "number": 78,
+    "title": "SurgWMBench: A Vision-Based Benchmark for World-Modeling Surgical Instrument Motion Planning",
+    "url": "https://arxiv.org/abs/2608.08070"
+  },
+  "MWM-S006": {
+    "number": 79,
+    "title": "Surgical Procedural Planning as 3D World Modelling: Towards Automated Pulmonary Resection",
+    "url": "https://www.openaccess.thecvf.com/content/CVPR2026F/html/Zhang_Surgical_Procedural_Planning_as_3D_World_Modelling_Towards_Automated_Pulmonary_CVPRF_2026_paper.html"
+  },
+  "MWM-S005": {
+    "number": 80,
+    "title": "Surgical Vision World Model",
+    "url": "https://arxiv.org/abs/2503.02904"
+  },
+  "MWM-0173": {
+    "number": 81,
+    "title": "Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning",
+    "url": "https://arxiv.org/abs/2608.11204"
+  },
+  "MWM-XCC1C1352D9": {
+    "number": 82,
+    "title": "The Coupled Stochastic Dynamical System: A Generative Model for Simulating and Forecasting Youth Mental Health Trajectories",
+    "url": "https://europepmc.org/article/PPR/PPR1288838"
+  },
+  "MWM-0199": {
+    "number": 83,
+    "title": "Toward Safe Autonomous Robotic Endovascular Interventions using World Models",
+    "url": "https://arxiv.org/abs/2604.20151"
+  },
+  "MWM-0200": {
+    "number": 84,
+    "title": "Toward World Modeling of Physiological Signals with Chaos-Theoretic Balancing and Latent Dynamics",
+    "url": "https://arxiv.org/abs/2605.15465"
+  },
+  "MWM-X009A6E0F91": {
+    "number": 85,
+    "title": "Towards Causality-Aware Inferring: A Sequential Discriminative Approach for Medical Diagnosis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37405895/"
+  },
+  "MWM-X5E3C456867": {
+    "number": 86,
+    "title": "Towards Surgical World-Action Modeling: A Preliminary Joint Visual-Trajectory Forecasting for Surgical Motion Planning",
+    "url": "https://arxiv.org/abs/2608.20284"
+  },
+  "MWM-S003": {
+    "number": 87,
+    "title": "Treatment-aware Diffusion Probabilistic Model for Longitudinal MRI Generation and Diffuse Glioma Growth Prediction",
+    "url": "https://arxiv.org/abs/2309.05406"
+  },
+  "MWM-X2E0B832A46": {
+    "number": 88,
+    "title": "Type 1 diabetes prevention clinical trial simulator: Case reports of model-informed drug development tool.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38961520/"
+  },
+  "MWM-0215": {
+    "number": 89,
+    "title": "World Model Enhanced Offline Reinforcement Learning for Sequential Intervention Optimization in Acute Kidney Injury",
+    "url": "https://doi.org/10.53941/aim.2026.100002"
+  },
+  "MWM-0315": {
+    "number": 90,
+    "title": "World Models for General Surgical Grasping",
+    "url": "https://doi.org/10.15607/rss.2024.xx.041"
+  },
+  "MWM-0290": {
+    "number": 91,
+    "title": "X-WIN: Building Chest Radiograph World Model via Predictive Sensing",
+    "url": "http://arxiv.org/abs/2511.14918"
+  },
+  "MWM-S002": {
+    "number": 92,
+    "title": "Xray2Xray: World Model from Chest X-rays with Volumetric Context",
+    "url": "https://arxiv.org/abs/2506.19055"
+  },
+  "MWM-0114": {
+    "number": 93,
+    "title": "medDreamer: Model-Based Reinforcement Learning with Latent Imagination on Complex EHRs for Clinical Decision Support",
+    "url": "https://doi.org/10.1145/3770854.3780292"
+  }
+}

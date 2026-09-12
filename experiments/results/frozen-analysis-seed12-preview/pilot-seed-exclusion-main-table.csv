@@ -1,0 +1,8 @@
+model,model_label,nmae_1h_mean,nmae_1h_seed_sd,nmae_12h_mean,nmae_12h_seed_sd,nmae_24h_mean,nmae_24h_seed_sd,patient_crps_12h_mean,patient_crps_12h_seed_sd,coverage_90_12h_mean,coverage_90_12h_seed_sd,coverage_error_90_12h_mean,coverage_error_90_12h_seed_sd,mask_brier_12h_mean,mask_brier_12h_seed_sd,pressure_violations_12h_per_1000_mean,pressure_violations_12h_per_1000_seed_sd
+locf,Last observation carried forward,0.38526378215079654,0.0,0.5752986591510477,0.0,0.6033291539173524,0.0,,,,,,,,,5.320197044334975,0.0
+global_median,Global median,0.6633621348717863,0.0,0.6634230813143884,0.0,0.6697730318621201,0.0,,,,,,,,,0.0,0.0
+hourly_median,Hourly median,0.6698902053534631,0.0,0.6617272366683973,0.0,0.662441769155088,0.0,,,,,,,,,0.0,0.0
+ridge_var,Ridge vector autoregression,0.3609548725896776,0.0,0.5300539742222081,0.0,0.5862053668638448,0.0,,,,,,,,,0.6239737274220033,0.0
+grud,Probabilistic GRU-D-style model,,,,,,,,,,,,,,,,
+transformer,Causally masked Transformer,,,,,,,,,,,,,,,,
+rssm,Recurrent state-space model,,,,,,,,,,,,,,,,

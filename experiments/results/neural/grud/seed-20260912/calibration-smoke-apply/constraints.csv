@@ -1,0 +1,9 @@
+split,model,horizon_hours,constraint,violations,generated_states,violations_per_1000_states
+external_test,grud,1,FiO2_bounds,29,1350,21.48148148148148
+external_test,grud,1,O2Sat_bounds,177,1350,131.11111111111111
+external_test,grud,1,SaO2_bounds,251,1350,185.92592592592592
+external_test,grud,1,pressure_order,173,1350,128.14814814814815
+external_test,grud,3,FiO2_bounds,29,1350,21.48148148148148
+external_test,grud,3,O2Sat_bounds,156,1350,115.55555555555556
+external_test,grud,3,SaO2_bounds,264,1350,195.55555555555554
+external_test,grud,3,pressure_order,146,1350,108.14814814814815

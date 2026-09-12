@@ -1,0 +1,45 @@
+# Operating-system and editor files
+.DS_Store
+*.swp
+*.swo
+
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local temporary and rendered-QA workspaces
+tmp/
+figures/ieee-refresh-preview/
+figures/original-seed12-layout-preview/
+
+# Raw/downloaded clinical data and local caches
+experiments/cache/
+
+# Patient-level or identifying derived artifacts
+experiments/results/split-manifest.csv
+experiments/results/**/patient-metrics.csv
+experiments/results/neural-data/*.npz
+
+# Trained model binaries and regenerable numerical tensors
+experiments/results/**/*.pt
+experiments/results/**/*.pth
+experiments/results/**/*.ckpt
+experiments/results/**/*.npz
+experiments/results/**/*.npy
+
+# Heavy regenerable figure formats; PDF/SVG/PNG remain versioned
+figures/**/*.tiff
+
+# Literature-search API caches and third-party full-text files
+output/literature-search/**/cache/
+output/literature-search/**/sources/
+
+# LaTeX build intermediates
+submission/ieee/*.aux
+submission/ieee/*.log
+submission/ieee/*.out
+submission/ieee/prepared-paper.md
